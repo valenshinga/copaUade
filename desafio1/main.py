@@ -1,85 +1,62 @@
 import csv  #libreria para archivos .csv
 import os
 
-class Consulta:
-    """
-    Clase para manejar la consulta de preguntas y respuestas.
-    """
-    def __init__(self, pregunta, respuesta):
-        self.pregunta = pregunta
-        self.respuesta = respuesta
+# abre y guarda en memoria las preguntas y respuestas del csv
+def abrir_csv(csvPath) -> None:
+    directorio_actual = os.path.dirname(os.path.abspath(__file__)) 
+    fullPath = os.path.join(directorio_actual, csvPath)
+    memoria = dict()    #un diccionario para tener en memoria
+    #registrar las preguntas y respuestas en el diccionario
+    with open(fullPath,"r", newline="",encoding='utf-8') as csvfile:
+        csvReader = csv.reader(csvfile)
+        next(csvReader) #saltear la primera fila que es el encabezado
+        for row in csvReader:
+            memoria[row[0]] = row[1]    #se registran las preguntas y respuestas del archivo "preguntas.csv" en el diccionario
+    return memoria     
+ 
+# muestra las preguntas del csv y devuelve las devuelve en una lista
+def mostrar_opciones(memoria:dict)->list:
+    print("-> Las preguntas que conozco son:")
+    opciones = list()
+    for index,key in enumerate(memoria.keys()):
+        opciones.append(key)
+        print(f"-> {index + 1} : {key}")
+    return opciones
+        
+def registrar_pregunta(memoria:dict, pregunta:str, csvPath:str) -> None:
+    respuestaPregunta = input("-> ¿Cual sería la respuesta esperada para esa pregunta?: ")
+    directorio_actual = os.path.dirname(os.path.abspath(__file__)) 
+    fullPath = os.path.join(directorio_actual, csvPath)
 
-    def __str__(self):
-        return f"Pregunta: {self.pregunta}, Respuesta: {self.respuesta}"
-
-def abrir_csv():
-    """
-    Abre el archivo CSV y devuelve una lista de objetos Consulta.
-    """
-    opciones = []
-    directorio_actual = os.path.dirname(os.path.abspath(__file__))  # Obtener el directorio actual
-    path = os.path.join(directorio_actual, "preguntas.csv")  # Crear la ruta del archivo CSV
-    with open(path, "r", newline="", encoding='utf-8') as archivo_csv:
-        csvReader = csv.reader(archivo_csv)
-        next(csvReader)  # Saltear la primera fila que es el encabezado
-        for columna in csvReader:
-            # print(columna[0], ":", columna[1])  # Imprimir cada pregunta y respuesta
-            opciones.append(Consulta(columna[0], columna[1]))  # Agregar cada pregunta y respuesta a la lista de opciones
-    return opciones  # Devolver la lista de opciones
-
-def listar_opciones(opciones):
-    """
-    Imprime las opciones disponibles.
-    """
-    print("-> Las preguntas disponibles son:")
-    for i, opcion in enumerate(opciones):
-        print(f"{i + 1}. {opcion.pregunta}")
-
-def obtener_respuesta(opciones, preguntaIndex):
-    """
-    Busca la respuesta a una pregunta en la lista de opciones.
-    """
-    print(f"-> Buscando respuesta para la pregunta {preguntaIndex}...")
-    print(f"{len(opciones)} opciones disponibles.")
-    if preguntaIndex > len(opciones):
-        return None
-    return opciones[preguntaIndex - 1].respuesta
-
-def registrar_opcion(opciones):
-    """
-    Registra una nueva opción en el archivo CSV.
-    """
-    nueva_pregunta = input("-> Escribí la pregunta que querés registrar: \n")
-    respuesta_pregunta = input("-> Escribí la respuesta esperada a esa pregunta, si es que la sabés. Sino, clickea 'Enter': \n")
-    with open("preguntas.csv", "a", newline="", encoding='utf-8') as csvfile:
+    with open(fullPath,"a", newline="",encoding='utf-8') as csvfile: #registra la respuesta a la pregunta
         csvWriter = csv.writer(csvfile)
-        csvWriter.writerow([nueva_pregunta, respuesta_pregunta])
-    opciones.append(Consulta(nueva_pregunta, respuesta_pregunta))  # Agregar la nueva opción a la lista de opciones
+        csvWriter.writerow([pregunta,respuestaPregunta])
+    memoria[pregunta] = respuestaPregunta
+    print("-> respuesta registrada, ¡gracias!")
 
-preguntasRespuestas = abrir_csv()   #diccionario para almacenar preguntas y respuestas
+def main_loop(csvPath:str) -> None: 
+    memoria = abrir_csv(csvPath)
+    
+    print("-> ¡Hola! Soy un asistente virtual, ¿en qué puedo ayudarte?")
+    print("-> Si no sabés qué preguntar, podés ver las preguntas disponibles escribiendo 'opciones'")
+    while True:     
+        r = input("""-> Ingrese una pregunta o "opciones" (ingrese "salir" para salir): """)
+        if r in {"salir","SALIR","Salir","exit"}: break # si quiere salir
+        elif r == "opciones": #si elije mostrar las opcines
+            opciones = mostrar_opciones(memoria)
+            opcionElegida = int(input("Ingrese el numero de la pregunta: "))
+            while opcionElegida <= 0 or opcionElegida > len(opciones):
+                opcionElegida = int(input("Opcion invalida. Ingrese el numero de la pregunta: "))
+            print(f"-> La respuesta a la pregunta {opciones[opcionElegida - 1]} es:")
+            print(f"-> {memoria[opciones[opcionElegida - 1]]}")
+        elif r in memoria: #si la pregunta esta registrada
+            print(f"-> {memoria[r]}")
+        else:   #si la pregunta NO esta registrada
+            r2 = input("-> No conozco esa pregunta ¿queres ingresar una respuesta a esa pregunta?: ")
+            if r2 in {"si","Si","sí","Sí","s","y"}: #si se quiere ingresar una respuesta para la pregunta no resgitrada
+                registrar_pregunta(memoria,r,csvPath)
 
-print("-> ¡Hola! Soy un asistente virtual, ¿en qué puedo ayudarte?")
-requiereOpciones = input("-> Si no sabés qué preguntar, podés ver las preguntas disponibles escribiendo 'opciones'")
-if (requiereOpciones == "opciones"):
-    listar_opciones(preguntasRespuestas)  # Imprimir las opciones disponibles
-preguntaUsuario = ""  # Variable para almacenar la pregunta del usuario
-while preguntaUsuario != "salir":     #bucle principal
-    preguntaUsuario = input("-> Ingresá el número de la pregunta (ingresá 'salir' para salir): \n")
-    if preguntaUsuario == "salir":
-        break
-    respuesta = obtener_respuesta(preguntasRespuestas, int(preguntaUsuario)) #busca la respuesta a la pregunta
-    print(f"-> respuesta... {respuesta}")
-    if respuesta == "":
-        print("-> No tengo respuesta para esa pregunta, ¿querés registrarla?")
-        continue
-    elif respuesta:
-        print("-> ",respuesta)
-        continue
-    else:   #Pregunta NO esta registrada
-        agregarPregunta = input("-> Esa pregunta no está registrada, ¿querés registrarla? (si/no): \n")
-        if agregarPregunta in {"si","Si","sí","Sí","s","y"}: #si se quiere ingresar una respuesta para la pregunta no resgitrada
-            registrar_opcion(preguntasRespuestas)
-            print("-> Respuesta registrada, ¡gracias!")
-        else:   #si no se quiere ingresar una respuesta para la pregunta no registrada
-            print("-> No hay problema, ¡preguntame otra cosa!")
-print("-> ¡Chau!")
+    print("-> ¡Chau!")
+
+if __name__ == "__main__":
+    main_loop("preguntas.csv")
