@@ -1,8 +1,13 @@
 import csv  #libreria para archivos .csv
 import os
 
+SALIR = {"salir", "SALIR", "Salir", "exit"}
+OPCIONES = "opciones"
+Si= {"si","Si","sí","Sí","s","y"}
+NO= {"no","NO","No","n","N"}
+
 # abre y guarda en memoria las preguntas y respuestas del csv
-def abrir_csv(csvPath) -> None:
+def abrir_csv(csvPath: str) -> dict:
     absolutePath = os.path.dirname(os.path.abspath(__file__)) 
     fullPath = os.path.join(absolutePath, csvPath)
     memoria = dict()    #un diccionario para tener en memoria
@@ -17,7 +22,7 @@ def abrir_csv(csvPath) -> None:
 # muestra las preguntas del csv y devuelve las devuelve en una lista
 def mostrar_opciones(memoria:dict)->list:
     print("-> Las preguntas que conozco son:")
-    opciones = list()
+    opciones = list(memoria.keys()) #se guardan las preguntas en una lista
     for index,key in enumerate(memoria.keys()):
         opciones.append(key)
         print(f"-> {index + 1} : {key}")
@@ -36,38 +41,43 @@ def registrar_pregunta(memoria:dict, pregunta:str, csvPath:str) -> None:
     print("-> respuesta registrada, ¡gracias!")
 
 def main_loop(csvPath:str) -> None: 
+    
     memoria = abrir_csv(csvPath)
     
     print("-> ¡Hola! Soy un asistente virtual, ¿en qué puedo ayudarte?")
     print("-> Si no sabés qué preguntar, podés ver las preguntas disponibles escribiendo 'opciones'")
     while True:     
-        respuesta = input("""-> Ingrese una pregunta o "opciones" (ingrese "salir" para salir): """)
-        if respuesta in {"salir","SALIR","Salir","exit"}: break # si quiere salir
-        elif respuesta == "opciones": #si elije mostrar las opcines
+        respuesta = input("-> Ingrese una pregunta o 'opciones' (ingrese 'salir' para salir): ")
+        
+        if respuesta in SALIR: 
+            break # si quiere salir
+        elif respuesta == OPCIONES: #si elije mostrar las opcines
             opciones = mostrar_opciones(memoria)
-            opcionElegida = 0
+            if not opciones:
+                continue
             while True:
-                opcionElegida = input("Ingrese el numero de la pregunta: ")
-                try: #controla que ingrese un numero dentro del rango
+                opcionElegida = input("Ingrese el numero de la pregunta: ").strip()
+                if opcionElegida.isdigit():
                     opcionElegida = int(opcionElegida)
-                    if opcionElegida <= 0 or opcionElegida > len(opciones):
-                        print("Opcion fuera de rango.",end="")
-                    else:
+                    if 1 <= opcionElegida <= len(opciones):
+                        pregunta = opciones[opcionElegida - 1]
+                        print(f"-> La respuesta a la pregunta '{pregunta}' es:")
+                        print(f"-> {memoria[pregunta]}")
                         break
-                except Exception as e:
-                    print("Opcion invalida.",end="")
-                    opcionElegida = 0
-            print(f"-> La respuesta a la pregunta {opciones[opcionElegida - 1]} es:")
-            print(f"-> {memoria[opciones[opcionElegida - 1]]}")
-        elif respuesta in memoria: #si la pregunta esta registrada
+                    else:
+                        print("-> Opción fuera de rango.")
+                else:
+                    print("-> Opción inválida. Por favor, ingrese un número.")
+        elif respuesta in memoria:
             print(f"-> {memoria[respuesta]}")
         else:   #si la pregunta NO esta registrada
             respuesta2 = input("-> No conozco esa pregunta ¿queres ingresar una respuesta a esa pregunta?: ")
-            if respuesta2 in {"si","Si","sí","Sí","s","y"}: #si se quiere ingresar una respuesta para la pregunta no resgitrada
+            if respuesta2 in Si: #si se quiere ingresar una respuesta para la pregunta no resgitrada
                 registrar_pregunta(memoria,respuesta,csvPath)
-            elif respuesta2 not in {"no","NO","No","n","N"}: #si se ingresa algo raro
-                print("-> Voy a asumir que eso es un no.")
+            elif respuesta2 not in NO: #si se ingresa algo raro
+                print("-> No entiendo tu respuesta. Asumiré que no deseas registrar la pregunta.")
     print("-> ¡Chau!")
+
 
 if __name__ == "__main__":
     main_loop("preguntas.csv")
