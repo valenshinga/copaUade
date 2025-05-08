@@ -1,24 +1,27 @@
-import csv  #libreria para archivos .csv
 import os
 
 SALIR = {"salir", "SALIR", "Salir", "exit"}
 OPCIONES = "opciones"
-Si= {"si","Si","sí","Sí","s","y"}
+SI= {"si","Si","sí","Sí","s","y"}
 NO= {"no","NO","No","n","N"}
 
 # abre y guarda en memoria las preguntas y respuestas del csv
-def abrir_csv(csvPath: str) -> dict:
+def abrir_txt(txtPath: str) -> dict:
     absolutePath = os.path.dirname(os.path.abspath(__file__)) 
-    fullPath = os.path.join(absolutePath, csvPath)
+    fullPath = os.path.join(absolutePath, txtPath)
     memoria = dict()    #un diccionario para tener en memoria
     #registrar las preguntas y respuestas en el diccionario
-    with open(fullPath,"r", newline="",encoding='utf-8') as csvfile:
-        csvReader = csv.reader(csvfile)
-        next(csvReader) #saltear la primera fila que es el encabezado
-        for row in csvReader:
-            memoria[row[0]] = row[1]    #se registran las preguntas y respuestas del archivo "preguntas.csv" en el diccionario
+    with open(fullPath,"r", newline="",encoding='utf-8') as archivoTxt:
+        temaActual = None 
+        for linea in archivoTxt:
+            if linea[0] != "-":
+                temaActual = linea.strip()
+                memoria[temaActual] = dict() #se guardan los temas en un diccionario
+                continue
+            pregunta, respuesta = linea.replace("-","").strip().split(":")
+            memoria[temaActual][pregunta] = respuesta    #se registran las preguntas y respuestas del archivo "preguntas.csv" en el diccionario
     return memoria     
- 
+
 # muestra las preguntas del csv y devuelve las devuelve en una lista
 def mostrar_opciones(memoria:dict)->list:
     print("-> Las preguntas que conozco son:")
@@ -27,31 +30,48 @@ def mostrar_opciones(memoria:dict)->list:
         opciones.append(key)
         print(f"-> {index + 1} : {key}")
     return opciones
+
+def mostrar_temas(memoria:dict)->list:
+    print("-> Los temas que conozco son:")
+    opciones = list(memoria.keys()) #se guardan los temas en una lista
+    for index,key in enumerate(memoria.keys()):
+        opciones.append(key)
+        print(f"-> {index + 1} : {key}")
+    return opciones
         
 #solicita una respuesta a la pregunta y la agrega al csv
-def registrar_pregunta(memoria:dict, pregunta:str, csvPath:str) -> None:
+def registrar_pregunta(memoria:dict, pregunta:str, txtPath:str) -> None:
     respuesta = input("-> ¿Cual sería la respuesta esperada para esa pregunta?: ")
     absolutePath = os.path.dirname(os.path.abspath(__file__)) 
-    fullPath = os.path.join(absolutePath, csvPath)
+    fullPath = os.path.join(absolutePath, txtPath)
 
-    with open(fullPath,"a", newline="",encoding='utf-8') as csvfile: #registra la respuesta a la pregunta
-        csvWriter = csv.writer(csvfile)
-        csvWriter.writerow([pregunta,respuesta])
+    with open(fullPath,"a", newline="",encoding='utf-8') as archivoTxt: #registra la respuesta a la pregunta
+        archivoTxt.writerow([pregunta,respuesta])
     memoria[pregunta] = respuesta
     print("-> respuesta registrada, ¡gracias!")
 
-def main_loop(csvPath:str) -> None: 
+def main_loop(txtPath:str) -> None: 
     
-    memoria = abrir_csv(csvPath)
-    
-    print("-> ¡Hola! Soy un asistente virtual, ¿en qué puedo ayudarte?")
-    print("-> Si no sabés qué preguntar, podés ver las preguntas disponibles escribiendo 'opciones'")
-    while True:     
-        respuesta = input("-> Ingrese una pregunta o 'opciones' (ingrese 'salir' para salir): ")
+    memoria = abrir_txt(txtPath)
+
+    print("-> ¡Hola! Soy un asistente virtual, ¿con qué puedo ayudarte?")
+    mostrar_temas(memoria)
+    tema_seleccionado = None
+    while True:      
+        if not tema_seleccionado:
+            tema_seleccionado = input("-> Selecciona un tema (Escribí 'salir' para salir): ").strip()
+            if tema_seleccionado in memoria:
+                print(f"-> Has seleccionado el tema '{tema_seleccionado}'.")
+            else:
+                print("-> Tema no encontrado. Por favor, selecciona un tema válido.")
+                continue
         
-        if respuesta in SALIR: 
+        print("-> Si no sabés qué preguntar, podés ver las preguntas disponibles escribiendo 'opciones'")
+        preguntaUsuario = input("-> Ingrese una pregunta o 'opciones' (ingrese 'salir' para salir): ")
+        
+        if preguntaUsuario in SALIR: 
             break # si quiere salir
-        elif respuesta == OPCIONES: #si elije mostrar las opcines
+        elif preguntaUsuario == OPCIONES: #si elije mostrar las opcines
             opciones = mostrar_opciones(memoria)
             if not opciones:
                 continue
@@ -68,16 +88,16 @@ def main_loop(csvPath:str) -> None:
                         print("-> Opción fuera de rango.")
                 else:
                     print("-> Opción inválida. Por favor, ingrese un número.")
-        elif respuesta in memoria:
-            print(f"-> {memoria[respuesta]}")
+        elif preguntaUsuario in memoria:
+            print(f"-> {memoria[preguntaUsuario]}")
         else:   #si la pregunta NO esta registrada
-            respuesta2 = input("-> No conozco esa pregunta ¿queres ingresar una respuesta a esa pregunta?: ")
-            if respuesta2 in Si: #si se quiere ingresar una respuesta para la pregunta no resgitrada
-                registrar_pregunta(memoria,respuesta,csvPath)
-            elif respuesta2 not in NO: #si se ingresa algo raro
+            preguntaDesconocida = input("-> No conozco esa pregunta ¿queres ingresar una respuesta a esa pregunta?: ")
+            if preguntaDesconocida in SI: #si se quiere ingresar una respuesta para la pregunta no resgitrada
+                registrar_pregunta(memoria,preguntaUsuario,txtPath)
+            elif preguntaDesconocida not in NO: #si se ingresa algo raro
                 print("-> No entiendo tu respuesta. Asumiré que no deseas registrar la pregunta.")
     print("-> ¡Chau!")
 
 
 if __name__ == "__main__":
-    main_loop("preguntas.csv")
+    main_loop("preguntas.txt")

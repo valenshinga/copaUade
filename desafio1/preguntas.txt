@@ -1,0 +1,21 @@
+Dispositivos y hardware
+-¿Cuál es la diferencia entre SSD y HDD?:Un SSD (unidad de estado sólido) es mucho más rápido que un HDD (disco duro mecánico), ya que no tiene partes móviles. El SSD arranca el sistema y abre programas en segundos, mientras que el HDD es más lento pero suele ofrecer mayor capacidad por menor precio.
+-¿Cuándo conviene limpiar físicamente una notebook?: Cada 3 a 6 meses, dependiendo del entorno. Si notás que el ventilador suena fuerte o se calienta mucho, es momento de limpiar el polvo interno. Siempre hacelo con aire comprimido y con la notebook apagada.
+Redes e Internet
+-¿Cómo mejorar la señal WiFi en casa?:Ubicá el router en una zona central y elevada, alejándolo de paredes gruesas y electrodomésticos. También podés usar repetidores WiFi o sistemas mesh para ampliar la cobertura.
+-¿Qué es una VPN y para qué sirve?:Una VPN (Red Privada Virtual) cifra tu conexión a Internet y oculta tu IP. Sirve para navegar de forma segura, acceder a contenido bloqueado por región y proteger tus datos en redes públicas.
+Ciberseguridad básica
+-¿Cómo crear contraseñas seguras?:Usá combinaciones de mayúsculas, minúsculas, números y símbolos. Evitá datos personales. Una contraseña segura tiene al menos 12 caracteres y no debe repetirse en diferentes cuentas.
+-¿Qué hago si sospecho que me hackearon la cuenta?:Cambiá la contraseña de inmediato, activá la verificación en dos pasos y revisá los dispositivos conectados a tu cuenta. Si es un servicio importante, contactá al soporte técnico.
+Sistemas operativos
+-¿Qué diferencias hay entre Windows, macOS y Linux?:Windows es el más usado y compatible, macOS es exclusivo de Apple y enfocado en diseño, y Linux es libre, personalizable y más seguro, pero puede requerir conocimientos técnicos.
+-¿Cómo hacer una copia de seguridad en Windows?:Podés usar la herramienta de "Historial de archivos" en Configuración > Actualización y seguridad > Copia de seguridad. También es útil copiar tus archivos importantes manualmente a un disco externo o nube.
+Aplicaciones útiles
+-¿Qué app sirve para escanear documentos?:Apps como Adobe Scan, Microsoft Lens o Google Drive permiten escanear documentos desde el celular usando la cámara, con funciones para recortar y convertir a PDF.
+-¿Cómo edito un PDF sin pagar?:Podés usar herramientas online gratuitas como PDFescape, SmallPDF o iLovePDF para editar, unir, dividir o convertir archivos PDF sin necesidad de instalar programas pagos.
+Cloud y almacenamiento
+-¿Qué es Google Drive y cómo se usa?:Google Drive es un servicio de almacenamiento en la nube gratuito. Te permite guardar archivos, compartirlos y acceder desde cualquier dispositivo. Solo necesitás una cuenta de Google.
+-¿Cómo liberar espacio en la nube?:Eliminá archivos grandes, fotos duplicadas y correos con archivos adjuntos pesados. En Google Drive, podés ordenar por tamaño desde la opción "Almacenamiento" y liberar espacio fácilmente.
+Problemas frecuentes
+-¿Por qué mi celular se queda sin batería rápido?:Las causas comunes son apps en segundo plano, brillo alto, conexiones activas y batería desgastada. Cerrá apps innecesarias, bajá el brillo y activá el modo ahorro de energía.
+-¿Qué hago si mi computadora está lenta?:Verificá el uso de CPU y memoria, desinstalá programas innecesarios, actualizá el sistema y escaneá con un antivirus. Si tenés un disco HDD, migrar a un SSD mejora mucho el rendimiento.
