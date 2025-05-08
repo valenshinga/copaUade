@@ -1,0 +1,30 @@
+-Computadoras
+--Hardware
+---¿Qué es?: Es la parte física del sistema informático.
+---Componentes
+----CPU: Unidad Central de Procesamiento.
+----RAM: Memoria de acceso aleatorio utilizada para almacenar datos temporales.
+----Disco Duro: Dispositivo de almacenamiento permanente.
+--Software
+---¿Qué es?: Conjunto de programas que permiten operar el hardware.
+---Tipos
+----Sistema Operativo: Software que administra los recursos del sistema.
+----Aplicaciones: Programas diseñados para tareas específicas.
+-Redes
+--¿Qué son?: Conjuntos de dispositivos interconectados que comparten recursos.
+--Tipos
+---LAN: Red de área local.
+---WAN: Red de área amplia.
+---Wi-Fi: Tecnología inalámbrica para redes locales.
+-Seguridad Informática
+--¿Qué es?: Disciplina que protege los sistemas de información.
+--Medidas
+---Antivirus: Programas que detectan y eliminan software malicioso.
+---Firewalls: Sistemas que controlan el tráfico de red.
+---Copias de Seguridad: Respaldo de datos para prevenir pérdidas.
+-Programación
+--¿Qué es?: Proceso de crear instrucciones para que una computadora realice tareas.
+--Lenguajes Populares
+---Python: Lenguaje versátil y fácil de aprender.
+---JavaScript: Lenguaje usado en desarrollo web.
+---C++: Lenguaje potente usado en sistemas y videojuegos.-
