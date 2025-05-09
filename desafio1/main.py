@@ -1,54 +1,75 @@
 import os
 
 
-# abre y guarda en memoria las preguntas y respuestas del txt
-def read_txt(filePath:str ) -> dict:
-    
-    #Hay que hacer todo esto porque no nos dejan usar archivos json 
-    
-    absolutePath = os.path.dirname(os.path.abspath(__file__)) 
-    fullPath = os.path.join(absolutePath, filePath)
-    with open(fullPath, 'r', encoding='utf-8') as f:
-        lines = [line.strip() for line in f if line.strip()]
+# Abre y guarda en memoria las preguntas y respuestas del txt
+def read_txt( nombre_txt:str ) -> dict:
+    """
+    Lee un archivo de texto y lo convierte en un diccionario jerárquico.
 
+    El archivo debe tener un formato específico donde:
+    - Los niveles se indican con guiones ("-") al inicio de la línea
+    - Los pares clave-valor (pregunta-respuesta) se separan con ":"
+    - Las líneas sin ":" se tratan como temas padres con diccionarios vacíos como valor
+
+    Args:
+        nombre_txt (str): Nombre del archivo de texto a leer
+
+    Returns:
+        dict: Diccionario jerárquico construido a partir del contenido del archivo
+
+    Ejemplo de formato del archivo:
+        tema1: respuesta1
+        -subtema1: subrespuesta1
+        -subtema2: subrespuesta2
+        --subsubtema1: subsubrespuesta1
+    """
+    
+    path_absoluto = os.path.dirname(os.path.abspath(__file__)) 
+    ruta_archivo = os.path.join(path_absoluto, nombre_txt)
+
+    # Lee el archivo y formatea linea por linea
+    with open(ruta_archivo, 'r', encoding='utf-8') as archivo_txt:
+        lineas = [linea.strip() for linea in archivo_txt if linea.strip()]
+
+    # Inicializa el diccionario raíz y la pila para manejar la jerarquía
     root = {}
-    stack = [(0, root)]  # (nivel, diccionario actual)
+    stack = [(0, root)]  # Tupla (nivel, diccionario actual)
 
-    for line in lines:
-        # Determinar el nivel por cantidad de "-"
-        level = 0
-        while line.startswith("-"):
-            line = line[1:]
-            level += 1
-        line = line.strip()
+    for linea in lineas:
+        # Cuenta el número de guiones para determinar el nivel
+        nivel = 0
+        while linea.startswith("-"):
+            linea = linea[1:]
+            nivel += 1
+        linea = linea.strip()
 
-        # Separar clave y valor si hay ":"
-        if ":" in line:
-            key, value = map(str.strip, line.split(":", 1))
+        # Procesa la línea según si tiene ":" o no
+        if ":" in linea:
+            key, value = map(str.strip, linea.split(":", 1))
         else:
-            key, value = line, {}
+            key, value = linea, {}  # Si no hay ":", es un tema padre
 
-        # Asegurar que el stack está en el nivel adecuado
-        while stack and stack[-1][0] >= level:
+        # Ajusta la pila al nivel correcto
+        while stack and stack[-1][0] >= nivel:
             stack.pop()
 
-        # Agregar el nuevo elemento al diccionario actual
+        # Agrega el nuevo elemento al diccionario padre actual
         parent = stack[-1][1]
         if isinstance(value, dict):
             parent[key] = value
-            stack.append((level, parent[key]))
+            stack.append((nivel, parent[key]))
         else:
             parent[key] = value
-
+    
     return root
 
-# muestra las preguntas del txt y devuelve las devuelve en una lista
-def mostrar_opciones(memoria:dict,atras:bool = True)->list:
+# muestra las preguntas del txt y las devuelve en una lista
+def mostrar_opciones( memoria:dict, atras:bool = True ) -> list:
     print("")
     opciones = list() #se guardan las preguntas en una lista
-    for index,key in enumerate(memoria.keys()):
+    for indice, key in enumerate(memoria.keys()):
         opciones.append(key)
-        print(f"-> {index + 1} : {key}")
+        print(f"-> {indice + 1} : {key}")
     if atras:
         print(f"-> 0 : atras")
     else:
@@ -60,54 +81,67 @@ def mostrar_opciones(memoria:dict,atras:bool = True)->list:
 def registrar_pregunta(memoria:dict, pregunta:str, txtPath:str) -> None:
     pass
 
-def main_loop(txtPath:str) -> None: 
-    
-    memoria = read_txt(txtPath)
-    rutaDiccionario = []
-    nivelActual = memoria
-    print("-> ¡Hola! Soy un asistente virtual, ¿en qué puedo ayudarte?")
-    while True:     
-        nivelActual = memoria
-        for clave in rutaDiccionario:
-            nivelActual = nivelActual[clave]
+def main_loop(nombre_archivo:str) -> None:
+    """
+    Ejecuta el bucle principal del programa que permite la navegación interactiva por un árbol de preguntas y respuestas.
 
-        if isinstance(nivelActual,dict):    # si es un tema
-            opciones = mostrar_opciones(nivelActual,bool(rutaDiccionario))
+    Args:
+        nombre_archivo (str): Ruta al archivo de texto que contiene la estructura de preguntas y respuestas.
+
+    Returns:
+        None: La función no retorna ningún valor, solo maneja la interacción con el usuario.
+    """
+    # Carga la estructura de datos desde el archivo
+    memoria = read_txt(nombre_archivo)
+    # Lista que mantiene el registro de la ruta actual en el árbol
+    ruta_diccionario = []
+    # Referencia al nivel actual en el árbol
+    nivel_actual = memoria
+    
+    print("-> ¡Hola! Soy un asistente virtual, ¿en qué puedo ayudarte?")
+    
+    while True:
+        # Navega hasta el nivel actual usando la ruta almacenada
+        nivel_actual = memoria
+        for clave in ruta_diccionario:
+            nivel_actual = nivel_actual[clave]
+
+        if isinstance(nivel_actual,dict):    # Si el nivel actual es un tema (tiene sub-opciones)
+            # Muestra las opciones disponibles en el nivel actual
+            opciones = mostrar_opciones(nivel_actual,bool(ruta_diccionario))
             print("")
             respuesta = input("-> Ingrese una pregunta (ingrese 'salir' para salir): ")
             respuesta = respuesta.strip().lower()
-            if respuesta.isdigit(): #si se ingreso un numero
+            
+            if respuesta.isdigit(): # Si la respuesta es un número
                 respuesta = int(respuesta)
                 if respuesta == 0:
-                    if rutaDiccionario: #si es atras (no es el primer menu)
-                        rutaDiccionario.pop()
-                    else: #si es salir
+                    if ruta_diccionario: # Si hay niveles previos, retrocede
+                        ruta_diccionario.pop()
+                    else: # Si está en el nivel raíz, sale del programa
                         break  
                 elif (1 <= respuesta <= len(opciones)):
-                    rutaDiccionario.append(opciones[respuesta - 1])
-                    print(f"-> Genial hablemos sobre el tema {rutaDiccionario[-1]} ¿Qué exactamente quieres saber?")
+                    # Avanza al siguiente nivel seleccionado
+                    ruta_diccionario.append(opciones[respuesta - 1])
+                    print(f"-> Buenísimo, hablemos sobre el tema {ruta_diccionario[-1]} ¿Qué exactamente quieres saber?")
                 else:
                     print("-> Opción fuera de rango.")
-            elif "atras" in respuesta and rutaDiccionario:  #si se ingreso atras y no es el primer menu
-                rutaDiccionario.pop()  
-            elif "salir" in respuesta: #si se ingreso salir
+            elif "atras" in respuesta and ruta_diccionario:  # Maneja el comando "atras"
+                ruta_diccionario.pop()  
+            elif "salir" in respuesta: # Maneja el comando "salir"
                 break
-            else:   #si se ingreso un texto, se buscan las palabras clave dentro de la respuesta
-                opcionesLower = [opcion.lower() for opcion in opciones]
-                coinciden = [index for index,opcion in enumerate(opcionesLower) if opcion in respuesta]
-                if not coinciden or len(coinciden) > 1: #si no se encuentran coincidencias o se encuentran mas de una
-                    print("-> Lo siento, no logre entenderte. Porfavor seleccione una opcion devuelta.")
+            else:   # Busca coincidencias de palabras clave en la respuesta
+                opciones_lower = [opcion.lower() for opcion in opciones]
+                coinciden = [index for index,opcion in enumerate(opciones_lower) if opcion in respuesta]
+                if not coinciden or len(coinciden) > 1: # Si no hay coincidencias únicas
+                    print("-> Perdón, no logré entenderte. Por favor seleccioná una opción devuelta.")
                 else:
-                    rutaDiccionario.append(opciones[coinciden[0]])
-                    print(f"-> Genial hablemos sobre el tema {rutaDiccionario[-1]} ¿Qué exactamente quieres saber?")
+                    ruta_diccionario.append(opciones[coinciden[0]])
+                    print(f"-> Buenísimo, hablemos sobre el tema {ruta_diccionario[-1]}. ¿Qué querés saber exactamente?")
                     
-        else:   #si es una pregunta final
+        else:   # Si es una respuesta final, la muestra y retrocede un nivel
             print("")
-            print(f"-> {rutaDiccionario.pop()}  {nivelActual}")
-            
-        
-        
-
+            print(f"-> {ruta_diccionario.pop()}  {nivel_actual}")
     print("-> ¡Chau!")
 
 
