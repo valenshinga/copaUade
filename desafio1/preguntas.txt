@@ -27,4 +27,8 @@
 --Lenguajes Populares
 ---Python: Lenguaje versátil y fácil de aprender.
 ---JavaScript: Lenguaje usado en desarrollo web.
----C++: Lenguaje potente usado en sistemas y videojuegos.-
+---C++: Lenguaje potente usado en sistemas y videojuegos.
+-electromecanica
+--123a
+--Que es: La electromecanica es el estudio de ...
+-que es esto?: este es un robot automatizado de ayuda

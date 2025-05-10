@@ -114,18 +114,97 @@ def mostrar_opciones(memoria: dict, atras: bool = True) -> list:
     for indice, key in enumerate(opciones, 1):
         print(f"-> {indice} : {key}")
     
+    print(f"-> 10 : agregar")
     print(f"-> 0 : {'atras' if atras else 'salir'}")
     return opciones
 
-def registrar_pregunta(memoria: dict, pregunta: str, txtPath: str) -> None:
-    """Registra una nueva pregunta y respuesta en el archivo."""
-    ruta_archivo = obtener_ruta_archivo(txtPath)
+def guardar_entrada(nombre_txt:str, ruta_diccionario:list, respuesta:str, pregunta:str = None) -> dict:
+    """Sigue en el archivo la ruta de diccionario para agregar un tema o una pregunta
+    Args:
+        nombre_txt (str): Nombre del archivo txt a modificar
+        ruta_diccionario (list): Ruta actual del diccionario
+        respuesta (str) : Puede ser el nombre del tema o la respuesta a una pregunta
+        pregunta (str) : la pregunta en caso de que se quiera ingresar una pregunta
+
+    Returns:
+        dict: nuevo diccionario memoria con el cambio realizado 
+    """   
+    ruta_txt = obtener_ruta_archivo(nombre_txt)
     
-    try:
-        with open(ruta_archivo, 'a', encoding='utf-8') as archivo:
-            archivo.write(f"\n{pregunta}: ")
-    except Exception as e:
-        printear_error(str(e), "Error al registrar la pregunta")
+    with open(ruta_txt, 'r') as archivo:
+        lineas = archivo.readlines()
+        
+    dashes = (len(ruta_diccionario) + 1) * "-"
+    if pregunta:
+        nuevaLinea = f"{dashes}{pregunta}: {respuesta}\n"
+    else:
+        nuevaLinea =f"{dashes}{respuesta}\n" 
+        
+    cont = 1
+    if ruta_diccionario:
+        for i,linea in enumerate(lineas):
+            if linea == f"{cont * "-"}{ruta_diccionario[0]}\n":
+                ruta_diccionario.pop(0)
+                cont += 1
+                if not ruta_diccionario:         
+                    lineas[i+1:i+1] = nuevaLinea
+                    break
+    else:
+        lineas.append(nuevaLinea)
+        
+    with open(ruta_txt, 'w') as archivo:
+        archivo.writelines(lineas)
+
+    return leer_txt(nombre_txt)
+
+def registrar_entrada(ruta_diccionario:list, nombre_archivo: str) -> dict:
+    """Registra un nuevo tema o una nueva pregunta y respuesta en el archivo.
+    Args:
+        nombre_archivo (str): Nombre del archivo txt a modificar
+        ruta_diccionario (list): Ruta actual del diccionario
+
+    Returns:
+        dict: nuevo diccionario memoria con el cambio realizado 
+    """    
+    print("-> Genial ¿qué queres agregar exactamente?\n")
+    print("-> 0 : Cancelar")
+    print("-> 1 : Tema")
+    print("-> 2 : Pregunta")
+    
+    respuesta = input("-> Ingrese una respuesta: ")
+    respuesta = respuesta.strip().lower()
+    opcion = 0
+    while not opcion:
+        if respuesta.isdigit():
+            respuesta = int(respuesta)
+            if respuesta == 0:
+                print("-> adicion cancelada")        
+                return 
+            elif respuesta in (1,2):
+                opcion = respuesta
+        elif "cancelar" in respuesta:
+            print("-> adicion cancelada")
+            return
+        elif "tema" in respuesta:
+            opcion = 1
+        elif "pregunta" in respuesta:
+            opcion = 2
+        else:
+            print("-> Lo siento, no logre entenderte ¿Podrías intentar devuelta?")
+    
+    if opcion == 1:
+        respuesta = input("-> ¿Cúal es el nombre de este nuevo tema?: ")
+        while respuesta.isdigit():
+            respuesta = input("-> No puedes ingresar un numero como nombre. Por favor intenta otro nombre: ")
+        pregunta = ""
+    else:
+        pregunta = input("-> ¿Cúal es la pregunta que quieres ingresar?: ")
+        while pregunta.isdigit():
+            pregunta = input("-> No puedes ingresar un numero como pregunta. Por favor intenta devuelta: ")
+        respuesta = input("-> ¿Cúal es la respuesta a esa pregunta?: ")
+
+    return guardar_entrada(nombre_archivo,ruta_diccionario,respuesta,pregunta)
+
 
 def procesar_respuesta_usuario(respuesta: str, opciones: list, ruta_diccionario: list) -> tuple:
     """
@@ -141,20 +220,26 @@ def procesar_respuesta_usuario(respuesta: str, opciones: list, ruta_diccionario:
     """
     respuesta = respuesta.strip().lower()
     
+    agregar = False
+    continuar = True
     if respuesta.isdigit():
         respuesta = int(respuesta)
         if respuesta == 0:
             if ruta_diccionario:
                 ruta_diccionario.pop()
             else:
-                return False, ruta_diccionario
+                continuar = False
+        elif respuesta == 10:
+            agregar = True
         elif 1 <= respuesta <= len(opciones):
             ruta_diccionario.append(opciones[respuesta - 1])
             print(f"-> Buenísimo, hablemos sobre el tema {ruta_diccionario[-1]} ¿Qué exactamente quieres saber?")
     elif "atras" in respuesta and ruta_diccionario:
         ruta_diccionario.pop()
     elif "salir" in respuesta:
-        return False, ruta_diccionario
+        continuar = False
+    elif "agregar" in respuesta:
+        agregar = True
     else:
         opciones_lower = [opcion.lower() for opcion in opciones]
         coinciden = [index for index, opcion in enumerate(opciones_lower) if opcion in respuesta]
@@ -164,7 +249,7 @@ def procesar_respuesta_usuario(respuesta: str, opciones: list, ruta_diccionario:
             ruta_diccionario.append(opciones[coinciden[0]])
             print(f"-> Buenísimo, hablemos sobre el tema {ruta_diccionario[-1]}. ¿Qué querés saber exactamente?")
     
-    return True, ruta_diccionario
+    return agregar, continuar, ruta_diccionario
 
 def main_loop(nombre_archivo: str) -> None:
     """Ejecuta el bucle principal del programa."""
@@ -175,7 +260,8 @@ def main_loop(nombre_archivo: str) -> None:
     ruta_diccionario = []
     print("-> ¡Hola! Soy un asistente virtual, ¿en qué puedo ayudarte?")
     
-    while True:
+    continuar = True
+    while continuar:
         nivel_actual = memoria
         for clave in ruta_diccionario:
             nivel_actual = nivel_actual[clave]
@@ -185,9 +271,11 @@ def main_loop(nombre_archivo: str) -> None:
             print("")
             respuesta = input("-> Ingrese una pregunta (ingrese 'salir' para salir): ")
             
-            continuar, ruta_diccionario = procesar_respuesta_usuario(respuesta, opciones, ruta_diccionario)
-            if not continuar:
-                break
+            agregar, continuar, ruta_diccionario = procesar_respuesta_usuario(respuesta, opciones, ruta_diccionario)
+            if agregar:
+                resultado = registrar_entrada(ruta_diccionario.copy(),nombre_archivo)
+                if resultado: 
+                    memoria = resultado
         else:
             print("")
             print(f"-> {ruta_diccionario.pop()}  {nivel_actual}")
