@@ -38,10 +38,10 @@ python3 main.py
 
 2. Navegar por las opciones:
    - Usar números para seleccionar opciones
-   - Tambien se puede escribir el nombre exacto del Pokémon
+   - También se puede escribir el nombre exacto del Pokémon
    - Usar "atras" para volver al menú anterior
    - Usar "salir" para terminar el programa
-   - Usar "Inicio" para volver al menu de inicial
+   - Usar "Inicio" para volver al menú inicial
 
 3. Contribuir información:
    - Escribir "Contribuir" en cualquier menú
