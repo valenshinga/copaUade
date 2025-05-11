@@ -292,23 +292,25 @@ def main_loop(nombre_archivo: str) -> None:
     
     continuar = True
     while continuar:
-        nivel_actual = memoria
-        for clave in ruta_diccionario:
-            nivel_actual = nivel_actual[clave]
+        try:
+            nivel_actual = memoria
+            for clave in ruta_diccionario:
+                nivel_actual = nivel_actual[clave]
 
-        if isinstance(nivel_actual, dict):
-            opciones = mostrar_opciones(nivel_actual, bool(ruta_diccionario))
-            print("")
-            respuesta = input("-> Ingrese una respuesta: ")
-            agregar, continuar, ruta_diccionario = procesar_respuesta_usuario(respuesta, opciones, ruta_diccionario, nivel_actual)
-            if agregar:
-                resultado = registrar_entrada(ruta_diccionario.copy(),nombre_archivo)
-                if resultado: 
-                    memoria = resultado
-        else:
-            print("")
-            print(f"-> {ruta_diccionario.pop()}: {nivel_actual}")
-            
+            if isinstance(nivel_actual, dict):
+                opciones = mostrar_opciones(nivel_actual, bool(ruta_diccionario))
+                print("")
+                respuesta = input("-> Ingrese una respuesta: ")
+                agregar, continuar, ruta_diccionario = procesar_respuesta_usuario(respuesta, opciones, ruta_diccionario, nivel_actual)
+                if agregar:
+                    resultado = registrar_entrada(ruta_diccionario.copy(),nombre_archivo)
+                    if resultado: 
+                        memoria = resultado
+            else:
+                print("")
+                print(f"-> {ruta_diccionario.pop()}: {nivel_actual}")
+        except Exception as e:
+            printear_error(str(e), "Ocurrio un error interno. Por favor intente nuevamente.")
     print("-> ¡Chau!")
 
 if __name__ == "__main__":
