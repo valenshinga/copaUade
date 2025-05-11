@@ -1,1816 +1,1816 @@
 -Pokémones de la 1ª Generación (Región Kanto)
 -- Bulbasaur   
----tipo: Planta, Veneno  
----habilidades: Espesura / Clorofila (Habilidad Oculta)  
+---Tipo: Planta, Veneno  
+---Habilidades: Espesura / Clorofila (Habilidad Oculta)  
 ---Altura/Peso: 0.7 m / 6.9 kg  
----estadísticas base  
-----total: 318  
-----ps: 45  
-----atk: 49  
-----def: 49  
-----atk.esp: 65  
-----def.esp: 65  
-----velocidad: 45  
+---Estadísticas base  
+----Total: 318  
+----PS: 45  
+----ATK: 49  
+----Def: 49  
+----ATK.esp: 65  
+----Def.esp: 65  
+----Velocidad: 45  
 -- Ivysaur   
----tipo: Planta, Veneno  
----habilidades: Espesura / Clorofila (Habilidad Oculta)  
+---Tipo: Planta, Veneno  
+---Habilidades: Espesura / Clorofila (Habilidad Oculta)  
 ---Altura/Peso: 1.0 m / 13.0 kg  
----estadísticas base  
-----total: 405  
-----ps: 60  
-----atk: 62  
-----def: 63  
-----atk.esp: 80  
-----def.esp: 80  
-----velocidad: 60  
+---Estadísticas base  
+----Total: 405  
+----PS: 60  
+----ATK: 62  
+----Def: 63  
+----ATK.esp: 80  
+----Def.esp: 80  
+----Velocidad: 60  
 -- Venusaur   
----tipo: Planta, Veneno  
----habilidades: Espesura / Clorofila (Habilidad Oculta)  
+---Tipo: Planta, Veneno  
+---Habilidades: Espesura / Clorofila (Habilidad Oculta)  
 ---Altura/Peso: 2.0 m / 100.0 kg  
----estadísticas base  
-----total: 525  
-----ps: 80  
-----atk: 82  
-----def: 83  
-----atk.esp: 100  
-----def.esp: 100  
-----velocidad: 80  
+---Estadísticas base  
+----Total: 525  
+----PS: 80  
+----ATK: 82  
+----Def: 83  
+----ATK.esp: 100  
+----Def.esp: 100  
+----Velocidad: 80  
 -- Charmander  
----tipo: Fuego  
----habilidades: Mar Llamas / Poder Solar (Habilidad Oculta)  
+---Tipo: Fuego  
+---Habilidades: Mar Llamas / Poder Solar (Habilidad Oculta)  
 ---Altura/Peso: 0.6 m / 8.5 kg  
----estadísticas base  
-----total: 309  
-----ps: 39  
-----atk: 52  
-----def: 43  
-----atk.esp: 60  
-----def.esp: 50  
-----velocidad: 65  
+---Estadísticas base  
+----Total: 309  
+----PS: 39  
+----ATK: 52  
+----Def: 43  
+----ATK.esp: 60  
+----Def.esp: 50  
+----Velocidad: 65  
 -- Charmeleon   
----tipo: Fuego  
----habilidades: Mar Llamas / Poder Solar (Habilidad Oculta)  
+---Tipo: Fuego  
+---Habilidades: Mar Llamas / Poder Solar (Habilidad Oculta)  
 ---Altura/Peso: 1.1 m / 19.0 kg  
----estadísticas base  
-----total: 405  
-----ps: 58  
-----atk: 64  
-----def: 58  
-----atk.esp: 80  
-----def.esp: 65  
-----velocidad: 80  
+---Estadísticas base  
+----Total: 405  
+----PS: 58  
+----ATK: 64  
+----Def: 58  
+----ATK.esp: 80  
+----Def.esp: 65  
+----Velocidad: 80  
 -- Charizard   
----tipo: Fuego, Volador  
----habilidades: Mar Llamas / Poder Solar (Habilidad Oculta)  
+---Tipo: Fuego, Volador  
+---Habilidades: Mar Llamas / Poder Solar (Habilidad Oculta)  
 ---Altura/Peso: 1.7 m / 90.5 kg  
----estadísticas base  
-----total: 534  
-----ps: 78  
-----atk: 84  
-----def: 78  
-----atk.esp: 109  
-----def.esp: 85  
-----velocidad: 100  
+---Estadísticas base  
+----Total: 534  
+----PS: 78  
+----ATK: 84  
+----Def: 78  
+----ATK.esp: 109  
+----Def.esp: 85  
+----Velocidad: 100  
 -- Squirtle   
----tipo: Agua  
----habilidades: Torrente / Cura Lluvia (Habilidad Oculta)  
+---Tipo: Agua  
+---Habilidades: Torrente / Cura Lluvia (Habilidad Oculta)  
 ---Altura/Peso: 0.5 m / 9.0 kg  
----estadísticas base  
-----total: 314  
-----ps: 44  
-----atk: 48  
-----def: 65  
-----atk.esp: 50  
-----def.esp: 64  
-----velocidad: 43  
+---Estadísticas base  
+----Total: 314  
+----PS: 44  
+----ATK: 48  
+----Def: 65  
+----ATK.esp: 50  
+----Def.esp: 64  
+----Velocidad: 43  
 -- Wartortle  
----tipo: Agua  
----habilidades: Torrente / Cura Lluvia (Habilidad Oculta)  
+---Tipo: Agua  
+---Habilidades: Torrente / Cura Lluvia (Habilidad Oculta)  
 ---Altura/Peso: 1.0 m / 22.5 kg  
----estadísticas base  
-----total: 405  
-----ps: 59  
-----atk: 63  
-----def: 80  
-----atk.esp: 65  
-----def.esp: 80  
-----velocidad: 58  
+---Estadísticas base  
+----Total: 405  
+----PS: 59  
+----ATK: 63  
+----Def: 80  
+----ATK.esp: 65  
+----Def.esp: 80  
+----Velocidad: 58  
 -- Blastoise   
----tipo: Agua  
----habilidades: Torrente / Cura Lluvia (Habilidad Oculta)  
+---Tipo: Agua  
+---Habilidades: Torrente / Cura Lluvia (Habilidad Oculta)  
 ---Altura/Peso: 1.6 m / 85.5 kg  
----estadísticas base  
-----total: 530  
-----ps: 79  
-----atk: 83  
-----def: 100  
-----atk.esp: 85  
-----def.esp: 105  
-----velocidad: 78  
+---Estadísticas base  
+----Total: 530  
+----PS: 79  
+----ATK: 83  
+----Def: 100  
+----ATK.esp: 85  
+----Def.esp: 105  
+----Velocidad: 78  
 -- Caterpie   
----tipo: Bicho  
----habilidades: Polvo Escudo / Fuga (Habilidad Oculta)  
+---Tipo: Bicho  
+---Habilidades: Polvo Escudo / Fuga (Habilidad Oculta)  
 ---Altura/Peso: 0.3 m / 2.9 kg  
----estadísticas base  
-----total: 195  
-----ps: 45  
-----atk: 30  
-----def: 35  
-----atk.esp: 20  
-----def.esp: 20  
-----velocidad: 45  
+---Estadísticas base  
+----Total: 195  
+----PS: 45  
+----ATK: 30  
+----Def: 35  
+----ATK.esp: 20  
+----Def.esp: 20  
+----Velocidad: 45  
 -- Metapod   
----tipo: Bicho  
----habilidades: Mudar  
+---Tipo: Bicho  
+---Habilidades: Mudar  
 ---Altura/Peso: 0.7 m / 9.9 kg  
----estadísticas base  
-----total: 205  
-----ps: 50  
-----atk: 20  
-----def: 55  
-----atk.esp: 25  
-----def.esp: 25  
-----velocidad: 30  
+---Estadísticas base  
+----Total: 205  
+----PS: 50  
+----ATK: 20  
+----Def: 55  
+----ATK.esp: 25  
+----Def.esp: 25  
+----Velocidad: 30  
 -- Butterfree   
----tipo: Bicho, Volador  
----habilidades: Ojo Compuesto / Lente Compuesta (Habilidad Oculta)  
+---Tipo: Bicho, Volador  
+---Habilidades: Ojo Compuesto / Lente Compuesta (Habilidad Oculta)  
 ---Altura/Peso: 1.1 m / 32.0 kg  
----estadísticas base  
-----total: 395  
-----ps: 60  
-----atk: 45  
-----def: 50  
-----atk.esp: 90  
-----def.esp: 80  
-----velocidad: 70  
+---Estadísticas base  
+----Total: 395  
+----PS: 60  
+----ATK: 45  
+----Def: 50  
+----ATK.esp: 90  
+----Def.esp: 80  
+----Velocidad: 70  
 -- Weedle   
----tipo: Bicho, Veneno  
----habilidades: Polvo Escudo / Fuga (Habilidad Oculta)  
+---Tipo: Bicho, Veneno  
+---Habilidades: Polvo Escudo / Fuga (Habilidad Oculta)  
 ---Altura/Peso: 0.3 m / 3.2 kg  
----estadísticas base  
-----total: 195  
-----ps: 40  
-----atk: 35  
-----def: 30  
-----atk.esp: 20  
-----def.esp: 20  
-----velocidad: 50  
+---Estadísticas base  
+----Total: 195  
+----PS: 40  
+----ATK: 35  
+----Def: 30  
+----ATK.esp: 20  
+----Def.esp: 20  
+----Velocidad: 50  
 -- Kakuna   
----tipo: Bicho, Veneno  
----habilidades: Mudar  
+---Tipo: Bicho, Veneno  
+---Habilidades: Mudar  
 ---Altura/Peso: 0.6 m / 10.0 kg  
----estadísticas base  
-----total: 205  
-----ps: 45  
-----atk: 25  
-----def: 50  
-----atk.esp: 25  
-----def.esp: 25  
-----velocidad: 35  
+---Estadísticas base  
+----Total: 205  
+----PS: 45  
+----ATK: 25  
+----Def: 50  
+----ATK.esp: 25  
+----Def.esp: 25  
+----Velocidad: 35  
 -- Beedrill   
----tipo: Bicho, Veneno  
----habilidades: Enjambre / Francotirador (Habilidad Oculta)  
+---Tipo: Bicho, Veneno  
+---Habilidades: Enjambre / Francotirador (Habilidad Oculta)  
 ---Altura/Peso: 1.0 m / 29.5 kg  
----estadísticas base  
-----total: 395  
-----ps: 65  
-----atk: 90  
-----def: 40  
-----atk.esp: 45  
-----def.esp: 80  
-----velocidad: 75  
+---Estadísticas base  
+----Total: 395  
+----PS: 65  
+----ATK: 90  
+----Def: 40  
+----ATK.esp: 45  
+----Def.esp: 80  
+----Velocidad: 75  
 -- Pidgey   
----tipo: Normal, Volador  
----habilidades: Vista Lince / Tumbos / Sacapecho (Habilidad Oculta)  
+---Tipo: Normal, Volador  
+---Habilidades: Vista Lince / Tumbos / Sacapecho (Habilidad Oculta)  
 ---Altura/Peso: 0.3 m / 1.8 kg  
----estadísticas base  
-----total: 251  
-----ps: 40  
-----atk: 45  
-----def: 40  
-----atk.esp: 35  
-----def.esp: 35  
-----velocidad: 56  
+---Estadísticas base  
+----Total: 251  
+----PS: 40  
+----ATK: 45  
+----Def: 40  
+----ATK.esp: 35  
+----Def.esp: 35  
+----Velocidad: 56  
 -- Pidgeotto   
----tipo: Normal, Volador  
----habilidades: Vista Lince / Tumbos / Sacapecho (Habilidad Oculta)  
+---Tipo: Normal, Volador  
+---Habilidades: Vista Lince / Tumbos / Sacapecho (Habilidad Oculta)  
 ---Altura/Peso: 1.1 m / 30.0 kg  
----estadísticas base  
-----total: 349  
-----ps: 63  
-----atk: 60  
-----def: 55  
-----atk.esp: 50  
-----def.esp: 50  
-----velocidad: 71  
+---Estadísticas base  
+----Total: 349  
+----PS: 63  
+----ATK: 60  
+----Def: 55  
+----ATK.esp: 50  
+----Def.esp: 50  
+----Velocidad: 71  
 -- Pidgeot   
----tipo: Normal, Volador  
----habilidades: Vista Lince / Tumbos / Sacapecho (Habilidad Oculta)  
+---Tipo: Normal, Volador  
+---Habilidades: Vista Lince / Tumbos / Sacapecho (Habilidad Oculta)  
 ---Altura/Peso: 1.5 m / 39.5 kg  
----estadísticas base  
-----total: 479  
-----ps: 83  
-----atk: 80  
-----def: 75  
-----atk.esp: 70  
-----def.esp: 70  
-----velocidad: 101  
+---Estadísticas base  
+----Total: 479  
+----PS: 83  
+----ATK: 80  
+----Def: 75  
+----ATK.esp: 70  
+----Def.esp: 70  
+----Velocidad: 101  
 -- Rattata   
----tipo: Normal  
----habilidades: Fuga / Agallas / Entusiasmo (Habilidad Oculta)  
+---Tipo: Normal  
+---Habilidades: Fuga / Agallas / Entusiasmo (Habilidad Oculta)  
 ---Altura/Peso: 0.3 m / 3.5 kg  
----estadísticas base  
-----total: 253  
-----ps: 30  
-----atk: 56  
-----def: 35  
-----atk.esp: 25  
-----def.esp: 35  
-----velocidad: 72  
+---Estadísticas base  
+----Total: 253  
+----PS: 30  
+----ATK: 56  
+----Def: 35  
+----ATK.esp: 25  
+----Def.esp: 35  
+----Velocidad: 72  
 -- Raticate   
----tipo: Normal  
----habilidades: Fuga / Agallas / Entusiasmo (Habilidad Oculta)  
+---Tipo: Normal  
+---Habilidades: Fuga / Agallas / Entusiasmo (Habilidad Oculta)  
 ---Altura/Peso: 0.7 m / 18.5 kg  
----estadísticas base  
-----total: 413  
-----ps: 55  
-----atk: 81  
-----def: 60  
-----atk.esp: 50  
-----def.esp: 70  
-----velocidad: 97  
+---Estadísticas base  
+----Total: 413  
+----PS: 55  
+----ATK: 81  
+----Def: 60  
+----ATK.esp: 50  
+----Def.esp: 70  
+----Velocidad: 97  
 -- Spearow   
----tipo: Normal, Volador  
----habilidades: Vista Lince / Francotirador (Habilidad Oculta)  
+---Tipo: Normal, Volador  
+---Habilidades: Vista Lince / Francotirador (Habilidad Oculta)  
 ---Altura/Peso: 0.3 m / 2.0 kg  
----estadísticas base  
-----total: 262  
-----ps: 40  
-----atk: 60  
-----def: 30  
-----atk.esp: 31  
-----def.esp: 31  
-----velocidad: 70  
+---Estadísticas base  
+----Total: 262  
+----PS: 40  
+----ATK: 60  
+----Def: 30  
+----ATK.esp: 31  
+----Def.esp: 31  
+----Velocidad: 70  
 -- Fearow   
----tipo: Normal, Volador  
----habilidades: Vista Lince / Francotirador (Habilidad Oculta)  
+---Tipo: Normal, Volador  
+---Habilidades: Vista Lince / Francotirador (Habilidad Oculta)  
 ---Altura/Peso: 1.2 m / 38.0 kg  
----estadísticas base  
-----total: 442  
-----ps: 65  
-----atk: 90  
-----def: 65  
-----atk.esp: 61  
-----def.esp: 61  
-----velocidad: 100  
+---Estadísticas base  
+----Total: 442  
+----PS: 65  
+----ATK: 90  
+----Def: 65  
+----ATK.esp: 61  
+----Def.esp: 61  
+----Velocidad: 100  
 -- Ekans   
----tipo: Veneno  
----habilidades: Intimidación / Mudar / Nerviosismo (Habilidad Oculta)  
+---Tipo: Veneno  
+---Habilidades: Intimidación / Mudar / Nerviosismo (Habilidad Oculta)  
 ---Altura/Peso: 2.0 m / 6.9 kg  
----estadísticas base  
-----total: 288  
-----ps: 35  
-----atk: 60  
-----def: 44  
-----atk.esp: 40  
-----def.esp: 54  
-----velocidad: 55  
+---Estadísticas base  
+----Total: 288  
+----PS: 35  
+----ATK: 60  
+----Def: 44  
+----ATK.esp: 40  
+----Def.esp: 54  
+----Velocidad: 55  
 -- Arbok   
----tipo: Veneno  
----habilidades: Intimidación / Mudar / Nerviosismo (Habilidad Oculta)  
+---Tipo: Veneno  
+---Habilidades: Intimidación / Mudar / Nerviosismo (Habilidad Oculta)  
 ---Altura/Peso: 3.5 m / 65.0 kg  
----estadísticas base  
-----total: 448  
-----ps: 60  
-----atk: 95  
-----def: 69  
-----atk.esp: 65  
-----def.esp: 79  
-----velocidad: 80  
+---Estadísticas base  
+----Total: 448  
+----PS: 60  
+----ATK: 95  
+----Def: 69  
+----ATK.esp: 65  
+----Def.esp: 79  
+----Velocidad: 80  
 -- Pikachu   
----tipo: Eléctrico  
----habilidades: Electricidad Estática / Pararrayos (Habilidad Oculta)  
+---Tipo: Eléctrico  
+---Habilidades: Electricidad Estática / Pararrayos (Habilidad Oculta)  
 ---Altura/Peso: 0.4 m / 6.0 kg  
----estadísticas base  
-----total: 320  
-----ps: 35  
-----atk: 55  
-----def: 40  
-----atk.esp: 50  
-----def.esp: 50  
-----velocidad: 90  
+---Estadísticas base  
+----Total: 320  
+----PS: 35  
+----ATK: 55  
+----Def: 40  
+----ATK.esp: 50  
+----Def.esp: 50  
+----Velocidad: 90  
 -- Raichu   
----tipo: Eléctrico  
----habilidades: Electricidad Estática / Pararrayos (Habilidad Oculta)  
+---Tipo: Eléctrico  
+---Habilidades: Electricidad Estática / Pararrayos (Habilidad Oculta)  
 ---Altura/Peso: 0.8 m / 30.0 kg  
----estadísticas base  
-----total: 485  
-----ps: 60  
-----atk: 90  
-----def: 55  
-----atk.esp: 90  
-----def.esp: 80  
-----velocidad: 110  
+---Estadísticas base  
+----Total: 485  
+----PS: 60  
+----ATK: 90  
+----Def: 55  
+----ATK.esp: 90  
+----Def.esp: 80  
+----Velocidad: 110  
 -- Sandshrew  
----tipo: Tierra  
----habilidades: Velo Arena / Ímpetu Arena (Habilidad Oculta)  
+---Tipo: Tierra  
+---Habilidades: Velo Arena / Ímpetu Arena (Habilidad Oculta)  
 ---Altura/Peso: 0.6 m / 12.0 kg  
----estadísticas base  
-----total: 300  
-----ps: 50  
-----atk: 75  
-----def: 85  
-----atk.esp: 20  
-----def.esp: 30  
-----velocidad: 40  
+---Estadísticas base  
+----Total: 300  
+----PS: 50  
+----ATK: 75  
+----Def: 85  
+----ATK.esp: 20  
+----Def.esp: 30  
+----Velocidad: 40  
 -- Sandslash   
----tipo: Tierra  
----habilidades: Velo Arena / Ímpetu Arena (Habilidad Oculta)  
+---Tipo: Tierra  
+---Habilidades: Velo Arena / Ímpetu Arena (Habilidad Oculta)  
 ---Altura/Peso: 1.0 m / 29.5 kg  
----estadísticas base  
-----total: 450  
-----ps: 75  
-----atk: 100  
-----def: 110  
-----atk.esp: 45  
-----def.esp: 55  
-----velocidad: 65  
+---Estadísticas base  
+----Total: 450  
+----PS: 75  
+----ATK: 100  
+----Def: 110  
+----ATK.esp: 45  
+----Def.esp: 55  
+----Velocidad: 65  
 -- Nidoran♀   
----tipo: Veneno  
----habilidades: Punto Tóxico / Rivalidad / Entusiasmo (Habilidad Oculta)  
+---Tipo: Veneno  
+---Habilidades: Punto Tóxico / Rivalidad / Entusiasmo (Habilidad Oculta)  
 ---Altura/Peso: 0.4 m / 7.0 kg  
----estadísticas base  
-----total: 275  
-----ps: 55  
-----atk: 47  
-----def: 52  
-----atk.esp: 40  
-----def.esp: 40  
-----velocidad: 41  
+---Estadísticas base  
+----Total: 275  
+----PS: 55  
+----ATK: 47  
+----Def: 52  
+----ATK.esp: 40  
+----Def.esp: 40  
+----Velocidad: 41  
 -- Nidorina   
----tipo: Veneno  
----habilidades: Punto Tóxico / Rivalidad / Entusiasmo (Habilidad Oculta)  
+---Tipo: Veneno  
+---Habilidades: Punto Tóxico / Rivalidad / Entusiasmo (Habilidad Oculta)  
 ---Altura/Peso: 0.8 m / 20.0 kg  
----estadísticas base  
-----total: 365  
-----ps: 70  
-----atk: 62  
-----def: 67  
-----atk.esp: 55  
-----def.esp: 55  
-----velocidad: 56  
+---Estadísticas base  
+----Total: 365  
+----PS: 70  
+----ATK: 62  
+----Def: 67  
+----ATK.esp: 55  
+----Def.esp: 55  
+----Velocidad: 56  
 -- Nidoqueen   
----tipo: Veneno, Tierra  
----habilidades: Punto Tóxico / Rivalidad / Fuerza Bruta (Habilidad Oculta)  
+---Tipo: Veneno, Tierra  
+---Habilidades: Punto Tóxico / Rivalidad / Fuerza Bruta (Habilidad Oculta)  
 ---Altura/Peso: 1.3 m / 60.0 kg  
----estadísticas base  
-----total: 505  
-----ps: 90  
-----atk: 92  
-----def: 87  
-----atk.esp: 75  
-----def.esp: 85  
-----velocidad: 76  
+---Estadísticas base  
+----Total: 505  
+----PS: 90  
+----ATK: 92  
+----Def: 87  
+----ATK.esp: 75  
+----Def.esp: 85  
+----Velocidad: 76  
 -- Nidoran♂   
----tipo: Veneno  
----habilidades: Punto Tóxico / Rivalidad / Entusiasmo (Habilidad Oculta)  
+---Tipo: Veneno  
+---Habilidades: Punto Tóxico / Rivalidad / Entusiasmo (Habilidad Oculta)  
 ---Altura/Peso: 0.5 m / 9.0 kg  
----estadísticas base  
-----total: 273  
-----ps: 46  
-----atk: 57  
-----def: 40  
-----atk.esp: 40  
-----def.esp: 40  
-----velocidad: 50  
+---Estadísticas base  
+----Total: 273  
+----PS: 46  
+----ATK: 57  
+----Def: 40  
+----ATK.esp: 40  
+----Def.esp: 40  
+----Velocidad: 50  
 -- Nidorino   
----tipo: Veneno  
----habilidades: Punto Tóxico / Rivalidad / Entusiasmo (Habilidad Oculta)  
+---Tipo: Veneno  
+---Habilidades: Punto Tóxico / Rivalidad / Entusiasmo (Habilidad Oculta)  
 ---Altura/Peso: 0.9 m / 19.5 kg  
----estadísticas base  
-----total: 365  
-----ps: 61  
-----atk: 72  
-----def: 57  
-----atk.esp: 55  
-----def.esp: 55  
-----velocidad: 65  
+---Estadísticas base  
+----Total: 365  
+----PS: 61  
+----ATK: 72  
+----Def: 57  
+----ATK.esp: 55  
+----Def.esp: 55  
+----Velocidad: 65  
 -- Nidoking   
----tipo: Veneno, Tierra  
----habilidades: Punto Tóxico / Rivalidad / Fuerza Bruta (Habilidad Oculta)  
+---Tipo: Veneno, Tierra  
+---Habilidades: Punto Tóxico / Rivalidad / Fuerza Bruta (Habilidad Oculta)  
 ---Altura/Peso: 1.4 m / 62.0 kg  
----estadísticas base  
-----total: 505  
-----ps: 81  
-----atk: 102  
-----def: 77  
-----atk.esp: 85  
-----def.esp: 75  
-----velocidad: 85  
+---Estadísticas base  
+----Total: 505  
+----PS: 81  
+----ATK: 102  
+----Def: 77  
+----ATK.esp: 85  
+----Def.esp: 75  
+----Velocidad: 85  
 -- Clefairy  
----tipo: Hada  
----habilidades: Gran Encanto / Muro Mágico / Guardián Amistoso (Habilidad Oculta)  
+---Tipo: Hada  
+---Habilidades: Gran Encanto / Muro Mágico / Guardián Amistoso (Habilidad Oculta)  
 ---Altura/Peso: 0.6 m / 7.5 kg  
----estadísticas base  
-----total: 323  
-----ps: 70  
-----atk: 45  
-----def: 48  
-----atk.esp: 60  
-----def.esp: 65  
-----velocidad: 35  
+---Estadísticas base  
+----Total: 323  
+----PS: 70  
+----ATK: 45  
+----Def: 48  
+----ATK.esp: 60  
+----Def.esp: 65  
+----Velocidad: 35  
 -- Clefable  
----tipo: Hada  
----habilidades: Gran Encanto / Muro Mágico / Ignorante (Habilidad Oculta)  
+---Tipo: Hada  
+---Habilidades: Gran Encanto / Muro Mágico / Ignorante (Habilidad Oculta)  
 ---Altura/Peso: 1.3 m / 40.0 kg  
----estadísticas base  
-----total: 483  
-----ps: 95  
-----atk: 70  
-----def: 73  
-----atk.esp: 95  
-----def.esp: 90  
-----velocidad: 60  
+---Estadísticas base  
+----Total: 483  
+----PS: 95  
+----ATK: 70  
+----Def: 73  
+----ATK.esp: 95  
+----Def.esp: 90  
+----Velocidad: 60  
 -- Vulpix  
----tipo: Fuego  
----habilidades: Absorbe Fuego / Sequía (Habilidad Oculta)  
+---Tipo: Fuego  
+---Habilidades: Absorbe Fuego / Sequía (Habilidad Oculta)  
 ---Altura/Peso: 0.6 m / 9.9 kg  
----estadísticas base  
-----total: 299  
-----ps: 38  
-----atk: 41  
-----def: 40  
-----atk.esp: 50  
-----def.esp: 65  
-----velocidad: 65  
+---Estadísticas base  
+----Total: 299  
+----PS: 38  
+----ATK: 41  
+----Def: 40  
+----ATK.esp: 50  
+----Def.esp: 65  
+----Velocidad: 65  
 -- Ninetales 
----tipo: Fuego  
----habilidades: Absorbe Fuego / Sequía (Habilidad Oculta)  
+---Tipo: Fuego  
+---Habilidades: Absorbe Fuego / Sequía (Habilidad Oculta)  
 ---Altura/Peso: 1.1 m / 19.9 kg  
----estadísticas base  
-----total: 505  
-----ps: 73  
-----atk: 76  
-----def: 75  
-----atk.esp: 81  
-----def.esp: 100  
-----velocidad: 100  
+---Estadísticas base  
+----Total: 505  
+----PS: 73  
+----ATK: 76  
+----Def: 75  
+----ATK.esp: 81  
+----Def.esp: 100  
+----Velocidad: 100  
 -- Jigglypuff 
----tipo: Normal, Hada  
----habilidades: Gran Encanto / Tenacidad / Guardián Amistoso (Habilidad Oculta)  
+---Tipo: Normal, Hada  
+---Habilidades: Gran Encanto / Tenacidad / Guardián Amistoso (Habilidad Oculta)  
 ---Altura/Peso: 0.5 m / 5.5 kg  
----estadísticas base  
-----total: 270  
-----ps: 115  
-----atk: 45  
-----def: 20  
-----atk.esp: 45  
-----def.esp: 25  
-----velocidad: 20  
+---Estadísticas base  
+----Total: 270  
+----PS: 115  
+----ATK: 45  
+----Def: 20  
+----ATK.esp: 45  
+----Def.esp: 25  
+----Velocidad: 20  
 -- Wigglytuff  
----tipo: Normal, Hada  
----habilidades: Gran Encanto / Tenacidad / Cacheo (Habilidad Oculta)  
+---Tipo: Normal, Hada  
+---Habilidades: Gran Encanto / Tenacidad / Cacheo (Habilidad Oculta)  
 ---Altura/Peso: 1.0 m / 12.0 kg  
----estadísticas base  
-----total: 435  
-----ps: 140  
-----atk: 70  
-----def: 45  
-----atk.esp: 85  
-----def.esp: 50  
-----velocidad: 45  
+---Estadísticas base  
+----Total: 435  
+----PS: 140  
+----ATK: 70  
+----Def: 45  
+----ATK.esp: 85  
+----Def.esp: 50  
+----Velocidad: 45  
 -- Zubat 
----tipo: Veneno, Volador  
----habilidades: Foco Interno / Allanamiento (Habilidad Oculta)  
+---Tipo: Veneno, Volador  
+---Habilidades: Foco Interno / Allanamiento (Habilidad Oculta)  
 ---Altura/Peso: 0.8 m / 7.5 kg  
----estadísticas base  
-----total: 245  
-----ps: 40  
-----atk: 45  
-----def: 35  
-----atk.esp: 30  
-----def.esp: 40  
-----velocidad: 55  
+---Estadísticas base  
+----Total: 245  
+----PS: 40  
+----ATK: 45  
+----Def: 35  
+----ATK.esp: 30  
+----Def.esp: 40  
+----Velocidad: 55  
 -- Golbat 
----tipo: Veneno, Volador  
----habilidades: Foco Interno / Allanamiento (Habilidad Oculta)  
+---Tipo: Veneno, Volador  
+---Habilidades: Foco Interno / Allanamiento (Habilidad Oculta)  
 ---Altura/Peso: 1.6 m / 55.0 kg  
----estadísticas base  
-----total: 455  
-----ps: 75  
-----atk: 80  
-----def: 70  
-----atk.esp: 65  
-----def.esp: 75  
-----velocidad: 90  
+---Estadísticas base  
+----Total: 455  
+----PS: 75  
+----ATK: 80  
+----Def: 70  
+----ATK.esp: 65  
+----Def.esp: 75  
+----Velocidad: 90  
 -- Oddish 
----tipo: Planta, Veneno  
----habilidades: Clorofila / Fuga (Habilidad Oculta)  
+---Tipo: Planta, Veneno  
+---Habilidades: Clorofila / Fuga (Habilidad Oculta)  
 ---Altura/Peso: 0.5 m / 5.4 kg  
----estadísticas base  
-----total: 320  
-----ps: 45  
-----atk: 50  
-----def: 55  
-----atk.esp: 75  
-----def.esp: 65  
-----velocidad: 30  
+---Estadísticas base  
+----Total: 320  
+----PS: 45  
+----ATK: 50  
+----Def: 55  
+----ATK.esp: 75  
+----Def.esp: 65  
+----Velocidad: 30  
 -- Gloom 
----tipo: Planta, Veneno  
----habilidades: Clorofila / Hedor (Habilidad Oculta)  
+---Tipo: Planta, Veneno  
+---Habilidades: Clorofila / Hedor (Habilidad Oculta)  
 ---Altura/Peso: 0.8 m / 8.6 kg  
----estadísticas base  
-----total: 395  
-----ps: 60  
-----atk: 65  
-----def: 70  
-----atk.esp: 85  
-----def.esp: 75  
-----velocidad: 40  
+---Estadísticas base  
+----Total: 395  
+----PS: 60  
+----ATK: 65  
+----Def: 70  
+----ATK.esp: 85  
+----Def.esp: 75  
+----Velocidad: 40  
 -- Vileplume 
----tipo: Planta, Veneno  
----habilidades: Clorofila / Efecto Espora (Habilidad Oculta)  
+---Tipo: Planta, Veneno  
+---Habilidades: Clorofila / Efecto Espora (Habilidad Oculta)  
 ---Altura/Peso: 1.2 m / 18.6 kg  
----estadísticas base  
-----total: 490  
-----ps: 75  
-----atk: 80  
-----def: 85  
-----atk.esp: 110  
-----def.esp: 90  
-----velocidad: 50  
+---Estadísticas base  
+----Total: 490  
+----PS: 75  
+----ATK: 80  
+----Def: 85  
+----ATK.esp: 110  
+----Def.esp: 90  
+----Velocidad: 50  
 -- Paras 
----tipo: Bicho, Planta  
----habilidades: Efecto Espora / Piel Seca / Humedad (Habilidad Oculta)  
+---Tipo: Bicho, Planta  
+---Habilidades: Efecto Espora / Piel Seca / Humedad (Habilidad Oculta)  
 ---Altura/Peso: 0.3 m / 5.4 kg  
----estadísticas base  
-----total: 285  
-----ps: 35  
-----atk: 70  
-----def: 55  
-----atk.esp: 45  
-----def.esp: 55  
-----velocidad: 25  
+---Estadísticas base  
+----Total: 285  
+----PS: 35  
+----ATK: 70  
+----Def: 55  
+----ATK.esp: 45  
+----Def.esp: 55  
+----Velocidad: 25  
 -- Parasect 
----tipo: Bicho, Planta  
----habilidades: Efecto Espora / Piel Seca / Humedad (Habilidad Oculta)  
+---Tipo: Bicho, Planta  
+---Habilidades: Efecto Espora / Piel Seca / Humedad (Habilidad Oculta)  
 ---Altura/Peso: 1.0 m / 29.5 kg  
----estadísticas base  
-----total: 405  
-----ps: 60  
-----atk: 95  
-----def: 80  
-----atk.esp: 60  
-----def.esp: 80  
-----velocidad: 30  
+---Estadísticas base  
+----Total: 405  
+----PS: 60  
+----ATK: 95  
+----Def: 80  
+----ATK.esp: 60  
+----Def.esp: 80  
+----Velocidad: 30  
 -- Venonat 
----tipo: Bicho, Veneno  
----habilidades: Ojo Compuesto / Lente Compuesta (Habilidad Oculta)  
+---Tipo: Bicho, Veneno  
+---Habilidades: Ojo Compuesto / Lente Compuesta (Habilidad Oculta)  
 ---Altura/Peso: 1.0 m / 30.0 kg  
----estadísticas base  
-----total: 305  
-----ps: 60  
-----atk: 55  
-----def: 50  
-----atk.esp: 40  
-----def.esp: 55  
-----velocidad: 45  
+---Estadísticas base  
+----Total: 305  
+----PS: 60  
+----ATK: 55  
+----Def: 50  
+----ATK.esp: 40  
+----Def.esp: 55  
+----Velocidad: 45  
 -- Venomoth 
----tipo: Bicho, Veneno  
----habilidades: Polvo Escudo / Lente Compuesta (Habilidad Oculta)  
+---Tipo: Bicho, Veneno  
+---Habilidades: Polvo Escudo / Lente Compuesta (Habilidad Oculta)  
 ---Altura/Peso: 1.5 m / 12.5 kg  
----estadísticas base  
-----total: 450  
-----ps: 70  
-----atk: 65  
-----def: 60  
-----atk.esp: 90  
-----def.esp: 75  
-----velocidad: 90  
+---Estadísticas base  
+----Total: 450  
+----PS: 70  
+----ATK: 65  
+----Def: 60  
+----ATK.esp: 90  
+----Def.esp: 75  
+----Velocidad: 90  
 -- Diglett 
----tipo: Tierra  
----habilidades: Velo Arena / Trampa Arena / Ímpetu Arena (Habilidad Oculta)  
+---Tipo: Tierra  
+---Habilidades: Velo Arena / Trampa Arena / Ímpetu Arena (Habilidad Oculta)  
 ---Altura/Peso: 0.2 m / 0.8 kg  
----estadísticas base  
-----total: 265  
-----ps: 10  
-----atk: 55  
-----def: 25  
-----atk.esp: 35  
-----def.esp: 45  
-----velocidad: 95  
+---Estadísticas base  
+----Total: 265  
+----PS: 10  
+----ATK: 55  
+----Def: 25  
+----ATK.esp: 35  
+----Def.esp: 45  
+----Velocidad: 95  
 -- Dugtrio 
----tipo: Tierra  
----habilidades: Velo Arena / Trampa Arena / Ímpetu Arena (Habilidad Oculta)  
+---Tipo: Tierra  
+---Habilidades: Velo Arena / Trampa Arena / Ímpetu Arena (Habilidad Oculta)  
 ---Altura/Peso: 0.7 m / 33.3 kg  
----estadísticas base  
-----total: 425  
-----ps: 35  
-----atk: 100  
-----def: 50  
-----atk.esp: 50  
-----def.esp: 70  
-----velocidad: 120  
+---Estadísticas base  
+----Total: 425  
+----PS: 35  
+----ATK: 100  
+----Def: 50  
+----ATK.esp: 50  
+----Def.esp: 70  
+----Velocidad: 120  
 -- Meowth 
----tipo: Normal  
----habilidades: Recogida / Técnico / Nerviosismo (Habilidad Oculta)  
+---Tipo: Normal  
+---Habilidades: Recogida / Técnico / Nerviosismo (Habilidad Oculta)  
 ---Altura/Peso: 0.4 m / 4.2 kg  
----estadísticas base  
-----total: 290  
-----ps: 40  
-----atk: 45  
-----def: 35  
-----atk.esp: 40  
-----def.esp: 40  
-----velocidad: 90  
+---Estadísticas base  
+----Total: 290  
+----PS: 40  
+----ATK: 45  
+----Def: 35  
+----ATK.esp: 40  
+----Def.esp: 40  
+----Velocidad: 90  
 -- Persian 
----tipo: Normal  
----habilidades: Flexibilidad / Técnico / Nerviosismo (Habilidad Oculta)  
+---Tipo: Normal  
+---Habilidades: Flexibilidad / Técnico / Nerviosismo (Habilidad Oculta)  
 ---Altura/Peso: 1.0 m / 32.0 kg  
----estadísticas base  
-----total: 440  
-----ps: 65  
-----atk: 70  
-----def: 60  
-----atk.esp: 65  
-----def.esp: 65  
-----velocidad: 115  
+---Estadísticas base  
+----Total: 440  
+----PS: 65  
+----ATK: 70  
+----Def: 60  
+----ATK.esp: 65  
+----Def.esp: 65  
+----Velocidad: 115  
 -- Psyduck 
----tipo: Agua  
----habilidades: Humedad / Aclimatación / Nado Rápido (Habilidad Oculta)  
+---Tipo: Agua  
+---Habilidades: Humedad / Aclimatación / Nado Rápido (Habilidad Oculta)  
 ---Altura/Peso: 0.8 m / 19.6 kg  
----estadísticas base  
-----total: 320  
-----ps: 50  
-----atk: 52  
-----def: 48  
-----atk.esp: 65  
-----def.esp: 50  
-----velocidad: 55  
+---Estadísticas base  
+----Total: 320  
+----PS: 50  
+----ATK: 52  
+----Def: 48  
+----ATK.esp: 65  
+----Def.esp: 50  
+----Velocidad: 55  
 -- Golduck 
----tipo: Agua  
----habilidades: Humedad / Aclimatación / Nado Rápido (Habilidad Oculta)  
+---Tipo: Agua  
+---Habilidades: Humedad / Aclimatación / Nado Rápido (Habilidad Oculta)  
 ---Altura/Peso: 1.7 m / 76.6 kg  
----estadísticas base  
-----total: 500  
-----ps: 80  
-----atk: 82  
-----def: 78  
-----atk.esp: 95  
-----def.esp: 80  
-----velocidad: 85  
+---Estadísticas base  
+----Total: 500  
+----PS: 80  
+----ATK: 82  
+----Def: 78  
+----ATK.esp: 95  
+----Def.esp: 80  
+----Velocidad: 85  
 -- Mankey 
----tipo: Lucha  
----habilidades: Espíritu Vital / Punto Ira / Competitivo (Habilidad Oculta)  
+---Tipo: Lucha  
+---Habilidades: Espíritu Vital / Punto Ira / Competitivo (Habilidad Oculta)  
 ---Altura/Peso: 0.5 m / 28.0 kg  
----estadísticas base  
-----total: 305  
-----ps: 40  
-----atk: 80  
-----def: 35  
-----atk.esp: 35  
-----def.esp: 45  
-----velocidad: 70  
+---Estadísticas base  
+----Total: 305  
+----PS: 40  
+----ATK: 80  
+----Def: 35  
+----ATK.esp: 35  
+----Def.esp: 45  
+----Velocidad: 70  
 -- Primeape 
----tipo: Lucha  
----habilidades: Espíritu Vital / Punto Ira / Competitivo (Habilidad Oculta)  
+---Tipo: Lucha  
+---Habilidades: Espíritu Vital / Punto Ira / Competitivo (Habilidad Oculta)  
 ---Altura/Peso: 1.0 m / 32.0 kg  
----estadísticas base  
-----total: 455  
-----ps: 65  
-----atk: 105  
-----def: 60  
-----atk.esp: 60  
-----def.esp: 70  
-----velocidad: 95  
+---Estadísticas base  
+----Total: 455  
+----PS: 65  
+----ATK: 105  
+----Def: 60  
+----ATK.esp: 60  
+----Def.esp: 70  
+----Velocidad: 95  
 -- Growlithe 
----tipo: Fuego  
----habilidades: Intimidación / Absorbe Fuego / Justiciero (Habilidad Oculta)  
+---Tipo: Fuego  
+---Habilidades: Intimidación / Absorbe Fuego / Justiciero (Habilidad Oculta)  
 ---Altura/Peso: 0.7 m / 19.0 kg  
----estadísticas base  
-----total: 350  
-----ps: 55  
-----atk: 70  
-----def: 45  
-----atk.esp: 70  
-----def.esp: 50  
-----velocidad: 60  
+---Estadísticas base  
+----Total: 350  
+----PS: 55  
+----ATK: 70  
+----Def: 45  
+----ATK.esp: 70  
+----Def.esp: 50  
+----Velocidad: 60  
 -- Arcanine 
----tipo: Fuego  
----habilidades: Intimidación / Absorbe Fuego / Justiciero (Habilidad Oculta)  
+---Tipo: Fuego  
+---Habilidades: Intimidación / Absorbe Fuego / Justiciero (Habilidad Oculta)  
 ---Altura/Peso: 1.9 m / 155.0 kg  
----estadísticas base  
-----total: 555  
-----ps: 90  
-----atk: 110  
-----def: 80  
-----atk.esp: 100  
-----def.esp: 80  
-----velocidad: 95  
+---Estadísticas base  
+----Total: 555  
+----PS: 90  
+----ATK: 110  
+----Def: 80  
+----ATK.esp: 100  
+----Def.esp: 80  
+----Velocidad: 95  
 -- Poliwag 
----tipo: Agua  
----habilidades: Absorbe Agua / Humedad / Nado Rápido (Habilidad Oculta)  
+---Tipo: Agua  
+---Habilidades: Absorbe Agua / Humedad / Nado Rápido (Habilidad Oculta)  
 ---Altura/Peso: 0.6 m / 12.4 kg  
----estadísticas base  
-----total: 300  
-----ps: 40  
-----atk: 50  
-----def: 40  
-----atk.esp: 40  
-----def.esp: 40  
-----velocidad: 90  
+---Estadísticas base  
+----Total: 300  
+----PS: 40  
+----ATK: 50  
+----Def: 40  
+----ATK.esp: 40  
+----Def.esp: 40  
+----Velocidad: 90  
 -- Poliwhirl  
----tipo: Agua  
----habilidades: Absorbe Agua / Humedad / Nado Rápido (Habilidad Oculta)  
+---Tipo: Agua  
+---Habilidades: Absorbe Agua / Humedad / Nado Rápido (Habilidad Oculta)  
 ---Altura/Peso: 1.0 m / 20.0 kg  
----estadísticas base  
-----total: 385  
-----ps: 65  
-----atk: 65  
-----def: 65  
-----atk.esp: 50  
-----def.esp: 50  
-----velocidad: 90  
+---Estadísticas base  
+----Total: 385  
+----PS: 65  
+----ATK: 65  
+----Def: 65  
+----ATK.esp: 50  
+----Def.esp: 50  
+----Velocidad: 90  
 -- Poliwrath 
----tipo: Agua, Lucha  
----habilidades: Absorbe Agua / Humedad / Nado Rápido (Habilidad Oculta)  
+---Tipo: Agua, Lucha  
+---Habilidades: Absorbe Agua / Humedad / Nado Rápido (Habilidad Oculta)  
 ---Altura/Peso: 1.3 m / 54.0 kg  
----estadísticas base  
-----total: 510  
-----ps: 90  
-----atk: 85  
-----def: 95  
-----atk.esp: 70  
-----def.esp: 90  
-----velocidad: 70  
+---Estadísticas base  
+----Total: 510  
+----PS: 90  
+----ATK: 85  
+----Def: 95  
+----ATK.esp: 70  
+----Def.esp: 90  
+----Velocidad: 70  
 -- Abra 
----tipo: Psíquico  
----habilidades: Sincronía / Foco Interno / Muro Mágico (Habilidad Oculta)  
+---Tipo: Psíquico  
+---Habilidades: Sincronía / Foco Interno / Muro Mágico (Habilidad Oculta)  
 ---Altura/Peso: 0.9 m / 19.5 kg  
----estadísticas base  
-----total: 310  
-----ps: 25  
-----atk: 20  
-----def: 15  
-----atk.esp: 105  
-----def.esp: 55  
-----velocidad: 90  
+---Estadísticas base  
+----Total: 310  
+----PS: 25  
+----ATK: 20  
+----Def: 15  
+----ATK.esp: 105  
+----Def.esp: 55  
+----Velocidad: 90  
 -- Kadabra 
----tipo: Psíquico  
----habilidades: Sincronía / Foco Interno / Muro Mágico (Habilidad Oculta)  
+---Tipo: Psíquico  
+---Habilidades: Sincronía / Foco Interno / Muro Mágico (Habilidad Oculta)  
 ---Altura/Peso: 1.3 m / 56.5 kg  
----estadísticas base  
-----total: 400  
-----ps: 40  
-----atk: 35  
-----def: 30  
-----atk.esp: 120  
-----def.esp: 70  
-----velocidad: 105  
+---Estadísticas base  
+----Total: 400  
+----PS: 40  
+----ATK: 35  
+----Def: 30  
+----ATK.esp: 120  
+----Def.esp: 70  
+----Velocidad: 105  
 -- Alakazam 
----tipo: Psíquico  
----habilidades: Sincronía / Foco Interno / Muro Mágico (Habilidad Oculta)  
+---Tipo: Psíquico  
+---Habilidades: Sincronía / Foco Interno / Muro Mágico (Habilidad Oculta)  
 ---Altura/Peso: 1.5 m / 48.0 kg  
----estadísticas base  
-----total: 500  
-----ps: 55  
-----atk: 50  
-----def: 45  
-----atk.esp: 135  
-----def.esp: 95  
-----velocidad: 120  
+---Estadísticas base  
+----Total: 500  
+----PS: 55  
+----ATK: 50  
+----Def: 45  
+----ATK.esp: 135  
+----Def.esp: 95  
+----Velocidad: 120  
 -- Machop 
----tipo: Lucha  
----habilidades: Agallas / Indefenso / Impasible (Habilidad Oculta)  
+---Tipo: Lucha  
+---Habilidades: Agallas / Indefenso / Impasible (Habilidad Oculta)  
 ---Altura/Peso: 0.8 m / 19.5 kg  
----estadísticas base  
-----total: 305  
-----ps: 70  
-----atk: 80  
-----def: 50  
-----atk.esp: 35  
-----def.esp: 35  
-----velocidad: 35  
+---Estadísticas base  
+----Total: 305  
+----PS: 70  
+----ATK: 80  
+----Def: 50  
+----ATK.esp: 35  
+----Def.esp: 35  
+----Velocidad: 35  
 -- Machoke 
----tipo: Lucha  
----habilidades: Agallas / Indefenso / Impasible (Habilidad Oculta)  
+---Tipo: Lucha  
+---Habilidades: Agallas / Indefenso / Impasible (Habilidad Oculta)  
 ---Altura/Peso: 1.5 m / 70.5 kg  
----estadísticas base  
-----total: 405  
-----ps: 80  
-----atk: 100  
-----def: 70  
-----atk.esp: 50  
-----def.esp: 60  
-----velocidad: 45  
+---Estadísticas base  
+----Total: 405  
+----PS: 80  
+----ATK: 100  
+----Def: 70  
+----ATK.esp: 50  
+----Def.esp: 60  
+----Velocidad: 45  
 -- Machamp 
----tipo: Lucha  
----habilidades: Agallas / Indefenso / Impasible (Habilidad Oculta)  
+---Tipo: Lucha  
+---Habilidades: Agallas / Indefenso / Impasible (Habilidad Oculta)  
 ---Altura/Peso: 1.6 m / 130.0 kg  
----estadísticas base  
-----total: 505  
-----ps: 90  
-----atk: 130  
-----def: 80  
-----atk.esp: 65  
-----def.esp: 85  
-----velocidad: 55  
+---Estadísticas base  
+----Total: 505  
+----PS: 90  
+----ATK: 130  
+----Def: 80  
+----ATK.esp: 65  
+----Def.esp: 85  
+----Velocidad: 55  
 -- Bellsprout 
----tipo: Planta, Veneno  
----habilidades: Clorofila / Gula (Habilidad Oculta)  
+---Tipo: Planta, Veneno  
+---Habilidades: Clorofila / Gula (Habilidad Oculta)  
 ---Altura/Peso: 0.7 m / 4.0 kg  
----estadísticas base  
-----total: 300  
-----ps: 50  
-----atk: 75  
-----def: 35  
-----atk.esp: 70  
-----def.esp: 30  
-----velocidad: 40  
+---Estadísticas base  
+----Total: 300  
+----PS: 50  
+----ATK: 75  
+----Def: 35  
+----ATK.esp: 70  
+----Def.esp: 30  
+----Velocidad: 40  
 -- Weepinbell 
----tipo: Planta, Veneno  
----habilidades: Clorofila / Gula (Habilidad Oculta)  
+---Tipo: Planta, Veneno  
+---Habilidades: Clorofila / Gula (Habilidad Oculta)  
 ---Altura/Peso: 1.0 m / 6.4 kg  
----estadísticas base  
-----total: 390  
-----ps: 65  
-----atk: 90  
-----def: 50  
-----atk.esp: 85  
-----def.esp: 45  
-----velocidad: 55  
+---Estadísticas base  
+----Total: 390  
+----PS: 65  
+----ATK: 90  
+----Def: 50  
+----ATK.esp: 85  
+----Def.esp: 45  
+----Velocidad: 55  
 -- Victreebel 
----tipo: Planta, Veneno  
----habilidades: Clorofila / Gula (Habilidad Oculta)  
+---Tipo: Planta, Veneno  
+---Habilidades: Clorofila / Gula (Habilidad Oculta)  
 ---Altura/Peso: 1.7 m / 15.5 kg  
----estadísticas base  
-----total: 490  
-----ps: 80  
-----atk: 105  
-----def: 65  
-----atk.esp: 100  
-----def.esp: 70  
-----velocidad: 70  
+---Estadísticas base  
+----Total: 490  
+----PS: 80  
+----ATK: 105  
+----Def: 65  
+----ATK.esp: 100  
+----Def.esp: 70  
+----Velocidad: 70  
 -- Tentacool 
----tipo: Agua, Veneno  
----habilidades: Cuerpo Puro / Lodo Líquido / Cura Lluvia (Habilidad Oculta)  
+---Tipo: Agua, Veneno  
+---Habilidades: Cuerpo Puro / Lodo Líquido / Cura Lluvia (Habilidad Oculta)  
 ---Altura/Peso: 0.9 m / 45.5 kg  
----estadísticas base  
-----total: 335  
-----ps: 40  
-----atk: 40  
-----def: 35  
-----atk.esp: 50  
-----def.esp: 100  
-----velocidad: 70  
+---Estadísticas base  
+----Total: 335  
+----PS: 40  
+----ATK: 40  
+----Def: 35  
+----ATK.esp: 50  
+----Def.esp: 100  
+----Velocidad: 70  
 -- Tentacruel 
----tipo: Agua, Veneno  
----habilidades: Cuerpo Puro / Lodo Líquido / Cura Lluvia (Habilidad Oculta)  
+---Tipo: Agua, Veneno  
+---Habilidades: Cuerpo Puro / Lodo Líquido / Cura Lluvia (Habilidad Oculta)  
 ---Altura/Peso: 1.6 m / 55.0 kg  
----estadísticas base  
-----total: 515  
-----ps: 80  
-----atk: 70  
-----def: 65  
-----atk.esp: 80  
-----def.esp: 120  
-----velocidad: 100  
+---Estadísticas base  
+----Total: 515  
+----PS: 80  
+----ATK: 70  
+----Def: 65  
+----ATK.esp: 80  
+----Def.esp: 120  
+----Velocidad: 100  
 -- Geodude 
----tipo: Roca, Tierra  
----habilidades: Cabeza Roca / Robustez / Velo Arena (Habilidad Oculta)  
+---Tipo: Roca, Tierra  
+---Habilidades: Cabeza Roca / Robustez / Velo Arena (Habilidad Oculta)  
 ---Altura/Peso: 0.4 m / 20.0 kg  
----estadísticas base  
-----total: 300  
-----ps: 40  
-----atk: 80  
-----def: 100  
-----atk.esp: 30  
-----def.esp: 30  
-----velocidad: 20  
+---Estadísticas base  
+----Total: 300  
+----PS: 40  
+----ATK: 80  
+----Def: 100  
+----ATK.esp: 30  
+----Def.esp: 30  
+----Velocidad: 20  
 -- Graveler 
----tipo: Roca, Tierra  
----habilidades: Cabeza Roca / Robustez / Velo Arena (Habilidad Oculta)  
+---Tipo: Roca, Tierra  
+---Habilidades: Cabeza Roca / Robustez / Velo Arena (Habilidad Oculta)  
 ---Altura/Peso: 1.0 m / 105.0 kg  
----estadísticas base  
-----total: 390  
-----ps: 55  
-----atk: 95  
-----def: 115  
-----atk.esp: 45  
-----def.esp: 45  
-----velocidad: 35  
+---Estadísticas base  
+----Total: 390  
+----PS: 55  
+----ATK: 95  
+----Def: 115  
+----ATK.esp: 45  
+----Def.esp: 45  
+----Velocidad: 35  
 -- Golem 
----tipo: Roca, Tierra  
----habilidades: Cabeza Roca / Robustez / Velo Arena (Habilidad Oculta)  
+---Tipo: Roca, Tierra  
+---Habilidades: Cabeza Roca / Robustez / Velo Arena (Habilidad Oculta)  
 ---Altura/Peso: 1.4 m / 300.0 kg  
----estadísticas base  
-----total: 495  
-----ps: 80  
-----atk: 120  
-----def: 130  
-----atk.esp: 55  
-----def.esp: 65  
-----velocidad: 45  
+---Estadísticas base  
+----Total: 495  
+----PS: 80  
+----ATK: 120  
+----Def: 130  
+----ATK.esp: 55  
+----Def.esp: 65  
+----Velocidad: 45  
 -- Ponyta 
----tipo: Fuego  
----habilidades: Fuga / Absorbe Fuego / Cuerpo Llama (Habilidad Oculta)  
+---Tipo: Fuego  
+---Habilidades: Fuga / Absorbe Fuego / Cuerpo Llama (Habilidad Oculta)  
 ---Altura/Peso: 1.0 m / 30.0 kg  
----estadísticas base  
-----total: 410  
-----ps: 50  
-----atk: 85  
-----def: 55  
-----atk.esp: 65  
-----def.esp: 65  
-----velocidad: 90  
+---Estadísticas base  
+----Total: 410  
+----PS: 50  
+----ATK: 85  
+----Def: 55  
+----ATK.esp: 65  
+----Def.esp: 65  
+----Velocidad: 90  
 -- Rapidash 
----tipo: Fuego  
----habilidades: Fuga / Absorbe Fuego / Cuerpo Llama (Habilidad Oculta)  
+---Tipo: Fuego  
+---Habilidades: Fuga / Absorbe Fuego / Cuerpo Llama (Habilidad Oculta)  
 ---Altura/Peso: 1.7 m / 95.0 kg  
----estadísticas base  
-----total: 500  
-----ps: 65  
-----atk: 100  
-----def: 70  
-----atk.esp: 80  
-----def.esp: 80  
-----velocidad: 105  
+---Estadísticas base  
+----Total: 500  
+----PS: 65  
+----ATK: 100  
+----Def: 70  
+----ATK.esp: 80  
+----Def.esp: 80  
+----Velocidad: 105  
 -- Slowpoke   
----tipo: Agua, Psíquico  
----habilidades: Despiste / Ritmo Propio / Regeneración (Habilidad Oculta)  
+---Tipo: Agua, Psíquico  
+---Habilidades: Despiste / Ritmo Propio / Regeneración (Habilidad Oculta)  
 ---Altura/Peso: 1.2 m / 36.0 kg  
----estadísticas base  
-----total: 315  
-----ps: 90  
-----atk: 65  
-----def: 65  
-----atk.esp: 40  
-----def.esp: 40  
-----velocidad: 15  
+---Estadísticas base  
+----Total: 315  
+----PS: 90  
+----ATK: 65  
+----Def: 65  
+----ATK.esp: 40  
+----Def.esp: 40  
+----Velocidad: 15  
 -- Slowbro  
----tipo: Agua, Psíquico  
----habilidades: Despiste / Ritmo Propio / Regeneración (Habilidad Oculta)  
+---Tipo: Agua, Psíquico  
+---Habilidades: Despiste / Ritmo Propio / Regeneración (Habilidad Oculta)  
 ---Altura/Peso: 1.6 m / 78.5 kg  
----estadísticas base  
-----total: 490  
-----ps: 95  
-----atk: 75  
-----def: 110  
-----atk.esp: 100  
-----def.esp: 80  
-----velocidad: 30  
+---Estadísticas base  
+----Total: 490  
+----PS: 95  
+----ATK: 75  
+----Def: 110  
+----ATK.esp: 100  
+----Def.esp: 80  
+----Velocidad: 30  
 -- Magnemite 
----tipo: Eléctrico, Acero  
----habilidades: Imán / Robustez / Analizador (Habilidad Oculta)  
+---Tipo: Eléctrico, Acero  
+---Habilidades: Imán / Robustez / Analizador (Habilidad Oculta)  
 ---Altura/Peso: 0.3 m / 6.0 kg  
----estadísticas base  
-----total: 325  
-----ps: 25  
-----atk: 35  
-----def: 70  
-----atk.esp: 95  
-----def.esp: 55  
-----velocidad: 45  
+---Estadísticas base  
+----Total: 325  
+----PS: 25  
+----ATK: 35  
+----Def: 70  
+----ATK.esp: 95  
+----Def.esp: 55  
+----Velocidad: 45  
 -- Magneton 
----tipo: Eléctrico, Acero  
----habilidades: Imán / Robustez / Analizador (Habilidad Oculta)  
+---Tipo: Eléctrico, Acero  
+---Habilidades: Imán / Robustez / Analizador (Habilidad Oculta)  
 ---Altura/Peso: 1.0 m / 60.0 kg  
----estadísticas base  
-----total: 465  
-----ps: 50  
-----atk: 60  
-----def: 95  
-----atk.esp: 120  
-----def.esp: 70  
-----velocidad: 70  
+---Estadísticas base  
+----Total: 465  
+----PS: 50  
+----ATK: 60  
+----Def: 95  
+----ATK.esp: 120  
+----Def.esp: 70  
+----Velocidad: 70  
 -- Farfetch’d 
----tipo: Normal, Volador  
----habilidades: Vista Lince / Foco Interno / Competitivo (Habilidad Oculta)  
+---Tipo: Normal, Volador  
+---Habilidades: Vista Lince / Foco Interno / Competitivo (Habilidad Oculta)  
 ---Altura/Peso: 0.8 m / 15.0 kg  
----estadísticas base  
-----total: 377  
-----ps: 52  
-----atk: 90  
-----def: 55  
-----atk.esp: 58  
-----def.esp: 62  
-----velocidad: 60  
+---Estadísticas base  
+----Total: 377  
+----PS: 52  
+----ATK: 90  
+----Def: 55  
+----ATK.esp: 58  
+----Def.esp: 62  
+----Velocidad: 60  
 -- Doduo 
----tipo: Normal, Volador  
----habilidades: Fuga / Madrugar / Tumbos (Habilidad Oculta)  
+---Tipo: Normal, Volador  
+---Habilidades: Fuga / Madrugar / Tumbos (Habilidad Oculta)  
 ---Altura/Peso: 1.4 m / 39.2 kg  
----estadísticas base  
-----total: 310  
-----ps: 35  
-----atk: 85  
-----def: 45  
-----atk.esp: 35  
-----def.esp: 35  
-----velocidad: 75  
+---Estadísticas base  
+----Total: 310  
+----PS: 35  
+----ATK: 85  
+----Def: 45  
+----ATK.esp: 35  
+----Def.esp: 35  
+----Velocidad: 75  
 -- Dodrio 
----tipo: Normal, Volador  
----habilidades: Fuga / Madrugar / Tumbos (Habilidad Oculta)  
+---Tipo: Normal, Volador  
+---Habilidades: Fuga / Madrugar / Tumbos (Habilidad Oculta)  
 ---Altura/Peso: 1.8 m / 85.2 kg  
----estadísticas base  
-----total: 460  
-----ps: 60  
-----atk: 110  
-----def: 70  
-----atk.esp: 60  
-----def.esp: 60  
-----velocidad: 100  
+---Estadísticas base  
+----Total: 460  
+----PS: 60  
+----ATK: 110  
+----Def: 70  
+----ATK.esp: 60  
+----Def.esp: 60  
+----Velocidad: 100  
 -- Seel 
----tipo: Agua  
----habilidades: Sebo / Hidratación / Cuerpo Helado (Habilidad Oculta)  
+---Tipo: Agua  
+---Habilidades: Sebo / Hidratación / Cuerpo Helado (Habilidad Oculta)  
 ---Altura/Peso: 1.1 m / 90.0 kg  
----estadísticas base  
-----total: 325  
-----ps: 65  
-----atk: 45  
-----def: 55  
-----atk.esp: 45  
-----def.esp: 70  
-----velocidad: 45  
+---Estadísticas base  
+----Total: 325  
+----PS: 65  
+----ATK: 45  
+----Def: 55  
+----ATK.esp: 45  
+----Def.esp: 70  
+----Velocidad: 45  
 -- Dewgong 
----tipo: Agua, Hielo  
----habilidades: Sebo / Hidratación / Cuerpo Helado (Habilidad Oculta)  
+---Tipo: Agua, Hielo  
+---Habilidades: Sebo / Hidratación / Cuerpo Helado (Habilidad Oculta)  
 ---Altura/Peso: 1.7 m / 120.0 kg  
----estadísticas base  
-----total: 475  
-----ps: 90  
-----atk: 70  
-----def: 80  
-----atk.esp: 70  
-----def.esp: 95  
-----velocidad: 70  
+---Estadísticas base  
+----Total: 475  
+----PS: 90  
+----ATK: 70  
+----Def: 80  
+----ATK.esp: 70  
+----Def.esp: 95  
+----Velocidad: 70  
 -- Grimer 
----tipo: Veneno  
----habilidades: Hedor / Viscosidad / Toque Tóxico (Habilidad Oculta)  
+---Tipo: Veneno  
+---Habilidades: Hedor / Viscosidad / Toque Tóxico (Habilidad Oculta)  
 ---Altura/Peso: 0.9 m / 30.0 kg  
----estadísticas base  
-----total: 325  
-----ps: 80  
-----atk: 80  
-----def: 50  
-----atk.esp: 40  
-----def.esp: 50  
-----velocidad: 25  
+---Estadísticas base  
+----Total: 325  
+----PS: 80  
+----ATK: 80  
+----Def: 50  
+----ATK.esp: 40  
+----Def.esp: 50  
+----Velocidad: 25  
 -- Muk 
----tipo: Veneno  
----habilidades: Hedor / Viscosidad / Toque Tóxico (Habilidad Oculta)  
+---Tipo: Veneno  
+---Habilidades: Hedor / Viscosidad / Toque Tóxico (Habilidad Oculta)  
 ---Altura/Peso: 1.2 m / 30.0 kg  
----estadísticas base  
-----total: 500  
-----ps: 105  
-----atk: 105  
-----def: 75  
-----atk.esp: 65  
-----def.esp: 100  
-----velocidad: 50  
+---Estadísticas base  
+----Total: 500  
+----PS: 105  
+----ATK: 105  
+----Def: 75  
+----ATK.esp: 65  
+----Def.esp: 100  
+----Velocidad: 50  
 -- Shellder 
----tipo: Agua  
----habilidades: Caparazón / Encadenado / Funda (Habilidad Oculta)  
+---Tipo: Agua  
+---Habilidades: Caparazón / Encadenado / Funda (Habilidad Oculta)  
 ---Altura/Peso: 0.3 m / 4.0 kg  
----estadísticas base  
-----total: 305  
-----ps: 30  
-----atk: 65  
-----def: 100  
-----atk.esp: 45  
-----def.esp: 25  
-----velocidad: 40  
+---Estadísticas base  
+----Total: 305  
+----PS: 30  
+----ATK: 65  
+----Def: 100  
+----ATK.esp: 45  
+----Def.esp: 25  
+----Velocidad: 40  
 -- Cloyster 
----tipo: Agua, Hielo  
----habilidades: Caparazón / Encadenado / Funda (Habilidad Oculta)  
+---Tipo: Agua, Hielo  
+---Habilidades: Caparazón / Encadenado / Funda (Habilidad Oculta)  
 ---Altura/Peso: 1.5 m / 132.5 kg  
----estadísticas base  
-----total: 525  
-----ps: 50  
-----atk: 95  
-----def: 180  
-----atk.esp: 85  
-----def.esp: 45  
-----velocidad: 70  
+---Estadísticas base  
+----Total: 525  
+----PS: 50  
+----ATK: 95  
+----Def: 180  
+----ATK.esp: 85  
+----Def.esp: 45  
+----Velocidad: 70  
 -- Gastly 
----tipo: Fantasma, Veneno  
----habilidades: Levitación  
+---Tipo: Fantasma, Veneno  
+---Habilidades: Levitación  
 ---Altura/Peso: 1.3 m / 0.1 kg  
----estadísticas base  
-----total: 310  
-----ps: 30  
-----atk: 35  
-----def: 30  
-----atk.esp: 100  
-----def.esp: 35  
-----velocidad: 80  
+---Estadísticas base  
+----Total: 310  
+----PS: 30  
+----ATK: 35  
+----Def: 30  
+----ATK.esp: 100  
+----Def.esp: 35  
+----Velocidad: 80  
 -- Haunter 
----tipo: Fantasma, Veneno  
----habilidades: Levitación  
+---Tipo: Fantasma, Veneno  
+---Habilidades: Levitación  
 ---Altura/Peso: 1.6 m / 0.1 kg  
----estadísticas base  
-----total: 405  
-----ps: 45  
-----atk: 50  
-----def: 45  
-----atk.esp: 115  
-----def.esp: 55  
-----velocidad: 95  
+---Estadísticas base  
+----Total: 405  
+----PS: 45  
+----ATK: 50  
+----Def: 45  
+----ATK.esp: 115  
+----Def.esp: 55  
+----Velocidad: 95  
 -- Gengar 
----tipo: Fantasma, Veneno  
----habilidades: Cuerpo Maldito / Levitación (antes de la Generación VII)  
+---Tipo: Fantasma, Veneno  
+---Habilidades: Cuerpo Maldito / Levitación (antes de la Generación VII)  
 ---Altura/Peso: 1.5 m / 40.5 kg  
----estadísticas base  
-----total: 500  
-----ps: 60  
-----atk: 65  
-----def: 60  
-----atk.esp: 130  
-----def.esp: 75  
-----velocidad: 110  
+---Estadísticas base  
+----Total: 500  
+----PS: 60  
+----ATK: 65  
+----Def: 60  
+----ATK.esp: 130  
+----Def.esp: 75  
+----Velocidad: 110  
 -- Onix 
----tipo: Roca, Tierra  
----habilidades: Cabeza Roca / Robustez / Armadura Frágil (Habilidad Oculta)  
+---Tipo: Roca, Tierra  
+---Habilidades: Cabeza Roca / Robustez / Armadura Frágil (Habilidad Oculta)  
 ---Altura/Peso: 8.8 m / 210.0 kg  
----estadísticas base  
-----total: 385  
-----ps: 35  
-----atk: 45  
-----def: 160  
-----atk.esp: 30  
-----def.esp: 45  
-----velocidad: 70  
+---Estadísticas base  
+----Total: 385  
+----PS: 35  
+----ATK: 45  
+----Def: 160  
+----ATK.esp: 30  
+----Def.esp: 45  
+----Velocidad: 70  
 -- Drowzee 
----tipo: Psíquico  
----habilidades: Insomnio / Alerta / Foco Interno (Habilidad Oculta)  
+---Tipo: Psíquico  
+---Habilidades: Insomnio / Alerta / Foco Interno (Habilidad Oculta)  
 ---Altura/Peso: 1.0 m / 32.4 kg  
----estadísticas base  
-----total: 328  
-----ps: 60  
-----atk: 48  
-----def: 45  
-----atk.esp: 43  
-----def.esp: 90  
-----velocidad: 42  
+---Estadísticas base  
+----Total: 328  
+----PS: 60  
+----ATK: 48  
+----Def: 45  
+----ATK.esp: 43  
+----Def.esp: 90  
+----Velocidad: 42  
 -- Hypno 
----tipo: Psíquico  
----habilidades: Insomnio / Alerta / Foco Interno (Habilidad Oculta)  
+---Tipo: Psíquico  
+---Habilidades: Insomnio / Alerta / Foco Interno (Habilidad Oculta)  
 ---Altura/Peso: 1.6 m / 75.6 kg  
----estadísticas base  
-----total: 483  
-----ps: 85  
-----atk: 73  
-----def: 70  
-----atk.esp: 73  
-----def.esp: 115  
-----velocidad: 67  
+---Estadísticas base  
+----Total: 483  
+----PS: 85  
+----ATK: 73  
+----Def: 70  
+----ATK.esp: 73  
+----Def.esp: 115  
+----Velocidad: 67  
 -- Krabby 
----tipo: Agua  
----habilidades: Corte Fuerte / Caparazón / Fuerza Bruta (Habilidad Oculta)  
+---Tipo: Agua  
+---Habilidades: Corte Fuerte / Caparazón / Fuerza Bruta (Habilidad Oculta)  
 ---Altura/Peso: 0.4 m / 6.5 kg  
----estadísticas base  
-----total: 325  
-----ps: 30  
-----atk: 105  
-----def: 90  
-----atk.esp: 25  
-----def.esp: 25  
-----velocidad: 50  
+---Estadísticas base  
+----Total: 325  
+----PS: 30  
+----ATK: 105  
+----Def: 90  
+----ATK.esp: 25  
+----Def.esp: 25  
+----Velocidad: 50  
 -- Kingler 
----tipo: Agua  
----habilidades: Corte Fuerte / Caparazón / Fuerza Bruta (Habilidad Oculta)  
+---Tipo: Agua  
+---Habilidades: Corte Fuerte / Caparazón / Fuerza Bruta (Habilidad Oculta)  
 ---Altura/Peso: 1.3 m / 60.0 kg  
----estadísticas base  
-----total: 475  
-----ps: 55  
-----atk: 130  
-----def: 115  
-----atk.esp: 50  
-----def.esp: 50  
-----velocidad: 75  
+---Estadísticas base  
+----Total: 475  
+----PS: 55  
+----ATK: 130  
+----Def: 115  
+----ATK.esp: 50  
+----Def.esp: 50  
+----Velocidad: 75  
 -- Voltorb 
----tipo: Eléctrico  
----habilidades: Insonorizar / Electricidad Estática / Resquicio (Habilidad Oculta)  
+---Tipo: Eléctrico  
+---Habilidades: Insonorizar / Electricidad Estática / Resquicio (Habilidad Oculta)  
 ---Altura/Peso: 0.5 m / 10.4 kg  
----estadísticas base  
-----total: 330  
-----ps: 40  
-----atk: 30  
-----def: 50  
-----atk.esp: 55  
-----def.esp: 55  
-----velocidad: 100  
+---Estadísticas base  
+----Total: 330  
+----PS: 40  
+----ATK: 30  
+----Def: 50  
+----ATK.esp: 55  
+----Def.esp: 55  
+----Velocidad: 100  
 -- Electrode 
----tipo: Eléctrico  
----habilidades: Insonorizar / Electricidad Estática / Resquicio (Habilidad Oculta)  
+---Tipo: Eléctrico  
+---Habilidades: Insonorizar / Electricidad Estática / Resquicio (Habilidad Oculta)  
 ---Altura/Peso: 1.2 m / 66.6 kg  
----estadísticas base  
-----total: 480  
-----ps: 60  
-----atk: 50  
-----def: 70  
-----atk.esp: 80  
-----def.esp: 80  
-----velocidad: 150  
+---Estadísticas base  
+----Total: 480  
+----PS: 60  
+----ATK: 50  
+----Def: 70  
+----ATK.esp: 80  
+----Def.esp: 80  
+----Velocidad: 150  
 -- Exeggcute 
----tipo: Planta, Psíquico  
----habilidades: Clorofila / Cosecha (Habilidad Oculta)  
+---Tipo: Planta, Psíquico  
+---Habilidades: Clorofila / Cosecha (Habilidad Oculta)  
 ---Altura/Peso: 0.4 m / 2.5 kg  
----estadísticas base  
-----total: 325  
-----ps: 60  
-----atk: 40  
-----def: 80  
-----atk.esp: 60  
-----def.esp: 45  
-----velocidad: 40  
+---Estadísticas base  
+----Total: 325  
+----PS: 60  
+----ATK: 40  
+----Def: 80  
+----ATK.esp: 60  
+----Def.esp: 45  
+----Velocidad: 40  
 -- Exeggutor 
----tipo: Planta, Psíquico  
----habilidades: Clorofila / Cosecha (Habilidad Oculta)  
+---Tipo: Planta, Psíquico  
+---Habilidades: Clorofila / Cosecha (Habilidad Oculta)  
 ---Altura/Peso: 2.0 m / 120.0 kg  
----estadísticas base  
-----total: 530  
-----ps: 95  
-----atk: 95  
-----def: 85  
-----atk.esp: 125  
-----def.esp: 75  
-----velocidad: 55  
+---Estadísticas base  
+----Total: 530  
+----PS: 95  
+----ATK: 95  
+----Def: 85  
+----ATK.esp: 125  
+----Def.esp: 75  
+----Velocidad: 55  
 -- Cubone 
----tipo: Tierra  
----habilidades: Cabeza Roca / Pararrayos / Armadura Batalla (Habilidad Oculta)  
+---Tipo: Tierra  
+---Habilidades: Cabeza Roca / Pararrayos / Armadura Batalla (Habilidad Oculta)  
 ---Altura/Peso: 0.4 m / 6.5 kg  
----estadísticas base  
-----total: 320  
-----ps: 50  
-----atk: 50  
-----def: 95  
-----atk.esp: 40  
-----def.esp: 50  
-----velocidad: 35  
+---Estadísticas base  
+----Total: 320  
+----PS: 50  
+----ATK: 50  
+----Def: 95  
+----ATK.esp: 40  
+----Def.esp: 50  
+----Velocidad: 35  
 -- Marowak 
----tipo: Tierra  
----habilidades: Cabeza Roca / Pararrayos / Armadura Batalla (Habilidad Oculta)  
+---Tipo: Tierra  
+---Habilidades: Cabeza Roca / Pararrayos / Armadura Batalla (Habilidad Oculta)  
 ---Altura/Peso: 1.0 m / 45.0 kg  
----estadísticas base  
-----total: 425  
-----ps: 60  
-----atk: 80  
-----def: 110  
-----atk.esp: 50  
-----def.esp: 80  
-----velocidad: 45  
+---Estadísticas base  
+----Total: 425  
+----PS: 60  
+----ATK: 80  
+----Def: 110  
+----ATK.esp: 50  
+----Def.esp: 80  
+----Velocidad: 45  
 -- Hitmonlee 
----tipo: Lucha  
----habilidades: Flexibilidad / Audaz / Liviano (Habilidad Oculta)  
+---Tipo: Lucha  
+---Habilidades: Flexibilidad / Audaz / Liviano (Habilidad Oculta)  
 ---Altura/Peso: 1.5 m / 49.8 kg  
----estadísticas base  
-----total: 455  
-----ps: 50  
-----atk: 120  
-----def: 53  
-----atk.esp: 35  
-----def.esp: 110  
-----velocidad: 87  
+---Estadísticas base  
+----Total: 455  
+----PS: 50  
+----ATK: 120  
+----Def: 53  
+----ATK.esp: 35  
+----Def.esp: 110  
+----Velocidad: 87  
 -- Hitmonchan 
----tipo: Lucha  
----habilidades: Vista Lince / Puño Férreo / Foco Interno (Habilidad Oculta)  
+---Tipo: Lucha  
+---Habilidades: Vista Lince / Puño Férreo / Foco Interno (Habilidad Oculta)  
 ---Altura/Peso: 1.4 m / 50.2 kg  
----estadísticas base  
-----total: 455  
-----ps: 50  
-----atk: 105  
-----def: 79  
-----atk.esp: 35  
-----def.esp: 110  
-----velocidad: 76  
+---Estadísticas base  
+----Total: 455  
+----PS: 50  
+----ATK: 105  
+----Def: 79  
+----ATK.esp: 35  
+----Def.esp: 110  
+----Velocidad: 76  
 -- Lickitung 
----tipo: Normal  
----habilidades: Ritmo Propio / Despiste / Aclimatación (Habilidad Oculta)  
+---Tipo: Normal  
+---Habilidades: Ritmo Propio / Despiste / Aclimatación (Habilidad Oculta)  
 ---Altura/Peso: 1.2 m / 65.5 kg  
----estadísticas base  
-----total: 385  
-----ps: 90  
-----atk: 55  
-----def: 75  
-----atk.esp: 60  
-----def.esp: 75  
-----velocidad: 30  
+---Estadísticas base  
+----Total: 385  
+----PS: 90  
+----ATK: 55  
+----Def: 75  
+----ATK.esp: 60  
+----Def.esp: 75  
+----Velocidad: 30  
 -- Koffing 
----tipo: Veneno  
----habilidades: Levitación / Gas Reactivo / Hedor (Habilidad Oculta)  
+---Tipo: Veneno  
+---Habilidades: Levitación / Gas Reactivo / Hedor (Habilidad Oculta)  
 ---Altura/Peso: 0.6 m / 1.0 kg  
----estadísticas base  
-----total: 340  
-----ps: 40  
-----atk: 65  
-----def: 95  
-----atk.esp: 60  
-----def.esp: 45  
-----velocidad: 35  
+---Estadísticas base  
+----Total: 340  
+----PS: 40  
+----ATK: 65  
+----Def: 95  
+----ATK.esp: 60  
+----Def.esp: 45  
+----Velocidad: 35  
 -- Weezing 
----tipo: Veneno  
----habilidades: Levitación / Gas Reactivo / Hedor (Habilidad Oculta)  
+---Tipo: Veneno  
+---Habilidades: Levitación / Gas Reactivo / Hedor (Habilidad Oculta)  
 ---Altura/Peso: 1.2 m / 9.5 kg  
----estadísticas base  
-----total: 490  
-----ps: 65  
-----atk: 90  
-----def: 120  
-----atk.esp: 85  
-----def.esp: 70  
-----velocidad: 60  
+---Estadísticas base  
+----Total: 490  
+----PS: 65  
+----ATK: 90  
+----Def: 120  
+----ATK.esp: 85  
+----Def.esp: 70  
+----Velocidad: 60  
 -- Rhyhorn 
----tipo: Tierra, Roca  
----habilidades: Pararrayos / Cabeza Roca / Audaz (Habilidad Oculta)  
+---Tipo: Tierra, Roca  
+---Habilidades: Pararrayos / Cabeza Roca / Audaz (Habilidad Oculta)  
 ---Altura/Peso: 1.0 m / 115.0 kg  
----estadísticas base  
-----total: 345  
-----ps: 80  
-----atk: 85  
-----def: 95  
-----atk.esp: 30  
-----def.esp: 30  
-----velocidad: 25  
+---Estadísticas base  
+----Total: 345  
+----PS: 80  
+----ATK: 85  
+----Def: 95  
+----ATK.esp: 30  
+----Def.esp: 30  
+----Velocidad: 25  
 -- Rhydon 
----tipo: Tierra, Roca  
----habilidades: Pararrayos / Cabeza Roca / Audaz (Habilidad Oculta)  
+---Tipo: Tierra, Roca  
+---Habilidades: Pararrayos / Cabeza Roca / Audaz (Habilidad Oculta)  
 ---Altura/Peso: 1.9 m / 120.0 kg  
----estadísticas base  
-----total: 485  
-----ps: 105  
-----atk: 130  
-----def: 120  
-----atk.esp: 45  
-----def.esp: 45  
-----velocidad: 40  
+---Estadísticas base  
+----Total: 485  
+----PS: 105  
+----ATK: 130  
+----Def: 120  
+----ATK.esp: 45  
+----Def.esp: 45  
+----Velocidad: 40  
 -- Chansey 
----tipo: Normal  
----habilidades: Cura Natural / Dicha / Curador (Habilidad Oculta)  
+---Tipo: Normal  
+---Habilidades: Cura Natural / Dicha / Curador (Habilidad Oculta)  
 ---Altura/Peso: 1.1 m / 34.6 kg  
----estadísticas base  
-----total: 450  
-----ps: 250  
-----atk: 5  
-----def: 5  
-----atk.esp: 35  
-----def.esp: 105  
-----velocidad: 50  
+---Estadísticas base  
+----Total: 450  
+----PS: 250  
+----ATK: 5  
+----Def: 5  
+----ATK.esp: 35  
+----Def.esp: 105  
+----Velocidad: 50  
 -- Tangela 
----tipo: Planta  
----habilidades: Clorofila / Defensa Hoja / Regeneración (Habilidad Oculta)  
+---Tipo: Planta  
+---Habilidades: Clorofila / Defensa Hoja / Regeneración (Habilidad Oculta)  
 ---Altura/Peso: 1.0 m / 35.0 kg  
----estadísticas base  
-----total: 435  
-----ps: 65  
-----atk: 55  
-----def: 115  
-----atk.esp: 100  
-----def.esp: 40  
-----velocidad: 60  
+---Estadísticas base  
+----Total: 435  
+----PS: 65  
+----ATK: 55  
+----Def: 115  
+----ATK.esp: 100  
+----Def.esp: 40  
+----Velocidad: 60  
 -- Kangaskhan 
----tipo: Normal  
----habilidades: Madrugar / Intrépido / Foco Interno (Habilidad Oculta)  
+---Tipo: Normal  
+---Habilidades: Madrugar / Intrépido / Foco Interno (Habilidad Oculta)  
 ---Altura/Peso: 2.2 m / 80.0 kg  
----estadísticas base  
-----total: 490  
-----ps: 105  
-----atk: 95  
-----def: 80  
-----atk.esp: 40  
-----def.esp: 80  
-----velocidad: 90  
+---Estadísticas base  
+----Total: 490  
+----PS: 105  
+----ATK: 95  
+----Def: 80  
+----ATK.esp: 40  
+----Def.esp: 80  
+----Velocidad: 90  
 -- Horsea 
----tipo: Agua  
----habilidades: Nado Rápido / Francotirador / Humedad (Habilidad Oculta)  
+---Tipo: Agua  
+---Habilidades: Nado Rápido / Francotirador / Humedad (Habilidad Oculta)  
 ---Altura/Peso: 0.4 m / 8.0 kg  
----estadísticas base  
-----total: 295  
-----ps: 30  
-----atk: 40  
-----def: 70  
-----atk.esp: 70  
-----def.esp: 25  
-----velocidad: 60  
+---Estadísticas base  
+----Total: 295  
+----PS: 30  
+----ATK: 40  
+----Def: 70  
+----ATK.esp: 70  
+----Def.esp: 25  
+----Velocidad: 60  
 -- Seadra  
----tipo: Agua  
----habilidades: Punto Tóxico / Francotirador / Humedad (Habilidad Oculta)  
+---Tipo: Agua  
+---Habilidades: Punto Tóxico / Francotirador / Humedad (Habilidad Oculta)  
 ---Altura/Peso: 1.2 m / 25.0 kg  
----estadísticas base  
-----total: 440  
-----ps: 55  
-----atk: 65  
-----def: 95  
-----atk.esp: 95  
-----def.esp: 45  
-----velocidad: 85  
+---Estadísticas base  
+----Total: 440  
+----PS: 55  
+----ATK: 65  
+----Def: 95  
+----ATK.esp: 95  
+----Def.esp: 45  
+----Velocidad: 85  
 -- Goldeen  
----tipo: Agua  
----habilidades: Nado Rápido / Velo Agua / Pararrayos (Habilidad Oculta)  
+---Tipo: Agua  
+---Habilidades: Nado Rápido / Velo Agua / Pararrayos (Habilidad Oculta)  
 ---Altura/Peso: 0.6 m / 15.0 kg  
----estadísticas base  
-----total: 320  
-----ps: 45  
-----atk: 67  
-----def: 60  
-----atk.esp: 35  
-----def.esp: 50  
-----velocidad: 63  
+---Estadísticas base  
+----Total: 320  
+----PS: 45  
+----ATK: 67  
+----Def: 60  
+----ATK.esp: 35  
+----Def.esp: 50  
+----Velocidad: 63  
 -- Seaking 
----tipo: Agua  
----habilidades: Nado Rápido / Velo Agua / Pararrayos (Habilidad Oculta)  
+---Tipo: Agua  
+---Habilidades: Nado Rápido / Velo Agua / Pararrayos (Habilidad Oculta)  
 ---Altura/Peso: 1.3 m / 39.0 kg  
----estadísticas base  
-----total: 450  
-----ps: 80  
-----atk: 92  
-----def: 65  
-----atk.esp: 65  
-----def.esp: 80  
-----velocidad: 68  
+---Estadísticas base  
+----Total: 450  
+----PS: 80  
+----ATK: 92  
+----Def: 65  
+----ATK.esp: 65  
+----Def.esp: 80  
+----Velocidad: 68  
 -- Staryu 
----tipo: Agua  
----habilidades: Iluminación / Cura Natural / Analizador (Habilidad Oculta)  
+---Tipo: Agua  
+---Habilidades: Iluminación / Cura Natural / Analizador (Habilidad Oculta)  
 ---Altura/Peso: 0.8 m / 34.5 kg  
----estadísticas base  
-----total: 340  
-----ps: 30  
-----atk: 45  
-----def: 55  
-----atk.esp: 70  
-----def.esp: 55  
-----velocidad: 85  
+---Estadísticas base  
+----Total: 340  
+----PS: 30  
+----ATK: 45  
+----Def: 55  
+----ATK.esp: 70  
+----Def.esp: 55  
+----Velocidad: 85  
 -- Starmie 
----tipo: Agua, Psíquico  
----habilidades: Iluminación / Cura Natural / Analizador (Habilidad Oculta)  
+---Tipo: Agua, Psíquico  
+---Habilidades: Iluminación / Cura Natural / Analizador (Habilidad Oculta)  
 ---Altura/Peso: 1.1 m / 80.0 kg  
----estadísticas base  
-----total: 520  
-----ps: 60  
-----atk: 75  
-----def: 85  
-----atk.esp: 100  
-----def.esp: 85  
-----velocidad: 115  
+---Estadísticas base  
+----Total: 520  
+----PS: 60  
+----ATK: 75  
+----Def: 85  
+----ATK.esp: 100  
+----Def.esp: 85  
+----Velocidad: 115  
 -- Mr. Mime 
----tipo: Psíquico, Hada  
----habilidades: Insonorizar / Filtro / Técnico (Habilidad Oculta)  
+---Tipo: Psíquico, Hada  
+---Habilidades: Insonorizar / Filtro / Técnico (Habilidad Oculta)  
 ---Altura/Peso: 1.3 m / 54.5 kg  
----estadísticas base  
-----total: 460  
-----ps: 40  
-----atk: 45  
-----def: 65  
-----atk.esp: 100  
-----def.esp: 120  
-----velocidad: 90  
+---Estadísticas base  
+----Total: 460  
+----PS: 40  
+----ATK: 45  
+----Def: 65  
+----ATK.esp: 100  
+----Def.esp: 120  
+----Velocidad: 90  
 -- Scyther 
----tipo: Bicho, Volador  
----habilidades: Enjambre / Técnico / Impasible (Habilidad Oculta)  
+---Tipo: Bicho, Volador  
+---Habilidades: Enjambre / Técnico / Impasible (Habilidad Oculta)  
 ---Altura/Peso: 1.5 m / 56.0 kg  
----estadísticas base  
-----total: 500  
-----ps: 70  
-----atk: 110  
-----def: 80  
-----atk.esp: 55  
-----def.esp: 80  
-----velocidad: 105  
+---Estadísticas base  
+----Total: 500  
+----PS: 70  
+----ATK: 110  
+----Def: 80  
+----ATK.esp: 55  
+----Def.esp: 80  
+----Velocidad: 105  
 -- Jynx 
----tipo: Hielo, Psíquico  
----habilidades: Despiste / Alerta / Piel Seca (Habilidad Oculta)  
+---Tipo: Hielo, Psíquico  
+---Habilidades: Despiste / Alerta / Piel Seca (Habilidad Oculta)  
 ---Altura/Peso: 1.4 m / 40.6 kg  
----estadísticas base  
-----total: 455  
-----ps: 65  
-----atk: 50  
-----def: 35  
-----atk.esp: 115  
-----def.esp: 95  
-----velocidad: 95  
+---Estadísticas base  
+----Total: 455  
+----PS: 65  
+----ATK: 50  
+----Def: 35  
+----ATK.esp: 115  
+----Def.esp: 95  
+----Velocidad: 95  
 -- Electabuzz 
----tipo: Eléctrico  
----habilidades: Electricidad Estática / Espíritu Vital (Habilidad Oculta)  
+---Tipo: Eléctrico  
+---Habilidades: Electricidad Estática / Espíritu Vital (Habilidad Oculta)  
 ---Altura/Peso: 1.1 m / 30.0 kg  
----estadísticas base  
-----total: 490  
-----ps: 65  
-----atk: 83  
-----def: 57  
-----atk.esp: 95  
-----def.esp: 85  
-----velocidad: 105  
+---Estadísticas base  
+----Total: 490  
+----PS: 65  
+----ATK: 83  
+----Def: 57  
+----ATK.esp: 95  
+----Def.esp: 85  
+----Velocidad: 105  
 -- Magmar 
----tipo: Fuego  
----habilidades: Cuerpo Llama / Espíritu Vital (Habilidad Oculta)  
+---Tipo: Fuego  
+---Habilidades: Cuerpo Llama / Espíritu Vital (Habilidad Oculta)  
 ---Altura/Peso: 1.3 m / 44.5 kg  
----estadísticas base  
-----total: 495  
-----ps: 65  
-----atk: 95  
-----def: 57  
-----atk.esp: 100  
-----def.esp: 85  
-----velocidad: 93  
+---Estadísticas base  
+----Total: 495  
+----PS: 65  
+----ATK: 95  
+----Def: 57  
+----ATK.esp: 100  
+----Def.esp: 85  
+----Velocidad: 93  
 -- Pinsir 
----tipo: Bicho  
----habilidades: Corte Fuerte / Rompemoldes / Autoestima (Habilidad Oculta)  
+---Tipo: Bicho  
+---Habilidades: Corte Fuerte / Rompemoldes / Autoestima (Habilidad Oculta)  
 ---Altura/Peso: 1.5 m / 55.0 kg  
----estadísticas base  
-----total: 500  
-----ps: 65  
-----atk: 125  
-----def: 100  
-----atk.esp: 55  
-----def.esp: 70  
-----velocidad: 85  
+---Estadísticas base  
+----Total: 500  
+----PS: 65  
+----ATK: 125  
+----Def: 100  
+----ATK.esp: 55  
+----Def.esp: 70  
+----Velocidad: 85  
 -- Tauros 
----tipo: Normal  
----habilidades: Intimidación / Punto Ira / Fuerza Bruta (Habilidad Oculta)  
+---Tipo: Normal  
+---Habilidades: Intimidación / Punto Ira / Fuerza Bruta (Habilidad Oculta)  
 ---Altura/Peso: 1.4 m / 88.4 kg  
----estadísticas base  
-----total: 490  
-----ps: 75  
-----atk: 100  
-----def: 95  
-----atk.esp: 40  
-----def.esp: 70  
-----velocidad: 110  
+---Estadísticas base  
+----Total: 490  
+----PS: 75  
+----ATK: 100  
+----Def: 95  
+----ATK.esp: 40  
+----Def.esp: 70  
+----Velocidad: 110  
 -- Magikarp 
----tipo: Agua  
----habilidades: Nado Rápido / Cobardía (Habilidad Oculta)  
+---Tipo: Agua  
+---Habilidades: Nado Rápido / Cobardía (Habilidad Oculta)  
 ---Altura/Peso: 0.9 m / 10.0 kg  
----estadísticas base  
-----total: 200  
-----ps: 20  
-----atk: 10  
-----def: 55  
-----atk.esp: 15  
-----def.esp: 20  
-----velocidad: 80  
+---Estadísticas base  
+----Total: 200  
+----PS: 20  
+----ATK: 10  
+----Def: 55  
+----ATK.esp: 15  
+----Def.esp: 20  
+----Velocidad: 80  
 -- Gyarados 
----tipo: Agua, Volador  
----habilidades: Intimidación / Autoestima (Habilidad Oculta)  
+---Tipo: Agua, Volador  
+---Habilidades: Intimidación / Autoestima (Habilidad Oculta)  
 ---Altura/Peso: 6.5 m / 235.0 kg  
----estadísticas base  
-----total: 540  
-----ps: 95  
-----atk: 125  
-----def: 79  
-----atk.esp: 60  
-----def.esp: 100  
-----velocidad: 81  
+---Estadísticas base  
+----Total: 540  
+----PS: 95  
+----ATK: 125  
+----Def: 79  
+----ATK.esp: 60  
+----Def.esp: 100  
+----Velocidad: 81  
 -- Lapras 
----tipo: Agua, Hielo  
----habilidades: Absorbe Agua / Caparazón / Hidratación (Habilidad Oculta)  
+---Tipo: Agua, Hielo  
+---Habilidades: Absorbe Agua / Caparazón / Hidratación (Habilidad Oculta)  
 ---Altura/Peso: 2.5 m / 220.0 kg  
----estadísticas base  
-----total: 535  
-----ps: 130  
-----atk: 85  
-----def: 80  
-----atk.esp: 85  
-----def.esp: 95  
-----velocidad: 60  
+---Estadísticas base  
+----Total: 535  
+----PS: 130  
+----ATK: 85  
+----Def: 80  
+----ATK.esp: 85  
+----Def.esp: 95  
+----Velocidad: 60  
 -- Ditto 
----tipo: Normal  
----habilidades: Flexibilidad / Impostor (Habilidad Oculta)  
+---Tipo: Normal  
+---Habilidades: Flexibilidad / Impostor (Habilidad Oculta)  
 ---Altura/Peso: 0.3 m / 4.0 kg  
----estadísticas base  
-----total: 288  
-----ps: 48  
-----atk: 48  
-----def: 48  
-----atk.esp: 48  
-----def.esp: 48  
-----velocidad: 48  
+---Estadísticas base  
+----Total: 288  
+----PS: 48  
+----ATK: 48  
+----Def: 48  
+----ATK.esp: 48  
+----Def.esp: 48  
+----Velocidad: 48  
 -- Eevee 
----tipo: Normal  
----habilidades: Fuga / Adaptable / Anticipación (Habilidad Oculta)  
+---Tipo: Normal  
+---Habilidades: Fuga / Adaptable / Anticipación (Habilidad Oculta)  
 ---Altura/Peso: 0.3 m / 6.5 kg  
----estadísticas base  
-----total: 325  
-----ps: 55  
-----atk: 55  
-----def: 50  
-----atk.esp: 45  
-----def.esp: 65  
-----velocidad: 55  
+---Estadísticas base  
+----Total: 325  
+----PS: 55  
+----ATK: 55  
+----Def: 50  
+----ATK.esp: 45  
+----Def.esp: 65  
+----Velocidad: 55  
 -- Vaporeon 
----tipo: Agua  
----habilidades: Absorbe Agua / Hidratación (Habilidad Oculta)  
+---Tipo: Agua  
+---Habilidades: Absorbe Agua / Hidratación (Habilidad Oculta)  
 ---Altura/Peso: 1.0 m / 29.0 kg  
----estadísticas base  
-----total: 525  
-----ps: 130  
-----atk: 65  
-----def: 60  
-----atk.esp: 110  
-----def.esp: 95  
-----velocidad: 65  
+---Estadísticas base  
+----Total: 525  
+----PS: 130  
+----ATK: 65  
+----Def: 60  
+----ATK.esp: 110  
+----Def.esp: 95  
+----Velocidad: 65  
 -- Jolteon 
----tipo: Eléctrico  
----habilidades: Absorbe Electricidad / Pies Rápidos (Habilidad Oculta)  
+---Tipo: Eléctrico  
+---Habilidades: Absorbe Electricidad / Pies Rápidos (Habilidad Oculta)  
 ---Altura/Peso: 0.8 m / 24.5 kg  
----estadísticas base  
-----total: 525  
-----ps: 65  
-----atk: 65  
-----def: 60  
-----atk.esp: 110  
-----def.esp: 95  
-----velocidad: 130  
--- Flareon 
----tipo: Fuego  
----habilidades: Absorbe Fuego / Agallas (Habilidad Oculta)  
+---Estadísticas base  
+----Total: 525  
+----PS: 65  
+----ATK: 65  
+----Def: 60  
+----ATK.esp: 110  
+----Def.esp: 95  
+----Velocidad: 130  
+-- Flareon (#136)  
+---Tipo: Fuego  
+---Habilidades: Absorbe Fuego / Agallas (Habilidad Oculta)  
 ---Altura/Peso: 0.9 m / 25.0 kg  
----estadísticas base  
-----total: 525  
-----ps: 65  
-----atk: 130  
-----def: 60  
-----atk.esp: 95  
-----def.esp: 110  
-----velocidad: 65  
+---Estadísticas base  
+----Total: 525  
+----PS: 65  
+----ATK: 130  
+----Def: 60  
+----ATK.esp: 95  
+----Def.esp: 110  
+----Velocidad: 65  
 -- Porygon  
----tipo: Normal  
----habilidades: Rastro / Descarga / Analizador (Habilidad Oculta)  
+---Tipo: Normal  
+---Habilidades: Rastro / Descarga / Analizador (Habilidad Oculta)  
 ---Altura/Peso: 0.8 m / 36.5 kg  
----estadísticas base  
-----total: 395  
-----ps: 65  
-----atk: 60  
-----def: 70  
-----atk.esp: 85  
-----def.esp: 75  
-----velocidad: 40  
+---Estadísticas base  
+----Total: 395  
+----PS: 65  
+----ATK: 60  
+----Def: 70  
+----ATK.esp: 85  
+----Def.esp: 75  
+----Velocidad: 40  
 -- Omanyte 
----tipo: Roca, Agua  
----habilidades: Nado Rápido / Caparazón / Armadura Frágil (Habilidad Oculta)  
+---Tipo: Roca, Agua  
+---Habilidades: Nado Rápido / Caparazón / Armadura Frágil (Habilidad Oculta)  
 ---Altura/Peso: 0.4 m / 7.5 kg  
----estadísticas base  
-----total: 355  
-----ps: 35  
-----atk: 40  
-----def: 100  
-----atk.esp: 90  
-----def.esp: 55  
-----velocidad: 35  
+---Estadísticas base  
+----Total: 355  
+----PS: 35  
+----ATK: 40  
+----Def: 100  
+----ATK.esp: 90  
+----Def.esp: 55  
+----Velocidad: 35  
 -- Omastar 
----tipo: Roca, Agua  
----habilidades: Nado Rápido / Caparazón / Armadura Frágil (Habilidad Oculta)  
+---Tipo: Roca, Agua  
+---Habilidades: Nado Rápido / Caparazón / Armadura Frágil (Habilidad Oculta)  
 ---Altura/Peso: 1.0 m / 35.0 kg  
----estadísticas base  
-----total: 495  
-----ps: 70  
-----atk: 60  
-----def: 125  
-----atk.esp: 115  
-----def.esp: 70  
-----velocidad: 55  
+---Estadísticas base  
+----Total: 495  
+----PS: 70  
+----ATK: 60  
+----Def: 125  
+----ATK.esp: 115  
+----Def.esp: 70  
+----Velocidad: 55  
 -- Kabuto 
----tipo: Roca, Agua  
----habilidades: Nado Rápido / Armadura Batalla / Armadura Frágil (Habilidad Oculta)  
+---Tipo: Roca, Agua  
+---Habilidades: Nado Rápido / Armadura Batalla / Armadura Frágil (Habilidad Oculta)  
 ---Altura/Peso: 0.5 m / 11.5 kg  
----estadísticas base  
-----total: 355  
-----ps: 30  
-----atk: 80  
-----def: 90  
-----atk.esp: 55  
-----def.esp: 45  
-----velocidad: 55  
+---Estadísticas base  
+----Total: 355  
+----PS: 30  
+----ATK: 80  
+----Def: 90  
+----ATK.esp: 55  
+----Def.esp: 45  
+----Velocidad: 55  
 -- Kabutops   
----tipo: Roca, Agua  
----habilidades: Nado Rápido / Armadura Batalla / Armadura Frágil (Habilidad Oculta)  
+---Tipo: Roca, Agua  
+---Habilidades: Nado Rápido / Armadura Batalla / Armadura Frágil (Habilidad Oculta)  
 ---Altura/Peso: 1.3 m / 40.5 kg  
----estadísticas base  
-----total: 495  
-----ps: 60  
-----atk: 115  
-----def: 105  
-----atk.esp: 65  
-----def.esp: 70  
-----velocidad: 80  
+---Estadísticas base  
+----Total: 495  
+----PS: 60  
+----ATK: 115  
+----Def: 105  
+----ATK.esp: 65  
+----Def.esp: 70  
+----Velocidad: 80  
 -- Aerodactyl 
----tipo: Roca, Volador  
----habilidades: Cabeza Roca / Presión / Nerviosismo (Habilidad Oculta)  
+---Tipo: Roca, Volador  
+---Habilidades: Cabeza Roca / Presión / Nerviosismo (Habilidad Oculta)  
 ---Altura/Peso: 1.8 m / 59.0 kg  
----estadísticas base  
-----total: 515  
-----ps: 80  
-----atk: 105  
-----def: 65  
-----atk.esp: 60  
-----def.esp: 75  
-----velocidad: 130  
+---Estadísticas base  
+----Total: 515  
+----PS: 80  
+----ATK: 105  
+----Def: 65  
+----ATK.esp: 60  
+----Def.esp: 75  
+----Velocidad: 130  
 -- Snorlax 
----tipo: Normal  
----habilidades: Inmunidad / Sebo / Gula (Habilidad Oculta)  
+---Tipo: Normal  
+---Habilidades: Inmunidad / Sebo / Gula (Habilidad Oculta)  
 ---Altura/Peso: 2.1 m / 460.0 kg  
----estadísticas base  
-----total: 540  
-----ps: 160  
-----atk: 110  
-----def: 65  
-----atk.esp: 65  
-----def.esp: 110  
-----velocidad: 30  
+---Estadísticas base  
+----Total: 540  
+----PS: 160  
+----ATK: 110  
+----Def: 65  
+----ATK.esp: 65  
+----Def.esp: 110  
+----Velocidad: 30  
 -- Articuno   
----tipo: Hielo, Volador  
----habilidades: Presión / Manto Níveo (Habilidad Oculta)  
+---Tipo: Hielo, Volador  
+---Habilidades: Presión / Manto Níveo (Habilidad Oculta)  
 ---Altura/Peso: 1.7 m / 55.4 kg  
----estadísticas base  
-----total: 580  
-----ps: 90  
-----atk: 85  
-----def: 100  
-----atk.esp: 95  
-----def.esp: 125  
-----velocidad: 85  
+---Estadísticas base  
+----Total: 580  
+----PS: 90  
+----ATK: 85  
+----Def: 100  
+----ATK.esp: 95  
+----Def.esp: 125  
+----Velocidad: 85  
 -- Zapdos  
----tipo: Eléctrico, Volador  
----habilidades: Presión / Electricidad Estática (Habilidad Oculta)  
+---Tipo: Eléctrico, Volador  
+---Habilidades: Presión / Electricidad Estática (Habilidad Oculta)  
 ---Altura/Peso: 1.6 m / 52.6 kg  
----estadísticas base  
-----total: 580  
-----ps: 90  
-----atk: 90  
-----def: 85  
-----atk.esp: 125  
-----def.esp: 90  
-----velocidad: 100  
+---Estadísticas base  
+----Total: 580  
+----PS: 90  
+----ATK: 90  
+----Def: 85  
+----ATK.esp: 125  
+----Def.esp: 90  
+----Velocidad: 100  
 -- Moltres 
----tipo: Fuego, Volador  
----habilidades: Presión / Cuerpo Llama (Habilidad Oculta)  
+---Tipo: Fuego, Volador  
+---Habilidades: Presión / Cuerpo Llama (Habilidad Oculta)  
 ---Altura/Peso: 2.0 m / 60.0 kg  
----estadísticas base  
-----total: 580  
-----ps: 90  
-----atk: 100  
-----def: 90  
-----atk.esp: 125  
-----def.esp: 85  
-----velocidad: 90  
+---Estadísticas base  
+----Total: 580  
+----PS: 90  
+----ATK: 100  
+----Def: 90  
+----ATK.esp: 125  
+----Def.esp: 85  
+----Velocidad: 90  
 -- Dratini 
----tipo: Dragón  
----habilidades: Mudar / Escama Especial (Habilidad Oculta)  
+---Tipo: Dragón  
+---Habilidades: Mudar / Escama Especial (Habilidad Oculta)  
 ---Altura/Peso: 1.8 m / 3.3 kg  
----estadísticas base  
-----total: 300  
-----ps: 41  
-----atk: 64  
-----def: 45  
-----atk.esp: 50  
-----def.esp: 50  
-----velocidad: 50  
+---Estadísticas base  
+----Total: 300  
+----PS: 41  
+----ATK: 64  
+----Def: 45  
+----ATK.esp: 50  
+----Def.esp: 50  
+----Velocidad: 50  
 -- Dragonair 
----tipo: Dragón  
----habilidades: Mudar / Escama Especial (Habilidad Oculta)  
+---Tipo: Dragón  
+---Habilidades: Mudar / Escama Especial (Habilidad Oculta)  
 ---Altura/Peso: 4.0 m / 16.5 kg  
----estadísticas base  
-----total: 420  
-----ps: 61  
-----atk: 84  
-----def: 65  
-----atk.esp: 70  
-----def.esp: 70  
-----velocidad: 70  
+---Estadísticas base  
+----Total: 420  
+----PS: 61  
+----ATK: 84  
+----Def: 65  
+----ATK.esp: 70  
+----Def.esp: 70  
+----Velocidad: 70  
 -- Dragonite  
----tipo: Dragón, Volador  
----habilidades: Foco Interno / Compensación (Habilidad Oculta)  
+---Tipo: Dragón, Volador  
+---Habilidades: Foco Interno / Compensación (Habilidad Oculta)  
 ---Altura/Peso: 2.2 m / 210.0 kg  
----estadísticas base  
-----total: 600  
-----ps: 91  
-----atk: 134  
-----def: 95  
-----atk.esp: 100  
-----def.esp: 100  
-----velocidad: 80  
+---Estadísticas base  
+----Total: 600  
+----PS: 91  
+----ATK: 134  
+----Def: 95  
+----ATK.esp: 100  
+----Def.esp: 100  
+----Velocidad: 80  
 -- Mewtwo 
----tipo: Psíquico  
----habilidades: Presión / Nerviosismo (Habilidad Oculta)  
+---Tipo: Psíquico  
+---Habilidades: Presión / Nerviosismo (Habilidad Oculta)  
 ---Altura/Peso: 2.0 m / 122.0 kg  
----estadísticas base  
-----total: 680  
-----ps: 106  
-----atk: 110  
-----def: 90  
-----atk.esp: 154  
-----def.esp: 90  
-----velocidad: 130  
+---Estadísticas base  
+----Total: 680  
+----PS: 106  
+----ATK: 110  
+----Def: 90  
+----ATK.esp: 154  
+----Def.esp: 90  
+----Velocidad: 130  
 -- Mew 
----tipo: Psíquico  
----habilidades: Sincronía  
+---Tipo: Psíquico  
+---Habilidades: Sincronía  
 ---Altura/Peso: 0.4 m / 4.0 kg  
----estadísticas base  
-----total: 600  
-----ps: 100  
-----atk: 100
-----def: 100  
-----atk.esp: 100  
-----def.esp: 100  
-----velocidad: 100
+---Estadísticas base  
+----Total: 600  
+----PS: 100  
+----ATK: 100
+----Def: 100  
+----ATK.esp: 100  
+----Def.esp: 100  
+----Velocidad: 100
 -Tabla de tipos
 -- Acero  
 --- Débil: Débil frente al tipo Lucha, tipo Fuego y tipo Tierra  
