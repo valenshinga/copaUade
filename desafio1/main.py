@@ -256,7 +256,7 @@ def main_loop(nombre_archivo: str) -> None:
         return
         
     ruta_diccionario = []
-    print("-> ¡Hola! Soy un asistente virtual, ¿en qué puedo ayudarte?")
+    print("-> ¡Hola! Soy la Pokedex, ¿en qué puedo ayudarte?")
     
     continuar = True
     while continuar:
@@ -267,8 +267,7 @@ def main_loop(nombre_archivo: str) -> None:
         if isinstance(nivel_actual, dict):
             opciones = mostrar_opciones(nivel_actual, bool(ruta_diccionario))
             print("")
-            respuesta = input("-> Ingrese una pregunta (ingrese 'salir' para salir): ")
-            
+            respuesta = input("-> Ingrese una respuesta: ")
             agregar, continuar, ruta_diccionario = procesar_respuesta_usuario(respuesta, opciones, ruta_diccionario)
             if agregar:
                 resultado = registrar_entrada(ruta_diccionario.copy(),nombre_archivo)
@@ -276,7 +275,7 @@ def main_loop(nombre_archivo: str) -> None:
                     memoria = resultado
         else:
             print("")
-            print(f"-> {ruta_diccionario.pop()}  {nivel_actual}")
+            print(f"-> {ruta_diccionario.pop()}: {nivel_actual}")
             
     print("-> ¡Chau!")
 
