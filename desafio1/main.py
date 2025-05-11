@@ -10,8 +10,8 @@ def registrar_log_error(ruta: list, respuesta: str, error: str) -> None:
         error (str): Mensaje de error de python
     """
     ruta_archivo = obtener_ruta_archivo("log.txt")
-    ruta = " -> ".join(ruta) if ruta else "inicio"
-    linea = f"[ERROR] Ruta: {ruta} | Respuesta: {respuesta} | Error: {error}\n"
+    ruta_usuario = " -> ".join(ruta) if ruta else "inicio"
+    linea = f"[ERROR] Ruta: {ruta_usuario} | Respuesta: {respuesta} | Error: {error}\n"
     
     with open(ruta_archivo, "a", encoding='utf-8') as archivo_log:
         archivo_log.write(linea)
@@ -153,7 +153,7 @@ def mostrar_opciones(memoria: dict, atras: bool = True) -> list:
     
     print(f"-> Contribuir")
     print(f"-> {'Atras' if atras else 'Salir'}")
-    print(f"{'-> inicio' if atras else ''}")
+    print(f"{'-> Inicio' if atras else ''}")
     return opciones
 
 def guardar_entrada(nombre_txt:str, ruta_diccionario:list, respuesta:str, pregunta:str = None) -> dict:
@@ -197,7 +197,7 @@ def guardar_entrada(nombre_txt:str, ruta_diccionario:list, respuesta:str, pregun
         registrar_log_error(ruta_diccionario, "", f"Error al guardar en el archivo: {str(e)}")
         return {}
     
-def registrar_entrada(ruta_diccionario:list, nombre_archivo: str) -> dict:
+def registrar_entrada(ruta_diccionario: list, nombre_archivo: str) -> dict:
     """Registra un nuevo tema o una nueva pregunta y respuesta en el archivo.
     Args:
         nombre_archivo (str): Nombre del archivo txt a modificar
@@ -248,7 +248,7 @@ def registrar_entrada(ruta_diccionario:list, nombre_archivo: str) -> dict:
             pregunta = input("-> No puedes ingresar un numero como pregunta. Por favor intenta devuelta: ")
         respuesta = input("-> ¿Cúal es la respuesta a esa pregunta?: ")
 
-    return guardar_entrada(nombre_archivo,ruta_diccionario,respuesta,pregunta)
+    return guardar_entrada(nombre_archivo, ruta_diccionario, respuesta, pregunta)
 
 def procesar_respuesta_numerica(respuesta: int, opciones: list, ruta_diccionario: list, nivel_actual: dict) -> tuple:
     """
@@ -291,15 +291,16 @@ def procesar_respuesta_texto(respuesta: str, opciones: list, ruta_diccionario: l
         tuple: (agregar, continuar, ruta_diccionario)
     """
     try:
-        if "inicio" in respuesta:
-            return False, True, []
-        elif "atras" in respuesta and ruta_diccionario:
-            ruta_diccionario.pop()
-            return False, True, ruta_diccionario
-        elif "salir" in respuesta:
-            return False, False, ruta_diccionario
-        elif "contribuir" in respuesta:
-            return True, True, ruta_diccionario
+        match respuesta:
+            case "inicio":
+                return False, True, []
+            case "atras" if ruta_diccionario:
+                ruta_diccionario.pop()
+                return False, True, ruta_diccionario
+            case "salir":
+                return False, False, ruta_diccionario
+            case "contribuir":
+                return True, True, ruta_diccionario
         
         opciones_lower = [opcion.lower() for opcion in opciones]
         coinciden = [index for index, opcion in enumerate(opciones_lower) if opcion in respuesta]
@@ -384,7 +385,7 @@ def main_loop(nombre_archivo: str) -> None:
     except Exception as e:
         registrar_log_error([], "", f"Error fatal al iniciar el chatbot: {str(e)}")
     finally:
-        print("-> ¡Chau!")
+        print("-> Gracias por usar la Pokedex. ¡Chau!")
 
 if __name__ == "__main__":
     main_loop("preguntas.txt")
