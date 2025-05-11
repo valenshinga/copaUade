@@ -150,6 +150,8 @@ def guardar_entrada(nombre_txt:str, ruta_diccionario:list, respuesta:str, pregun
                     lineas[indice+1:indice+1] = nuevaLinea
                     break
     else:
+        if not lineas[-1].endswith("\n"):
+            lineas[-1] += "\n"
         lineas.append(nuevaLinea)
         
     with open(ruta_txt, 'w') as archivo:
