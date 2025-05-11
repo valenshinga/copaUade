@@ -184,15 +184,18 @@ def registrar_entrada(ruta_diccionario:list, nombre_archivo: str) -> dict:
                 return 
             elif respuesta in (1,2):
                 opcion = respuesta
+                break
         elif "cancelar" in respuesta:
             print("-> adicion cancelada")
             return
         elif "tema" in respuesta:
             opcion = 1
+            break
         elif "pregunta" in respuesta:
             opcion = 2
-        else:
-            print("-> Lo siento, no logre entenderte ¿Podrías intentar devuelta?")
+            break
+        print("-> Perdón, no logré entenderte ¿Podrías intentar devuelta?")
+        respuesta = input("-> Ingrese una respuesta: ")
     
     if opcion == 1:
         respuesta = input("-> ¿Cúal es el nombre de este nuevo tema?: ")
