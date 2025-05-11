@@ -1,4 +1,4 @@
--Pokémon de la 1ª Generación (Región Kanto)
+-Pokémones de la 1ª Generación (Región Kanto)
 -- Bulbasaur (#001)  
 ---type: Grass, Poison
 ---abilities:overgrow/chlorophyll(hiden ability)
