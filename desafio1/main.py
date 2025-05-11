@@ -1,15 +1,52 @@
 import os
 
-def printear_error(error: str, mensaje_personalizado: str = "") -> None:
+def registrar_log_error(ruta: list, respuesta: str, error: str) -> None:
     """
-    Imprime un mensaje de error.
+    Registra un mensaje de error en el archivo de log.
 
     Args:
-        error (str): Mensaje de error que se desea imprimir
-        mensaje_personalizado (str): Mensaje personalizado que se desea imprimir
+        ruta (list): Ruta del usuario
+        respuesta (str): Respuesta del usuario
+        error (str): Mensaje de error de python
     """
-    salida = f"{mensaje_personalizado}: {error}" if mensaje_personalizado else f"Error: {error}"
-    print(salida)
+    ruta_archivo = obtener_ruta_archivo("log.txt")
+    ruta = " -> ".join(ruta) if ruta else "inicio"
+    linea = f"[ERROR] Ruta: {ruta} | Respuesta: {respuesta} | Error: {error}\n"
+    
+    with open(ruta_archivo, "a", encoding='utf-8') as archivo_log:
+        archivo_log.write(linea)
+
+def registrar_log_info(ruta: list, respuesta: str, accion: str) -> None:
+    """
+    Registra un mensaje de información en el archivo de log.
+
+    Args:
+        ruta (list): Ruta del usuario
+        respuesta (str): Respuesta del usuario
+        accion (str): Acción del usuario
+    """
+    ruta_archivo = obtener_ruta_archivo("log.txt")
+    ruta = " -> ".join(ruta) if ruta else "inicio"
+    linea = f"[INFO] Ruta: {ruta} | Respuesta: {respuesta} | Acción: {accion}\n"
+    
+    with open(ruta_archivo, "a", encoding='utf-8') as archivo_log:
+        archivo_log.write(linea)
+
+def registrar_log_advertencia(ruta: list, respuesta: str, mensaje: str) -> None:
+    """
+    Registra un mensaje de advertencia en el archivo de log.
+
+    Args:
+        ruta (list): Ruta del usuario
+        respuesta (str): Respuesta del usuario
+        mensaje (str): Mensaje de advertencia
+    """
+    ruta_archivo = obtener_ruta_archivo("log.txt")
+    ruta = " -> ".join(ruta) if ruta else "inicio"
+    linea = f"[WARNING] Ruta: {ruta} | Respuesta: {respuesta} | Mensaje: {mensaje}\n"
+    
+    with open(ruta_archivo, "a", encoding='utf-8') as archivo_log:
+        archivo_log.write(linea)
 
 def obtener_ruta_archivo(nombre_txt: str) -> str:
     """
@@ -92,9 +129,9 @@ def leer_txt(nombre_txt: str) -> dict:
             lineas = [linea.strip() for linea in archivo_txt if linea.strip()]
         return construir_diccionario(lineas)
     except FileNotFoundError as e:
-        printear_error(str(e), f"No se encontró el archivo {nombre_txt}")
+        registrar_log_error([], "", f"No se encontró el archivo {nombre_txt}")
     except Exception as e:
-        printear_error(str(e), "Error al leer el archivo")
+        registrar_log_error([], "", "Error al leer el archivo")
     return {}
 
 def mostrar_opciones(memoria: dict, atras: bool = True) -> list:
@@ -178,12 +215,14 @@ def registrar_entrada(ruta_diccionario:list, nombre_archivo: str) -> dict:
             respuesta = int(respuesta)
             if respuesta == 0:
                 print("-> adicion cancelada")        
+                registrar_log_info(ruta_diccionario, str(respuesta), "cancelar")
                 return 
             elif respuesta in (1,2):
                 opcion = respuesta
                 break
         elif "cancelar" in respuesta:
             print("-> adicion cancelada")
+            registrar_log_info(ruta_diccionario, respuesta, "cancelar")
             return
         elif "tema" in respuesta:
             opcion = 1
@@ -227,10 +266,11 @@ def procesar_respuesta_numerica(respuesta: int, opciones: list, ruta_diccionario
             if isinstance(nivel_actual[siguiente_nivel], dict):
                 print(f"-> Buenísimo, hablemos sobre {siguiente_nivel}. ¿Qué querés saber exactamente?")
         else:
+            registrar_log_advertencia(ruta_diccionario, str(respuesta), "Número de opción fuera de rango")
             print("-> No pude entender tu respuesta. Por favor ingresá el número de la opción que querés elegir, o escribí el nombre exacto.")
         return False, True, ruta_diccionario
     except (KeyError, IndexError) as e:
-        printear_error(str(e), "Error al acceder a la opción seleccionada")
+        registrar_log_error(ruta_diccionario, str(respuesta), str(e))
         return False, True, ruta_diccionario[:-1] if ruta_diccionario else []
 
 def procesar_respuesta_texto(respuesta: str, opciones: list, ruta_diccionario: list, nivel_actual: dict) -> tuple:
@@ -259,6 +299,7 @@ def procesar_respuesta_texto(respuesta: str, opciones: list, ruta_diccionario: l
         coinciden = [index for index, opcion in enumerate(opciones_lower) if opcion in respuesta]
         
         if not coinciden or len(coinciden) > 1:
+            registrar_log_advertencia(ruta_diccionario, respuesta, "Respuesta no reconocida")
             print("-> No pude entender tu respuesta. Por favor ingresá el número de la opción que querés elegir, o escribí el nombre exacto.")
             return False, True, ruta_diccionario
         
@@ -267,7 +308,7 @@ def procesar_respuesta_texto(respuesta: str, opciones: list, ruta_diccionario: l
             print(f"-> Buenísimo, hablemos sobre {ruta_diccionario[-1]}. ¿Qué querés saber exactamente?")
         return False, True, ruta_diccionario
     except (KeyError, IndexError) as e:
-        printear_error(str(e), "Error al procesar la respuesta de texto")
+        registrar_log_error(ruta_diccionario, respuesta, str(e))
         return False, True, ruta_diccionario[:-1] if ruta_diccionario else []
 
 def procesar_respuesta_usuario(respuesta: str, opciones: list, ruta_diccionario: list, nivel_actual: dict) -> tuple:
@@ -302,6 +343,7 @@ def main_loop(nombre_archivo: str) -> None:
     try:
         memoria = leer_txt(nombre_archivo)
         if not memoria:
+            registrar_log_error([], "", "No se pudo cargar el archivo de memoria")
             return
             
         ruta_diccionario = []
@@ -318,6 +360,7 @@ def main_loop(nombre_archivo: str) -> None:
                     opciones = mostrar_opciones(nivel_actual, bool(ruta_diccionario))
                     print("")
                     respuesta = input("-> Ingrese una respuesta: ")
+                    registrar_log_info(ruta_diccionario, respuesta, "navegacion")
                     agregar, continuar, ruta_diccionario = procesar_respuesta_usuario(respuesta, opciones, ruta_diccionario, nivel_actual)
                     if agregar:
                         resultado = registrar_entrada(ruta_diccionario.copy(), nombre_archivo)
@@ -327,15 +370,13 @@ def main_loop(nombre_archivo: str) -> None:
                     print("")
                     print(f"-> {ruta_diccionario.pop()}: {nivel_actual}")
             except KeyError as e:
-                printear_error(str(e), "Error al navegar por el diccionario")
+                registrar_log_error(ruta_diccionario, "", f"Error al navegar por el diccionario: {str(e)}")
                 ruta_diccionario = ruta_diccionario[:-1] if ruta_diccionario else []
-            except ValueError as e:
-                printear_error(str(e), "Error en el formato de los datos")
             except Exception as e:
-                printear_error(str(e), "Error inesperado durante la ejecución")
+                registrar_log_error(ruta_diccionario, "", f"Error inesperado: {str(e)}")
                 ruta_diccionario = ruta_diccionario[:-1] if ruta_diccionario else []
     except Exception as e:
-        printear_error(str(e), "Error fatal al iniciar el programa")
+        registrar_log_error([], "", f"Error fatal al iniciar el chatbot: {str(e)}")
     finally:
         print("-> ¡Chau!")
 
