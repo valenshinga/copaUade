@@ -142,12 +142,12 @@ def guardar_entrada(nombre_txt:str, ruta_diccionario:list, respuesta:str, pregun
         
     cont = 1
     if ruta_diccionario:
-        for i,linea in enumerate(lineas):
+        for indice, linea in enumerate(lineas):
             if linea == f"{cont * "-"}{ruta_diccionario[0]}\n":
                 ruta_diccionario.pop(0)
                 cont += 1
                 if not ruta_diccionario:         
-                    lineas[i+1:i+1] = nuevaLinea
+                    lineas[indice+1:indice+1] = nuevaLinea
                     break
     else:
         lineas.append(nuevaLinea)
