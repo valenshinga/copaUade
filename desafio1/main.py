@@ -114,8 +114,8 @@ def mostrar_opciones(memoria: dict, atras: bool = True) -> list:
     for indice, key in enumerate(opciones, 1):
         print(f"-> {indice} : {key}")
     
-    print(f"-> 10 : agregar")
-    print(f"-> 0 : {'atras' if atras else 'salir'}")
+    print(f"-> Contribuir")
+    print(f"-> {'Atras' if atras else 'Salir'}")
     return opciones
 
 def guardar_entrada(nombre_txt:str, ruta_diccionario:list, respuesta:str, pregunta:str = None) -> dict:
@@ -226,21 +226,14 @@ def procesar_respuesta_usuario(respuesta: str, opciones: list, ruta_diccionario:
     continuar = True
     if respuesta.isdigit():
         respuesta = int(respuesta)
-        if respuesta == 0:
-            if ruta_diccionario:
-                ruta_diccionario.pop()
-            else:
-                continuar = False
-        elif respuesta == 10:
-            agregar = True
-        elif 1 <= respuesta <= len(opciones):
+        if 1 <= respuesta <= len(opciones):
             ruta_diccionario.append(opciones[respuesta - 1])
             print(f"-> Buenísimo, hablemos sobre el tema {ruta_diccionario[-1]} ¿Qué exactamente quieres saber?")
     elif "atras" in respuesta and ruta_diccionario:
         ruta_diccionario.pop()
     elif "salir" in respuesta:
         continuar = False
-    elif "agregar" in respuesta:
+    elif "contribuir" in respuesta:
         agregar = True
     else:
         opciones_lower = [opcion.lower() for opcion in opciones]
