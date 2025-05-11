@@ -1,34 +1,1825 @@
--Computadoras
---Hardware
----¿Qué es?: Es la parte física del sistema informático.
----Componentes
-----CPU: Unidad Central de Procesamiento.
-----RAM: Memoria de acceso aleatorio utilizada para almacenar datos temporales.
-----Disco Duro: Dispositivo de almacenamiento permanente.
---Software
----¿Qué es?: Conjunto de programas que permiten operar el hardware.
----Tipos
-----Sistema Operativo: Software que administra los recursos del sistema.
-----Aplicaciones: Programas diseñados para tareas específicas.
--Redes
---¿Qué son?: Conjuntos de dispositivos interconectados que comparten recursos.
---Tipos
----LAN: Red de área local.
----WAN: Red de área amplia.
----Wi-Fi: Tecnología inalámbrica para redes locales.
--Seguridad Informática
---¿Qué es?: Disciplina que protege los sistemas de información.
---Medidas
----Antivirus: Programas que detectan y eliminan software malicioso.
----Firewalls: Sistemas que controlan el tráfico de red.
----Copias de Seguridad: Respaldo de datos para prevenir pérdidas.
--Programación
---¿Qué es?: Proceso de crear instrucciones para que una computadora realice tareas.
---Lenguajes Populares
----Python: Lenguaje versátil y fácil de aprender.
----JavaScript: Lenguaje usado en desarrollo web.
----C++: Lenguaje potente usado en sistemas y videojuegos.
--electromecanica
---123a
---Que es: La electromecanica es el estudio de ...
--que es esto?: este es un robot automatizado de ayuda
+-Pokémon de la 1ª Generación (Región Kanto)
+-- Bulbasaur (#001)  
+---type: Grass, Poison
+---abilities:overgrow/chlorophyll(hiden ability)
+---Height/Weight:0.7 m/6.9 kg
+---base stats
+----total: 318
+----hp: 45
+----atk: 49
+----def: 49
+----sp.atk: 65
+----sp.def: 65
+----speed: 45 
+-- Ivysaur (#002)  
+---type: Grass, Poison  
+---abilities: Overgrow / Chlorophyll (Hidden Ability)  
+---Height/Weight: 1.0 m / 13.0 kg  
+---base stats  
+----total: 405  
+----hp: 60  
+----atk: 62  
+----def: 63  
+----sp.atk: 80  
+----sp.def: 80  
+----speed: 60  
+-- Venusaur (#003)  
+---type: Grass, Poison  
+---abilities: Overgrow / Chlorophyll (Hidden Ability)  
+---Height/Weight: 2.0 m / 100.0 kg  
+---base stats  
+----total: 525  
+----hp: 80  
+----atk: 82  
+----def: 83  
+----sp.atk: 100  
+----sp.def: 100  
+----speed: 80  
+-- Charmander (#004)  
+---type: Fire  
+---abilities: Blaze / Solar Power (Hidden Ability)  
+---Height/Weight: 0.6 m / 8.5 kg  
+---base stats  
+----total: 309  
+----hp: 39  
+----atk: 52  
+----def: 43  
+----sp.atk: 60  
+----sp.def: 50  
+----speed: 65  
+-- Charmeleon (#005)  
+---type: Fire  
+---abilities: Blaze / Solar Power (Hidden Ability)  
+---Height/Weight: 1.1 m / 19.0 kg  
+---base stats  
+----total: 405  
+----hp: 58  
+----atk: 64  
+----def: 58  
+----sp.atk: 80  
+----sp.def: 65  
+----speed: 80  
+-- Charizard (#006)  
+---type: Fire, Flying  
+---abilities: Blaze / Solar Power (Hidden Ability)  
+---Height/Weight: 1.7 m / 90.5 kg  
+---base stats  
+----total: 534  
+----hp: 78  
+----atk: 84  
+----def: 78  
+----sp.atk: 109  
+----sp.def: 85  
+----speed: 100  
+-- Squirtle (#007)  
+---type: Water  
+---abilities: Torrent / Rain Dish (Hidden Ability)  
+---Height/Weight: 0.5 m / 9.0 kg  
+---base stats  
+----total: 314  
+----hp: 44  
+----atk: 48  
+----def: 65  
+----sp.atk: 50  
+----sp.def: 64  
+----speed: 43  
+-- Wartortle (#008)  
+---type: Water  
+---abilities: Torrent / Rain Dish (Hidden Ability)  
+---Height/Weight: 1.0 m / 22.5 kg  
+---base stats  
+----total: 405  
+----hp: 59  
+----atk: 63  
+----def: 80  
+----sp.atk: 65  
+----sp.def: 80  
+----speed: 58  
+-- Blastoise (#009)  
+---type: Water  
+---abilities: Torrent / Rain Dish (Hidden Ability)  
+---Height/Weight: 1.6 m / 85.5 kg  
+---base stats  
+----total: 530  
+----hp: 79  
+----atk: 83  
+----def: 100  
+----sp.atk: 85  
+----sp.def: 105  
+----speed: 78  
+-- Caterpie (#010)  
+---type: Bug  
+---abilities: Shield Dust / Run Away (Hidden Ability)  
+---Height/Weight: 0.3 m / 2.9 kg  
+---base stats  
+----total: 195  
+----hp: 45  
+----atk: 30  
+----def: 35  
+----sp.atk: 20  
+----sp.def: 20  
+----speed: 45  
+-- Metapod (#011)  
+---type: Bug  
+---abilities: Shed Skin  
+---Height/Weight: 0.7 m / 9.9 kg  
+---base stats  
+----total: 205  
+----hp: 50  
+----atk: 20  
+----def: 55  
+----sp.atk: 25  
+----sp.def: 25  
+----speed: 30  
+-- Butterfree (#012)  
+---type: Bug, Flying  
+---abilities: Compound Eyes / Tinted Lens (Hidden Ability)  
+---Height/Weight: 1.1 m / 32.0 kg  
+---base stats  
+----total: 395  
+----hp: 60  
+----atk: 45  
+----def: 50  
+----sp.atk: 90  
+----sp.def: 80  
+----speed: 70  
+-- Weedle (#013)  
+---type: Bug, Poison  
+---abilities: Shield Dust / Run Away (Hidden Ability)  
+---Height/Weight: 0.3 m / 3.2 kg  
+---base stats  
+----total: 195  
+----hp: 40  
+----atk: 35  
+----def: 30  
+----sp.atk: 20  
+----sp.def: 20  
+----speed: 50  
+-- Kakuna (#014)  
+---type: Bug, Poison  
+---abilities: Shed Skin  
+---Height/Weight: 0.6 m / 10.0 kg  
+---base stats  
+----total: 205  
+----hp: 45  
+----atk: 25  
+----def: 50  
+----sp.atk: 25  
+----sp.def: 25  
+----speed: 35  
+-- Beedrill (#015)  
+---type: Bug, Poison  
+---abilities: Swarm / Sniper (Hidden Ability)  
+---Height/Weight: 1.0 m / 29.5 kg  
+---base stats  
+----total: 395  
+----hp: 65  
+----atk: 90  
+----def: 40  
+----sp.atk: 45  
+----sp.def: 80  
+----speed: 75  
+-- Pidgey (#016)  
+---type: Normal, Flying  
+---abilities: Keen Eye / Tangled Feet / Big Pecks (Hidden Ability)  
+---Height/Weight: 0.3 m / 1.8 kg  
+---base stats  
+----total: 251  
+----hp: 40  
+----atk: 45  
+----def: 40  
+----sp.atk: 35  
+----sp.def: 35  
+----speed: 56  
+-- Pidgeotto (#017)  
+---type: Normal, Flying  
+---abilities: Keen Eye / Tangled Feet / Big Pecks (Hidden Ability)  
+---Height/Weight: 1.1 m / 30.0 kg  
+---base stats  
+----total: 349  
+----hp: 63  
+----atk: 60  
+----def: 55  
+----sp.atk: 50  
+----sp.def: 50  
+----speed: 71  
+-- Pidgeot (#018)  
+---type: Normal, Flying  
+---abilities: Keen Eye / Tangled Feet / Big Pecks (Hidden Ability)  
+---Height/Weight: 1.5 m / 39.5 kg  
+---base stats  
+----total: 479  
+----hp: 83  
+----atk: 80  
+----def: 75  
+----sp.atk: 70  
+----sp.def: 70  
+----speed: 101  
+-- Rattata (#019)  
+---type: Normal  
+---abilities: Run Away / Guts / Hustle (Hidden Ability)  
+---Height/Weight: 0.3 m / 3.5 kg  
+---base stats  
+----total: 253  
+----hp: 30  
+----atk: 56  
+----def: 35  
+----sp.atk: 25  
+----sp.def: 35  
+----speed: 72  
+-- Raticate (#020)  
+---type: Normal  
+---abilities: Run Away / Guts / Hustle (Hidden Ability)  
+---Height/Weight: 0.7 m / 18.5 kg  
+---base stats  
+----total: 413  
+----hp: 55  
+----atk: 81  
+----def: 60  
+----sp.atk: 50  
+----sp.def: 70  
+----speed: 97  
+-- Spearow (#021)  
+---type: Normal, Flying  
+---abilities: Keen Eye / Sniper (Hidden Ability)  
+---Height/Weight: 0.3 m / 2.0 kg  
+---base stats  
+----total: 262  
+----hp: 40  
+----atk: 60  
+----def: 30  
+----sp.atk: 31  
+----sp.def: 31  
+----speed: 70  
+-- Fearow (#022)  
+---type: Normal, Flying  
+---abilities: Keen Eye / Sniper (Hidden Ability)  
+---Height/Weight: 1.2 m / 38.0 kg  
+---base stats  
+----total: 442  
+----hp: 65  
+----atk: 90  
+----def: 65  
+----sp.atk: 61  
+----sp.def: 61  
+----speed: 100  
+-- Ekans (#023)  
+---type: Poison  
+---abilities: Intimidate / Shed Skin / Unnerve (Hidden Ability)  
+---Height/Weight: 2.0 m / 6.9 kg  
+---base stats  
+----total: 288  
+----hp: 35  
+----atk: 60  
+----def: 44  
+----sp.atk: 40  
+----sp.def: 54  
+----speed: 55  
+-- Arbok (#024)  
+---type: Poison  
+---abilities: Intimidate / Shed Skin / Unnerve (Hidden Ability)  
+---Height/Weight: 3.5 m / 65.0 kg  
+---base stats  
+----total: 448  
+----hp: 60  
+----atk: 95  
+----def: 69  
+----sp.atk: 65  
+----sp.def: 79  
+----speed: 80  
+-- Pikachu (#025)  
+---type: Electric  
+---abilities: Static / Lightning Rod (Hidden Ability)  
+---Height/Weight: 0.4 m / 6.0 kg  
+---base stats  
+----total: 320  
+----hp: 35  
+----atk: 55  
+----def: 40  
+----sp.atk: 50  
+----sp.def: 50  
+----speed: 90  
+-- Raichu (#026)  
+---type: Electric  
+---abilities: Static / Lightning Rod (Hidden Ability)  
+---Height/Weight: 0.8 m / 30.0 kg  
+---base stats  
+----total: 485  
+----hp: 60  
+----atk: 90  
+----def: 55  
+----sp.atk: 90  
+----sp.def: 80  
+----speed: 110  
+-- Sandshrew (#027)  
+---type: Ground  
+---abilities: Sand Veil / Sand Rush (Hidden Ability)  
+---Height/Weight: 0.6 m / 12.0 kg  
+---base stats  
+----total: 300  
+----hp: 50  
+----atk: 75  
+----def: 85  
+----sp.atk: 20  
+----sp.def: 30  
+----speed: 40  
+-- Sandslash (#028)  
+---type: Ground  
+---abilities: Sand Veil / Sand Rush (Hidden Ability)  
+---Height/Weight: 1.0 m / 29.5 kg  
+---base stats  
+----total: 450  
+----hp: 75  
+----atk: 100  
+----def: 110  
+----sp.atk: 45  
+----sp.def: 55  
+----speed: 65  
+-- Nidoran♀ (#029)  
+---type: Poison  
+---abilities: Poison Point / Rivalry / Hustle (Hidden Ability)  
+---Height/Weight: 0.4 m / 7.0 kg  
+---base stats  
+----total: 275  
+----hp: 55  
+----atk: 47  
+----def: 52  
+----sp.atk: 40  
+----sp.def: 40  
+----speed: 41  
+-- Nidorina (#030)  
+---type: Poison  
+---abilities: Poison Point / Rivalry / Hustle (Hidden Ability)  
+---Height/Weight: 0.8 m / 20.0 kg  
+---base stats  
+----total: 365  
+----hp: 70  
+----atk: 62  
+----def: 67  
+----sp.atk: 55  
+----sp.def: 55  
+----speed: 56  
+-- Nidoqueen (#031)  
+---type: Poison, Ground  
+---abilities: Poison Point / Rivalry / Sheer Force (Hidden Ability)  
+---Height/Weight: 1.3 m / 60.0 kg  
+---base stats  
+----total: 505  
+----hp: 90  
+----atk: 92  
+----def: 87  
+----sp.atk: 75  
+----sp.def: 85  
+----speed: 76  
+-- Nidoran♂ (#032)  
+---type: Poison  
+---abilities: Poison Point / Rivalry / Hustle (Hidden Ability)  
+---Height/Weight: 0.5 m / 9.0 kg  
+---base stats  
+----total: 273  
+----hp: 46  
+----atk: 57  
+----def: 40  
+----sp.atk: 40  
+----sp.def: 40  
+----speed: 50  
+-- Nidorino (#033)  
+---type: Poison  
+---abilities: Poison Point / Rivalry / Hustle (Hidden Ability)  
+---Height/Weight: 0.9 m / 19.5 kg  
+---base stats  
+----total: 365  
+----hp: 61  
+----atk: 72  
+----def: 57  
+----sp.atk: 55  
+----sp.def: 55  
+----speed: 65  
+-- Nidoking (#034)  
+---type: Poison, Ground  
+---abilities: Poison Point / Rivalry / Sheer Force (Hidden Ability)  
+---Height/Weight: 1.4 m / 62.0 kg  
+---base stats  
+----total: 505  
+----hp: 81  
+----atk: 102  
+----def: 77  
+----sp.atk: 85  
+----sp.def: 75  
+----speed: 85  
+-- Clefairy (#035)  
+---type: Fairy  
+---abilities: Cute Charm / Magic Guard / Friend Guard (Hidden Ability)  
+---Height/Weight: 0.6 m / 7.5 kg  
+---base stats  
+----total: 323  
+----hp: 70  
+----atk: 45  
+----def: 48  
+----sp.atk: 60  
+----sp.def: 65  
+----speed: 35    
+-- Clefable (#036)  
+---type: Fairy  
+---abilities: Cute Charm / Magic Guard / Unaware (Hidden Ability)  
+---Height/Weight: 1.3 m / 40.0 kg  
+---base stats  
+----total: 483  
+----hp: 95  
+----atk: 70  
+----def: 73  
+----sp.atk: 95  
+----sp.def: 90  
+----speed: 60  
+-- Vulpix (#037)  
+---type: Fire  
+---abilities: Flash Fire / Drought (Hidden Ability)  
+---Height/Weight: 0.6 m / 9.9 kg  
+---base stats  
+----total: 299  
+----hp: 38  
+----atk: 41  
+----def: 40  
+----sp.atk: 50  
+----sp.def: 65  
+----speed: 65  
+-- Ninetales (#038)  
+---type: Fire  
+---abilities: Flash Fire / Drought (Hidden Ability)  
+---Height/Weight: 1.1 m / 19.9 kg  
+---base stats  
+----total: 505  
+----hp: 73  
+----atk: 76  
+----def: 75  
+----sp.atk: 81  
+----sp.def: 100  
+----speed: 100  
+-- Jigglypuff (#039)  
+---type: Normal, Fairy  
+---abilities: Cute Charm / Competitive / Friend Guard (Hidden Ability)  
+---Height/Weight: 0.5 m / 5.5 kg  
+---base stats  
+----total: 270  
+----hp: 115  
+----atk: 45  
+----def: 20  
+----sp.atk: 45  
+----sp.def: 25  
+----speed: 20  
+-- Wigglytuff (#040)  
+---type: Normal, Fairy  
+---abilities: Cute Charm / Competitive / Frisk (Hidden Ability)  
+---Height/Weight: 1.0 m / 12.0 kg  
+---base stats  
+----total: 435  
+----hp: 140  
+----atk: 70  
+----def: 45  
+----sp.atk: 85  
+----sp.def: 50  
+----speed: 45  
+-- Zubat (#041)  
+---type: Poison, Flying  
+---abilities: Inner Focus / Infiltrator (Hidden Ability)  
+---Height/Weight: 0.8 m / 7.5 kg  
+---base stats  
+----total: 245  
+----hp: 40  
+----atk: 45  
+----def: 35  
+----sp.atk: 30  
+----sp.def: 40  
+----speed: 55  
+-- Golbat (#042)  
+---type: Poison, Flying  
+---abilities: Inner Focus / Infiltrator (Hidden Ability)  
+---Height/Weight: 1.6 m / 55.0 kg  
+---base stats  
+----total: 455  
+----hp: 75  
+----atk: 80  
+----def: 70  
+----sp.atk: 65  
+----sp.def: 75  
+----speed: 90  
+-- Oddish (#043)  
+---type: Grass, Poison  
+---abilities: Chlorophyll / Run Away (Hidden Ability)  
+---Height/Weight: 0.5 m / 5.4 kg  
+---base stats  
+----total: 320  
+----hp: 45  
+----atk: 50  
+----def: 55  
+----sp.atk: 75  
+----sp.def: 65  
+----speed: 30  
+-- Gloom (#044)  
+---type: Grass, Poison  
+---abilities: Chlorophyll / Stench (Hidden Ability)  
+---Height/Weight: 0.8 m / 8.6 kg  
+---base stats  
+----total: 395  
+----hp: 60  
+----atk: 65  
+----def: 70  
+----sp.atk: 85  
+----sp.def: 75  
+----speed: 40  
+-- Vileplume (#045)  
+---type: Grass, Poison  
+---abilities: Chlorophyll / Effect Spore (Hidden Ability)  
+---Height/Weight: 1.2 m / 18.6 kg  
+---base stats  
+----total: 490  
+----hp: 75  
+----atk: 80  
+----def: 85  
+----sp.atk: 110  
+----sp.def: 90  
+----speed: 50  
+-- Paras (#046)  
+---type: Bug, Grass  
+---abilities: Effect Spore / Dry Skin / Damp (Hidden Ability)  
+---Height/Weight: 0.3 m / 5.4 kg  
+---base stats  
+----total: 285  
+----hp: 35  
+----atk: 70  
+----def: 55  
+----sp.atk: 45  
+----sp.def: 55  
+----speed: 25  
+-- Parasect (#047)  
+---type: Bug, Grass  
+---abilities: Effect Spore / Dry Skin / Damp (Hidden Ability)  
+---Height/Weight: 1.0 m / 29.5 kg  
+---base stats  
+----total: 405  
+----hp: 60  
+----atk: 95  
+----def: 80  
+----sp.atk: 60  
+----sp.def: 80  
+----speed: 30  
+-- Venonat (#048)  
+---type: Bug, Poison  
+---abilities: Compound Eyes / Tinted Lens (Hidden Ability)  
+---Height/Weight: 1.0 m / 30.0 kg  
+---base stats  
+----total: 305  
+----hp: 60  
+----atk: 55  
+----def: 50  
+----sp.atk: 40  
+----sp.def: 55  
+----speed: 45  
+-- Venomoth (#049)  
+---type: Bug, Poison  
+---abilities: Shield Dust / Tinted Lens (Hidden Ability)  
+---Height/Weight: 1.5 m / 12.5 kg  
+---base stats  
+----total: 450  
+----hp: 70  
+----atk: 65  
+----def: 60  
+----sp.atk: 90  
+----sp.def: 75  
+----speed: 90  
+-- Diglett (#050)  
+---type: Ground  
+---abilities: Sand Veil / Arena Trap / Sand Force (Hidden Ability)  
+---Height/Weight: 0.2 m / 0.8 kg  
+---base stats  
+----total: 265  
+----hp: 10  
+----atk: 55  
+----def: 25  
+----sp.atk: 35  
+----sp.def: 45  
+----speed: 95  
+-- Dugtrio (#051)  
+---type: Ground  
+---abilities: Sand Veil / Arena Trap / Sand Force (Hidden Ability)  
+---Height/Weight: 0.7 m / 33.3 kg  
+---base stats  
+----total: 425  
+----hp: 35  
+----atk: 100  
+----def: 50  
+----sp.atk: 50  
+----sp.def: 70  
+----speed: 120  
+-- Meowth (#052)  
+---type: Normal  
+---abilities: Pickup / Technician / Unnerve (Hidden Ability)  
+---Height/Weight: 0.4 m / 4.2 kg  
+---base stats  
+----total: 290  
+----hp: 40  
+----atk: 45  
+----def: 35  
+----sp.atk: 40  
+----sp.def: 40  
+----speed: 90  
+-- Persian (#053)  
+---type: Normal  
+---abilities: Limber / Technician / Unnerve (Hidden Ability)  
+---Height/Weight: 1.0 m / 32.0 kg  
+---base stats  
+----total: 440  
+----hp: 65  
+----atk: 70  
+----def: 60  
+----sp.atk: 65  
+----sp.def: 65  
+----speed: 115  
+-- Psyduck (#054)  
+---type: Water  
+---abilities: Damp / Cloud Nine / Swift Swim (Hidden Ability)  
+---Height/Weight: 0.8 m / 19.6 kg  
+---base stats  
+----total: 320  
+----hp: 50  
+----atk: 52  
+----def: 48  
+----sp.atk: 65  
+----sp.def: 50  
+----speed: 55  
+-- Golduck (#055)  
+---type: Water  
+---abilities: Damp / Cloud Nine / Swift Swim (Hidden Ability)  
+---Height/Weight: 1.7 m / 76.6 kg  
+---base stats  
+----total: 500  
+----hp: 80  
+----atk: 82  
+----def: 78  
+----sp.atk: 95  
+----sp.def: 80  
+----speed: 85  
+-- Mankey (#056)  
+---type: Fighting  
+---abilities: Vital Spirit / Anger Point / Defiant (Hidden Ability)  
+---Height/Weight: 0.5 m / 28.0 kg  
+---base stats  
+----total: 305  
+----hp: 40  
+----atk: 80  
+----def: 35  
+----sp.atk: 35  
+----sp.def: 45  
+----speed: 70  
+-- Primeape (#057)  
+---type: Fighting  
+---abilities: Vital Spirit / Anger Point / Defiant (Hidden Ability)  
+---Height/Weight: 1.0 m / 32.0 kg  
+---base stats  
+----total: 455  
+----hp: 65  
+----atk: 105  
+----def: 60  
+----sp.atk: 60  
+----sp.def: 70  
+----speed: 95  
+-- Growlithe (#058)  
+---type: Fire  
+---abilities: Intimidate / Flash Fire / Justified (Hidden Ability)  
+---Height/Weight: 0.7 m / 19.0 kg  
+---base stats  
+----total: 350  
+----hp: 55  
+----atk: 70  
+----def: 45  
+----sp.atk: 70  
+----sp.def: 50  
+----speed: 60  
+-- Arcanine (#059)  
+---type: Fire  
+---abilities: Intimidate / Flash Fire / Justified (Hidden Ability)  
+---Height/Weight: 1.9 m / 155.0 kg  
+---base stats  
+----total: 555  
+----hp: 90  
+----atk: 110  
+----def: 80  
+----sp.atk: 100  
+----sp.def: 80  
+----speed: 95  
+-- Poliwag (#060)  
+---type: Water  
+---abilities: Water Absorb / Damp / Swift Swim (Hidden Ability)  
+---Height/Weight: 0.6 m / 12.4 kg  
+---base stats  
+----total: 300  
+----hp: 40  
+----atk: 50  
+----def: 40  
+----sp.atk: 40  
+----sp.def: 40  
+----speed: 90  
+-- Poliwhirl (#061)  
+---type: Water  
+---abilities: Water Absorb / Damp / Swift Swim (Hidden Ability)  
+---Height/Weight: 1.0 m / 20.0 kg  
+---base stats  
+----total: 385  
+----hp: 65  
+----atk: 65  
+----def: 65  
+----sp.atk: 50  
+----sp.def: 50  
+----speed: 90  
+-- Poliwrath (#062)  
+---type: Water, Fighting  
+---abilities: Water Absorb / Damp / Swift Swim (Hidden Ability)  
+---Height/Weight: 1.3 m / 54.0 kg  
+---base stats  
+----total: 510  
+----hp: 90  
+----atk: 85  
+----def: 95  
+----sp.atk: 70  
+----sp.def: 90  
+----speed: 70  
+-- Abra (#063)  
+---type: Psychic  
+---abilities: Synchronize / Inner Focus / Magic Guard (Hidden Ability)  
+---Height/Weight: 0.9 m / 19.5 kg  
+---base stats  
+----total: 310  
+----hp: 25  
+----atk: 20  
+----def: 15  
+----sp.atk: 105  
+----sp.def: 55  
+----speed: 90  
+-- Kadabra (#064)  
+---type: Psychic  
+---abilities: Synchronize / Inner Focus / Magic Guard (Hidden Ability)  
+---Height/Weight: 1.3 m / 56.5 kg  
+---base stats  
+----total: 400  
+----hp: 40  
+----atk: 35  
+----def: 30  
+----sp.atk: 120  
+----sp.def: 70  
+----speed: 105  
+-- Alakazam (#065)  
+---type: Psychic  
+---abilities: Synchronize / Inner Focus / Magic Guard (Hidden Ability)  
+---Height/Weight: 1.5 m / 48.0 kg  
+---base stats  
+----total: 500  
+----hp: 55  
+----atk: 50  
+----def: 45  
+----sp.atk: 135  
+----sp.def: 95  
+----speed: 120  
+-- Machop (#066)  
+---type: Fighting  
+---abilities: Guts / No Guard / Steadfast (Hidden Ability)  
+---Height/Weight: 0.8 m / 19.5 kg  
+---base stats  
+----total: 305  
+----hp: 70  
+----atk: 80  
+----def: 50  
+----sp.atk: 35  
+----sp.def: 35  
+----speed: 35  
+-- Machoke (#067)  
+---type: Fighting  
+---abilities: Guts / No Guard / Steadfast (Hidden Ability)  
+---Height/Weight: 1.5 m / 70.5 kg  
+---base stats  
+----total: 405  
+----hp: 80  
+----atk: 100  
+----def: 70  
+----sp.atk: 50  
+----sp.def: 60  
+----speed: 45  
+-- Machamp (#068)  
+---type: Fighting  
+---abilities: Guts / No Guard / Steadfast (Hidden Ability)  
+---Height/Weight: 1.6 m / 130.0 kg  
+---base stats  
+----total: 505  
+----hp: 90  
+----atk: 130  
+----def: 80  
+----sp.atk: 65  
+----sp.def: 85  
+----speed: 55 
+-- Bellsprout (#069)  
+---type: Grass, Poison  
+---abilities: Chlorophyll / Gluttony (Hidden Ability)  
+---Height/Weight: 0.7 m / 4.0 kg  
+---base stats  
+----total: 300  
+----hp: 50  
+----atk: 75  
+----def: 35  
+----sp.atk: 70  
+----sp.def: 30  
+----speed: 40  
+-- Weepinbell (#070)  
+---type: Grass, Poison  
+---abilities: Chlorophyll / Gluttony (Hidden Ability)  
+---Height/Weight: 1.0 m / 6.4 kg  
+---base stats  
+----total: 390  
+----hp: 65  
+----atk: 90  
+----def: 50  
+----sp.atk: 85  
+----sp.def: 45  
+----speed: 55  
+-- Victreebel (#071)  
+---type: Grass, Poison  
+---abilities: Chlorophyll / Gluttony (Hidden Ability)  
+---Height/Weight: 1.7 m / 15.5 kg  
+---base stats  
+----total: 490  
+----hp: 80  
+----atk: 105  
+----def: 65  
+----sp.atk: 100  
+----sp.def: 70  
+----speed: 70  
+-- Tentacool (#072)  
+---type: Water, Poison  
+---abilities: Clear Body / Liquid Ooze / Rain Dish (Hidden Ability)  
+---Height/Weight: 0.9 m / 45.5 kg  
+---base stats  
+----total: 335  
+----hp: 40  
+----atk: 40  
+----def: 35  
+----sp.atk: 50  
+----sp.def: 100  
+----speed: 70  
+-- Tentacruel (#073)  
+---type: Water, Poison  
+---abilities: Clear Body / Liquid Ooze / Rain Dish (Hidden Ability)  
+---Height/Weight: 1.6 m / 55.0 kg  
+---base stats  
+----total: 515  
+----hp: 80  
+----atk: 70  
+----def: 65  
+----sp.atk: 80  
+----sp.def: 120  
+----speed: 100  
+-- Geodude (#074)  
+---type: Rock, Ground  
+---abilities: Rock Head / Sturdy / Sand Veil (Hidden Ability)  
+---Height/Weight: 0.4 m / 20.0 kg  
+---base stats  
+----total: 300  
+----hp: 40  
+----atk: 80  
+----def: 100  
+----sp.atk: 30  
+----sp.def: 30  
+----speed: 20  
+-- Graveler (#075)  
+---type: Rock, Ground  
+---abilities: Rock Head / Sturdy / Sand Veil (Hidden Ability)  
+---Height/Weight: 1.0 m / 105.0 kg  
+---base stats  
+----total: 390  
+----hp: 55  
+----atk: 95  
+----def: 115  
+----sp.atk: 45  
+----sp.def: 45  
+----speed: 35  
+-- Golem (#076)  
+---type: Rock, Ground  
+---abilities: Rock Head / Sturdy / Sand Veil (Hidden Ability)  
+---Height/Weight: 1.4 m / 300.0 kg  
+---base stats  
+----total: 495  
+----hp: 80  
+----atk: 120  
+----def: 130  
+----sp.atk: 55  
+----sp.def: 65  
+----speed: 45  
+-- Ponyta (#077)  
+---type: Fire  
+---abilities: Run Away / Flash Fire / Flame Body (Hidden Ability)  
+---Height/Weight: 1.0 m / 30.0 kg  
+---base stats  
+----total: 410  
+----hp: 50  
+----atk: 85  
+----def: 55  
+----sp.atk: 65  
+----sp.def: 65  
+----speed: 90  
+-- Rapidash (#078)  
+---type: Fire  
+---abilities: Run Away / Flash Fire / Flame Body (Hidden Ability)  
+---Height/Weight: 1.7 m / 95.0 kg  
+---base stats  
+----total: 500  
+----hp: 65  
+----atk: 100  
+----def: 70  
+----sp.atk: 80  
+----sp.def: 80  
+----speed: 105  
+-- Slowpoke (#079)  
+---type: Water, Psychic  
+---abilities: Oblivious / Own Tempo / Regenerator (Hidden Ability)  
+---Height/Weight: 1.2 m / 36.0 kg  
+---base stats  
+----total: 315  
+----hp: 90  
+----atk: 65  
+----def: 65  
+----sp.atk: 40  
+----sp.def: 40  
+----speed: 15  
+-- Slowbro (#080)  
+---type: Water, Psychic  
+---abilities: Oblivious / Own Tempo / Regenerator (Hidden Ability)  
+---Height/Weight: 1.6 m / 78.5 kg  
+---base stats  
+----total: 490  
+----hp: 95  
+----atk: 75  
+----def: 110  
+----sp.atk: 100  
+----sp.def: 80  
+----speed: 30  
+-- Magnemite (#081)  
+---type: Electric, Steel  
+---abilities: Magnet Pull / Sturdy / Analytic (Hidden Ability)  
+---Height/Weight: 0.3 m / 6.0 kg  
+---base stats  
+----total: 325  
+----hp: 25  
+----atk: 35  
+----def: 70  
+----sp.atk: 95  
+----sp.def: 55  
+----speed: 45  
+-- Magneton (#082)  
+---type: Electric, Steel  
+---abilities: Magnet Pull / Sturdy / Analytic (Hidden Ability)  
+---Height/Weight: 1.0 m / 60.0 kg  
+---base stats  
+----total: 465  
+----hp: 50  
+----atk: 60  
+----def: 95  
+----sp.atk: 120  
+----sp.def: 70  
+----speed: 70  
+-- Farfetch’d (#083)  
+---type: Normal, Flying  
+---abilities: Keen Eye / Inner Focus / Defiant (Hidden Ability)  
+---Height/Weight: 0.8 m / 15.0 kg  
+---base stats  
+----total: 377  
+----hp: 52  
+----atk: 90  
+----def: 55  
+----sp.atk: 58  
+----sp.def: 62  
+----speed: 60  
+-- Doduo (#084)  
+---type: Normal, Flying  
+---abilities: Run Away / Early Bird / Tangled Feet (Hidden Ability)  
+---Height/Weight: 1.4 m / 39.2 kg  
+---base stats  
+----total: 310  
+----hp: 35  
+----atk: 85  
+----def: 45  
+----sp.atk: 35  
+----sp.def: 35  
+----speed: 75  
+-- Dodrio (#085)  
+---type: Normal, Flying  
+---abilities: Run Away / Early Bird / Tangled Feet (Hidden Ability)  
+---Height/Weight: 1.8 m / 85.2 kg  
+---base stats  
+----total: 460  
+----hp: 60  
+----atk: 110  
+----def: 70  
+----sp.atk: 60  
+----sp.def: 60  
+----speed: 100  
+-- Seel (#086)  
+---type: Water  
+---abilities: Thick Fat / Hydration / Ice Body (Hidden Ability)  
+---Height/Weight: 1.1 m / 90.0 kg  
+---base stats  
+----total: 325  
+----hp: 65  
+----atk: 45  
+----def: 55  
+----sp.atk: 45  
+----sp.def: 70  
+----speed: 45  
+-- Dewgong (#087)  
+---type: Water, Ice  
+---abilities: Thick Fat / Hydration / Ice Body (Hidden Ability)  
+---Height/Weight: 1.7 m / 120.0 kg  
+---base stats  
+----total: 475  
+----hp: 90  
+----atk: 70  
+----def: 80  
+----sp.atk: 70  
+----sp.def: 95  
+----speed: 70  
+-- Grimer (#088)  
+---type: Poison  
+---abilities: Stench / Sticky Hold / Poison Touch (Hidden Ability)  
+---Height/Weight: 0.9 m / 30.0 kg  
+---base stats  
+----total: 325  
+----hp: 80  
+----atk: 80  
+----def: 50  
+----sp.atk: 40  
+----sp.def: 50  
+----speed: 25  
+-- Muk (#089)  
+---type: Poison  
+---abilities: Stench / Sticky Hold / Poison Touch (Hidden Ability)  
+---Height/Weight: 1.2 m / 30.0 kg  
+---base stats  
+----total: 500  
+----hp: 105  
+----atk: 105  
+----def: 75  
+----sp.atk: 65  
+----sp.def: 100  
+----speed: 50 
+-- Shellder (#090)  
+---type: Water  
+---abilities: Shell Armor / Skill Link / Overcoat (Hidden Ability)  
+---Height/Weight: 0.3 m / 4.0 kg  
+---base stats  
+----total: 305  
+----hp: 30  
+----atk: 65  
+----def: 100  
+----sp.atk: 45  
+----sp.def: 25  
+----speed: 40  
+-- Cloyster (#091)  
+---type: Water, Ice  
+---abilities: Shell Armor / Skill Link / Overcoat (Hidden Ability)  
+---Height/Weight: 1.5 m / 132.5 kg  
+---base stats  
+----total: 525  
+----hp: 50  
+----atk: 95  
+----def: 180  
+----sp.atk: 85  
+----sp.def: 45  
+----speed: 70  
+-- Gastly (#092)  
+---type: Ghost, Poison  
+---abilities: Levitate  
+---Height/Weight: 1.3 m / 0.1 kg  
+---base stats  
+----total: 310  
+----hp: 30  
+----atk: 35  
+----def: 30  
+----sp.atk: 100  
+----sp.def: 35  
+----speed: 80  
+-- Haunter (#093)  
+---type: Ghost, Poison  
+---abilities: Levitate  
+---Height/Weight: 1.6 m / 0.1 kg  
+---base stats  
+----total: 405  
+----hp: 45  
+----atk: 50  
+----def: 45  
+----sp.atk: 115  
+----sp.def: 55  
+----speed: 95  
+-- Gengar (#094)  
+---type: Ghost, Poison  
+---abilities: Cursed Body / Levitate (prior to Generation VII)  
+---Height/Weight: 1.5 m / 40.5 kg  
+---base stats  
+----total: 500  
+----hp: 60  
+----atk: 65  
+----def: 60  
+----sp.atk: 130  
+----sp.def: 75  
+----speed: 110  
+-- Onix (#095)  
+---type: Rock, Ground  
+---abilities: Rock Head / Sturdy / Weak Armor (Hidden Ability)  
+---Height/Weight: 8.8 m / 210.0 kg  
+---base stats  
+----total: 385  
+----hp: 35  
+----atk: 45  
+----def: 160  
+----sp.atk: 30  
+----sp.def: 45  
+----speed: 70  
+-- Drowzee (#096)  
+---type: Psychic  
+---abilities: Insomnia / Forewarn / Inner Focus (Hidden Ability)  
+---Height/Weight: 1.0 m / 32.4 kg  
+---base stats  
+----total: 328  
+----hp: 60  
+----atk: 48  
+----def: 45  
+----sp.atk: 43  
+----sp.def: 90  
+----speed: 42  
+-- Hypno (#097)  
+---type: Psychic  
+---abilities: Insomnia / Forewarn / Inner Focus (Hidden Ability)  
+---Height/Weight: 1.6 m / 75.6 kg  
+---base stats  
+----total: 483  
+----hp: 85  
+----atk: 73  
+----def: 70  
+----sp.atk: 73  
+----sp.def: 115  
+----speed: 67  
+-- Krabby (#098)  
+---type: Water  
+---abilities: Hyper Cutter / Shell Armor / Sheer Force (Hidden Ability)  
+---Height/Weight: 0.4 m / 6.5 kg  
+---base stats  
+----total: 325  
+----hp: 30  
+----atk: 105  
+----def: 90  
+----sp.atk: 25  
+----sp.def: 25  
+----speed: 50  
+-- Kingler (#099)  
+---type: Water  
+---abilities: Hyper Cutter / Shell Armor / Sheer Force (Hidden Ability)  
+---Height/Weight: 1.3 m / 60.0 kg  
+---base stats  
+----total: 475  
+----hp: 55  
+----atk: 130  
+----def: 115  
+----sp.atk: 50  
+----sp.def: 50  
+----speed: 75  
+-- Voltorb (#100)  
+---type: Electric  
+---abilities: Soundproof / Static / Aftermath (Hidden Ability)  
+---Height/Weight: 0.5 m / 10.4 kg  
+---base stats  
+----total: 330  
+----hp: 40  
+----atk: 30  
+----def: 50  
+----sp.atk: 55  
+----sp.def: 55  
+----speed: 100  
+-- Electrode (#101)  
+---type: Electric  
+---abilities: Soundproof / Static / Aftermath (Hidden Ability)  
+---Height/Weight: 1.2 m / 66.6 kg  
+---base stats  
+----total: 480  
+----hp: 60  
+----atk: 50  
+----def: 70  
+----sp.atk: 80  
+----sp.def: 80  
+----speed: 150  
+-- Exeggcute (#102)  
+---type: Grass, Psychic  
+---abilities: Chlorophyll / Harvest (Hidden Ability)  
+---Height/Weight: 0.4 m / 2.5 kg  
+---base stats  
+----total: 325  
+----hp: 60  
+----atk: 40  
+----def: 80  
+----sp.atk: 60  
+----sp.def: 45  
+----speed: 40  
+-- Exeggutor (#103)  
+---type: Grass, Psychic  
+---abilities: Chlorophyll / Harvest (Hidden Ability)  
+---Height/Weight: 2.0 m / 120.0 kg  
+---base stats  
+----total: 530  
+----hp: 95  
+----atk: 95  
+----def: 85  
+----sp.atk: 125  
+----sp.def: 75  
+----speed: 55  
+-- Cubone (#104)  
+---type: Ground  
+---abilities: Rock Head / Lightning Rod / Battle Armor (Hidden Ability)  
+---Height/Weight: 0.4 m / 6.5 kg  
+---base stats  
+----total: 320  
+----hp: 50  
+----atk: 50  
+----def: 95  
+----sp.atk: 40  
+----sp.def: 50  
+----speed: 35  
+-- Marowak (#105)  
+---type: Ground  
+---abilities: Rock Head / Lightning Rod / Battle Armor (Hidden Ability)  
+---Height/Weight: 1.0 m / 45.0 kg  
+---base stats  
+----total: 425  
+----hp: 60  
+----atk: 80  
+----def: 110  
+----sp.atk: 50  
+----sp.def: 80  
+----speed: 45  
+-- Hitmonlee (#106)  
+---type: Fighting  
+---abilities: Limber / Reckless / Unburden (Hidden Ability)  
+---Height/Weight: 1.5 m / 49.8 kg  
+---base stats  
+----total: 455  
+----hp: 50  
+----atk: 120  
+----def: 53  
+----sp.atk: 35  
+----sp.def: 110  
+----speed: 87  
+-- Hitmonchan (#107)  
+---type: Fighting  
+---abilities: Keen Eye / Iron Fist / Inner Focus (Hidden Ability)  
+---Height/Weight: 1.4 m / 50.2 kg  
+---base stats  
+----total: 455  
+----hp: 50  
+----atk: 105  
+----def: 79  
+----sp.atk: 35  
+----sp.def: 110  
+----speed: 76  
+-- Lickitung (#108)  
+---type: Normal  
+---abilities: Own Tempo / Oblivious / Cloud Nine (Hidden Ability)  
+---Height/Weight: 1.2 m / 65.5 kg  
+---base stats  
+----total: 385  
+----hp: 90  
+----atk: 55  
+----def: 75  
+----sp.atk: 60  
+----sp.def: 75  
+----speed: 30  
+-- Koffing (#109)  
+---type: Poison  
+---abilities: Levitate / Neutralizing Gas / Stench (Hidden Ability)  
+---Height/Weight: 0.6 m / 1.0 kg  
+---base stats  
+----total: 340  
+----hp: 40  
+----atk: 65  
+----def: 95  
+----sp.atk: 60  
+----sp.def: 45  
+----speed: 35  
+-- Weezing (#110)  
+---type: Poison  
+---abilities: Levitate / Neutralizing Gas / Stench (Hidden Ability)  
+---Height/Weight: 1.2 m / 9.5 kg  
+---base stats  
+----total: 490  
+----hp: 65  
+----atk: 90  
+----def: 120  
+----sp.atk: 85  
+----sp.def: 70  
+----speed: 60  
+-- Rhyhorn (#111)  
+---type: Ground, Rock  
+---abilities: Lightning Rod / Rock Head / Reckless (Hidden Ability)  
+---Height/Weight: 1.0 m / 115.0 kg  
+---base stats  
+----total: 345  
+----hp: 80  
+----atk: 85  
+----def: 95  
+----sp.atk: 30  
+----sp.def: 30  
+----speed: 25  
+-- Rhydon (#112)  
+---type: Ground, Rock  
+---abilities: Lightning Rod / Rock Head / Reckless (Hidden Ability)  
+---Height/Weight: 1.9 m / 120.0 kg  
+---base stats  
+----total: 485  
+----hp: 105  
+----atk: 130  
+----def: 120  
+----sp.atk: 45  
+----sp.def: 45  
+----speed: 40  
+-- Chansey (#113)  
+---type: Normal  
+---abilities: Natural Cure / Serene Grace / Healer (Hidden Ability)  
+---Height/Weight: 1.1 m / 34.6 kg  
+---base stats  
+----total: 450  
+----hp: 250  
+----atk: 5  
+----def: 5  
+----sp.atk: 35  
+----sp.def: 105  
+----speed: 50  
+-- Tangela (#114)  
+---type: Grass  
+---abilities: Chlorophyll / Leaf Guard / Regenerator (Hidden Ability)  
+---Height/Weight: 1.0 m / 35.0 kg  
+---base stats  
+----total: 435  
+----hp: 65  
+----atk: 55  
+----def: 115  
+----sp.atk: 100  
+----sp.def: 40  
+----speed: 60  
+-- Kangaskhan (#115)  
+---type: Normal  
+---abilities: Early Bird / Scrappy / Inner Focus (Hidden Ability)  
+---Height/Weight: 2.2 m / 80.0 kg  
+---base stats  
+----total: 490  
+----hp: 105  
+----atk: 95  
+----def: 80  
+----sp.atk: 40  
+----sp.def: 80  
+----speed: 90  
+-- Horsea (#116)  
+---type: Water  
+---abilities: Swift Swim / Sniper / Damp (Hidden Ability)  
+---Height/Weight: 0.4 m / 8.0 kg  
+---base stats  
+----total: 295  
+----hp: 30  
+----atk: 40  
+----def: 70  
+----sp.atk: 70  
+----sp.def: 25  
+----speed: 60  
+-- Seadra (#117)  
+---type: Water  
+---abilities: Poison Point / Sniper / Damp (Hidden Ability)  
+---Height/Weight: 1.2 m / 25.0 kg  
+---base stats  
+----total: 440  
+----hp: 55  
+----atk: 65  
+----def: 95  
+----sp.atk: 95  
+----sp.def: 45  
+----speed: 85  
+-- Goldeen (#118)  
+---type: Water  
+---abilities: Swift Swim / Water Veil / Lightning Rod (Hidden Ability)  
+---Height/Weight: 0.6 m / 15.0 kg  
+---base stats  
+----total: 320  
+----hp: 45  
+----atk: 67  
+----def: 60  
+----sp.atk: 35  
+----sp.def: 50  
+----speed: 63  
+-- Seaking (#119)  
+---type: Water  
+---abilities: Swift Swim / Water Veil / Lightning Rod (Hidden Ability)  
+---Height/Weight: 1.3 m / 39.0 kg  
+---base stats  
+----total: 450  
+----hp: 80  
+----atk: 92  
+----def: 65  
+----sp.atk: 65  
+----sp.def: 80  
+----speed: 68  
+-- Staryu (#120)  
+---type: Water  
+---abilities: Illuminate / Natural Cure / Analytic (Hidden Ability)  
+---Height/Weight: 0.8 m / 34.5 kg  
+---base stats  
+----total: 340  
+----hp: 30  
+----atk: 45  
+----def: 55  
+----sp.atk: 70  
+----sp.def: 55  
+----speed: 85  
+-- Starmie (#121)  
+---type: Water, Psychic  
+---abilities: Illuminate / Natural Cure / Analytic (Hidden Ability)  
+---Height/Weight: 1.1 m / 80.0 kg  
+---base stats  
+----total: 520  
+----hp: 60  
+----atk: 75  
+----def: 85  
+----sp.atk: 100  
+----sp.def: 85  
+----speed: 115  
+-- Mr. Mime (#122)  
+---type: Psychic, Fairy  
+---abilities: Soundproof / Filter / Technician (Hidden Ability)  
+---Height/Weight: 1.3 m / 54.5 kg  
+---base stats  
+----total: 460  
+----hp: 40  
+----atk: 45  
+----def: 65  
+----sp.atk: 100  
+----sp.def: 120  
+----speed: 90  
+-- Scyther (#123)  
+---type: Bug, Flying  
+---abilities: Swarm / Technician / Steadfast (Hidden Ability)  
+---Height/Weight: 1.5 m / 56.0 kg  
+---base stats  
+----total: 500  
+----hp: 70  
+----atk: 110  
+----def: 80  
+----sp.atk: 55  
+----sp.def: 80  
+----speed: 105  
+-- Jynx (#124)  
+---type: Ice, Psychic  
+---abilities: Oblivious / Forewarn / Dry Skin (Hidden Ability)  
+---Height/Weight: 1.4 m / 40.6 kg  
+---base stats  
+----total: 455  
+----hp: 65  
+----atk: 50  
+----def: 35  
+----sp.atk: 115  
+----sp.def: 95  
+----speed: 95  
+-- Electabuzz (#125)  
+---type: Electric  
+---abilities: Static / Vital Spirit (Hidden Ability)  
+---Height/Weight: 1.1 m / 30.0 kg  
+---base stats  
+----total: 490  
+----hp: 65  
+----atk: 83  
+----def: 57  
+----sp.atk: 95  
+----sp.def: 85  
+----speed: 105  
+-- Magmar (#126)  
+---type: Fire  
+---abilities: Flame Body / Vital Spirit (Hidden Ability)  
+---Height/Weight: 1.3 m / 44.5 kg  
+---base stats  
+----total: 495  
+----hp: 65  
+----atk: 95  
+----def: 57  
+----sp.atk: 100  
+----sp.def: 85  
+----speed: 93  
+-- Pinsir (#127)  
+---type: Bug  
+---abilities: Hyper Cutter / Mold Breaker / Moxie (Hidden Ability)  
+---Height/Weight: 1.5 m / 55.0 kg  
+---base stats  
+----total: 500  
+----hp: 65  
+----atk: 125  
+----def: 100  
+----sp.atk: 55  
+----sp.def: 70  
+----speed: 85  
+-- Tauros (#128)  
+---type: Normal  
+---abilities: Intimidate / Anger Point / Sheer Force (Hidden Ability)  
+---Height/Weight: 1.4 m / 88.4 kg  
+---base stats  
+----total: 490  
+----hp: 75  
+----atk: 100  
+----def: 95  
+----sp.atk: 40  
+----sp.def: 70  
+----speed: 110  
+-- Magikarp (#129)  
+---type: Water  
+---abilities: Swift Swim / Rattled (Hidden Ability)  
+---Height/Weight: 0.9 m / 10.0 kg  
+---base stats  
+----total: 200  
+----hp: 20  
+----atk: 10  
+----def: 55  
+----sp.atk: 15  
+----sp.def: 20  
+----speed: 80  
+-- Gyarados (#130)  
+---type: Water, Flying  
+---abilities: Intimidate / Moxie (Hidden Ability)  
+---Height/Weight: 6.5 m / 235.0 kg  
+---base stats  
+----total: 540  
+----hp: 95  
+----atk: 125  
+----def: 79  
+----sp.atk: 60  
+----sp.def: 100  
+----speed: 81  
+-- Lapras (#131)  
+---type: Water, Ice  
+---abilities: Water Absorb / Shell Armor / Hydration (Hidden Ability)  
+---Height/Weight: 2.5 m / 220.0 kg  
+---base stats  
+----total: 535  
+----hp: 130  
+----atk: 85  
+----def: 80  
+----sp.atk: 85  
+----sp.def: 95  
+----speed: 60  
+-- Ditto (#132)  
+---type: Normal  
+---abilities: Limber / Imposter (Hidden Ability)  
+---Height/Weight: 0.3 m / 4.0 kg  
+---base stats  
+----total: 288  
+----hp: 48  
+----atk: 48  
+----def: 48  
+----sp.atk: 48  
+----sp.def: 48  
+----speed: 48  
+-- Eevee (#133)  
+---type: Normal  
+---abilities: Run Away / Adaptability / Anticipation (Hidden Ability)  
+---Height/Weight: 0.3 m / 6.5 kg  
+---base stats  
+----total: 325  
+----hp: 55  
+----atk: 55  
+----def: 50  
+----sp.atk: 45  
+----sp.def: 65  
+----speed: 55  
+-- Vaporeon (#134)  
+---type: Water  
+---abilities: Water Absorb / Hydration (Hidden Ability)  
+---Height/Weight: 1.0 m / 29.0 kg  
+---base stats  
+----total: 525  
+----hp: 130  
+----atk: 65  
+----def: 60  
+----sp.atk: 110  
+----sp.def: 95  
+----speed: 65  
+-- Jolteon (#135)  
+---type: Electric  
+---abilities: Volt Absorb / Quick Feet (Hidden Ability)  
+---Height/Weight: 0.8 m / 24.5 kg  
+---base stats  
+----total: 525  
+----hp: 65  
+----atk: 65  
+----def: 60  
+----sp.atk: 110  
+----sp.def: 95  
+----speed: 130  
+-- Flareon (#136)  
+---type: Fire  
+---abilities: Flash Fire / Guts (Hidden Ability)  
+---Height/Weight: 0.9 m / 25.0 kg  
+---base stats  
+----total: 525  
+----hp: 65  
+----atk: 130  
+----def: 60  
+----sp.atk: 95  
+----sp.def: 110  
+----speed: 65  
+-- Porygon (#137)  
+---type: Normal  
+---abilities: Trace / Download / Analytic (Hidden Ability)  
+---Height/Weight: 0.8 m / 36.5 kg  
+---base stats  
+----total: 395  
+----hp: 65  
+----atk: 60  
+----def: 70  
+----sp.atk: 85  
+----sp.def: 75  
+----speed: 40  
+-- Omanyte (#138)  
+---type: Rock, Water  
+---abilities: Swift Swim / Shell Armor / Weak Armor (Hidden Ability)  
+---Height/Weight: 0.4 m / 7.5 kg  
+---base stats  
+----total: 355  
+----hp: 35  
+----atk: 40  
+----def: 100  
+----sp.atk: 90  
+----sp.def: 55  
+----speed: 35  
+-- Omastar (#139)  
+---type: Rock, Water  
+---abilities: Swift Swim / Shell Armor / Weak Armor (Hidden Ability)  
+---Height/Weight: 1.0 m / 35.0 kg  
+---base stats  
+----total: 495  
+----hp: 70  
+----atk: 60  
+----def: 125  
+----sp.atk: 115  
+----sp.def: 70  
+----speed: 55  
+-- Kabuto (#140)  
+---type: Rock, Water  
+---abilities: Swift Swim / Battle Armor / Weak Armor (Hidden Ability)  
+---Height/Weight: 0.5 m / 11.5 kg  
+---base stats  
+----total: 355  
+----hp: 30  
+----atk: 80  
+----def: 90  
+----sp.atk: 55  
+----sp.def: 45  
+----speed: 55  
+-- Kabutops (#141)  
+---type: Rock, Water  
+---abilities: Swift Swim / Battle Armor / Weak Armor (Hidden Ability)  
+---Height/Weight: 1.3 m / 40.5 kg  
+---base stats  
+----total: 495  
+----hp: 60  
+----atk: 115  
+----def: 105  
+----sp.atk: 65  
+----sp.def: 70  
+----speed: 80  
+-- Aerodactyl (#142)  
+---type: Rock, Flying  
+---abilities: Rock Head / Pressure / Unnerve (Hidden Ability)  
+---Height/Weight: 1.8 m / 59.0 kg  
+---base stats  
+----total: 515  
+----hp: 80  
+----atk: 105  
+----def: 65  
+----sp.atk: 60  
+----sp.def: 75  
+----speed: 130  
+-- Snorlax (#143)  
+---type: Normal  
+---abilities: Immunity / Thick Fat / Gluttony (Hidden Ability)  
+---Height/Weight: 2.1 m / 460.0 kg  
+---base stats  
+----total: 540  
+----hp: 160  
+----atk: 110  
+----def: 65  
+----sp.atk: 65  
+----sp.def: 110  
+----speed: 30  
+-- Articuno (#144)  
+---type: Ice, Flying  
+---abilities: Pressure / Snow Cloak (Hidden Ability)  
+---Height/Weight: 1.7 m / 55.4 kg  
+---base stats  
+----total: 580  
+----hp: 90  
+----atk: 85  
+----def: 100  
+----sp.atk: 95  
+----sp.def: 125  
+----speed: 85  
+-- Articuno (#144)  
+---type: Ice, Flying  
+---abilities: Pressure / Snow Cloak (Hidden Ability)  
+---Height/Weight: 1.7 m / 55.4 kg  
+---base stats  
+----total: 580  
+----hp: 90  
+----atk: 85  
+----def: 100  
+----sp.atk: 95  
+----sp.def: 125  
+----speed: 85 
+-- Zapdos (#145)  
+---type: Electric, Flying  
+---abilities: Pressure / Static (Hidden Ability)  
+---Height/Weight: 1.6 m / 52.6 kg  
+---base stats  
+----total: 580  
+----hp: 90  
+----atk: 90  
+----def: 85  
+----sp.atk: 125  
+----sp.def: 90  
+----speed: 100  
+-- Moltres (#146)  
+---type: Fire, Flying  
+---abilities: Pressure / Flame Body (Hidden Ability)  
+---Height/Weight: 2.0 m / 60.0 kg  
+---base stats  
+----total: 580  
+----hp: 90  
+----atk: 100  
+----def: 90  
+----sp.atk: 125  
+----sp.def: 85  
+----speed: 90  
+-- Dratini (#147)  
+---type: Dragon  
+---abilities: Shed Skin / Marvel Scale (Hidden Ability)  
+---Height/Weight: 1.8 m / 3.3 kg  
+---base stats  
+----total: 300  
+----hp: 41  
+----atk: 64  
+----def: 45  
+----sp.atk: 50  
+----sp.def: 50  
+----speed: 50  
+-- Dragonair (#148)  
+---type: Dragon  
+---abilities: Shed Skin / Marvel Scale (Hidden Ability)  
+---Height/Weight: 4.0 m / 16.5 kg  
+---base stats  
+----total: 420  
+----hp: 61  
+----atk: 84  
+----def: 65  
+----sp.atk: 70  
+----sp.def: 70  
+----speed: 70  
+-- Dragonite (#149)  
+---type: Dragon, Flying  
+---abilities: Inner Focus / Multiscale (Hidden Ability)  
+---Height/Weight: 2.2 m / 210.0 kg  
+---base stats  
+----total: 600  
+----hp: 91  
+----atk: 134  
+----def: 95  
+----sp.atk: 100  
+----sp.def: 100  
+----speed: 80  
+-- Mewtwo (#150)  
+---type: Psychic  
+---abilities: Pressure / Unnerve (Hidden Ability)  
+---Height/Weight: 2.0 m / 122.0 kg  
+---base stats  
+----total: 680  
+----hp: 106  
+----atk: 110  
+----def: 90  
+----sp.atk: 154  
+----sp.def: 90  
+----speed: 130  
+-- Mew (#151)  
+---type: Psychic  
+---abilities: Synchronize  
+---Height/Weight: 0.4 m / 4.0 kg  
+---base stats  
+----total: 600  
+----hp: 100  
+----atk: 100  
+----def: 100  
+----sp.atk: 100  
+----sp.def: 100  
+----speed: 100 -
