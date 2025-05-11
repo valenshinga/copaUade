@@ -38,14 +38,15 @@ python3 main.py
 
 2. Navegar por las opciones:
    - Usar números para seleccionar opciones
-   - Escribir el nombre exacto del Pokémon
+   - Tambien se puede escribir el nombre exacto del Pokémon
    - Usar "atras" para volver al menú anterior
    - Usar "salir" para terminar el programa
 
 3. Contribuir información:
-   - Seleccionar "Contribuir" en cualquier menú
+   - Escribir "Contribuir" en cualquier menú
    - Elegir entre agregar un tema o una pregunta
    - Seguir las instrucciones para ingresar la información
+   - La información se guardará automáticamente en el archivo
 
 ## Funcionalidades Principales
 
@@ -82,14 +83,6 @@ El programa incluye manejo de errores para:
 - Errores de navegación
 - Problemas de lectura/escritura de archivos
 - Errores inesperados
-
-## Contribución
-
-Para contribuir al proyecto:
-1. Selecciona "Contribuir" en el menú
-2. Elige entre agregar un tema o una pregunta
-3. Sigue las instrucciones para ingresar la información
-4. La información se guardará automáticamente en el archivo
 
 ## Limitaciones
 
