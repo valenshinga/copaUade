@@ -135,10 +135,7 @@ def guardar_entrada(nombre_txt:str, ruta_diccionario:list, respuesta:str, pregun
         lineas = archivo.readlines()
         
     dashes = (len(ruta_diccionario) + 1) * "-"
-    if pregunta:
-        nuevaLinea = f"{dashes}{pregunta}: {respuesta}\n"
-    else:
-        nuevaLinea =f"{dashes}{respuesta}\n" 
+    nuevaLinea = f"{dashes}{pregunta}: {respuesta}\n" if pregunta else f"{dashes}{respuesta}\n"
         
     cont = 1
     if ruta_diccionario:
@@ -210,8 +207,62 @@ def registrar_entrada(ruta_diccionario:list, nombre_archivo: str) -> dict:
 
     return guardar_entrada(nombre_archivo,ruta_diccionario,respuesta,pregunta)
 
+def procesar_respuesta_numerica(respuesta: int, opciones: list, ruta_diccionario: list, nivel_actual: dict) -> tuple:
+    """
+    Procesa una respuesta numérica del usuario.
+    
+    Args:
+        respuesta (int): Número ingresado por el usuario
+        opciones (list): Lista de opciones disponibles
+        ruta_diccionario (list): Ruta actual del diccionario
+        nivel_actual (dict): Diccionario actual en el que estamos navegando
 
-def procesar_respuesta_usuario(respuesta: str, opciones: list, ruta_diccionario: list) -> tuple:
+    Returns:
+        tuple: (agregar, continuar, ruta_diccionario)
+    """
+    if 1 <= respuesta <= len(opciones):
+        ruta_diccionario.append(opciones[respuesta - 1])
+        siguiente_nivel = ruta_diccionario[-1]
+        if isinstance(nivel_actual[siguiente_nivel], dict):
+            print(f"-> Buenísimo, hablemos sobre {siguiente_nivel}. ¿Qué querés saber exactamente?")
+    else:
+        print("-> No pude entender tu respuesta. Por favor ingresá el número de la opción que querés elegir, o escribí el nombre exacto.")
+    return False, True, ruta_diccionario
+
+def procesar_respuesta_texto(respuesta: str, opciones: list, ruta_diccionario: list, nivel_actual: dict) -> tuple:
+    """
+    Procesa una respuesta de texto del usuario.
+    
+    Args:
+        respuesta (str): Texto ingresado por el usuario
+        opciones (list): Lista de opciones disponibles
+        ruta_diccionario (list): Ruta actual del diccionario
+        nivel_actual (dict): Diccionario actual en el que estamos navegando
+
+    Returns:
+        tuple: (agregar, continuar, ruta_diccionario)
+    """
+    if "atras" in respuesta and ruta_diccionario:
+        ruta_diccionario.pop()
+        return False, True, ruta_diccionario
+    elif "salir" in respuesta:
+        return False, False, ruta_diccionario
+    elif "contribuir" in respuesta:
+        return True, True, ruta_diccionario
+    
+    opciones_lower = [opcion.lower() for opcion in opciones]
+    coinciden = [index for index, opcion in enumerate(opciones_lower) if opcion in respuesta]
+    
+    if not coinciden or len(coinciden) > 1:
+        print("-> No pude entender tu respuesta. Por favor ingresá el número de la opción que querés elegir, o escribí el nombre exacto.")
+        return False, True, ruta_diccionario
+    
+    ruta_diccionario.append(opciones[coinciden[0]])
+    if isinstance(nivel_actual[ruta_diccionario[-1]], dict):    
+        print(f"-> Buenísimo, hablemos sobre {ruta_diccionario[-1]}. ¿Qué querés saber exactamente?")
+    return False, True, ruta_diccionario
+
+def procesar_respuesta_usuario(respuesta: str, opciones: list, ruta_diccionario: list, nivel_actual: dict) -> tuple:
     """
     Procesa la respuesta del usuario y retorna si debe continuar y la ruta actualizada.
     
@@ -219,35 +270,16 @@ def procesar_respuesta_usuario(respuesta: str, opciones: list, ruta_diccionario:
         respuesta (str): Respuesta del usuario
         opciones (list): Lista de opciones disponibles
         ruta_diccionario (list): Ruta actual del diccionario
+        nivel_actual (dict): Diccionario actual en el que estamos navegando
 
     Returns:
-        tuple: Tupla con un booleano y la ruta actualizada
+        tuple: Tupla con un booleano indicando si quiere contribuir, si debe continuar y la ruta actualizada
     """
     respuesta = respuesta.strip().lower()
     
-    agregar = False
-    continuar = True
     if respuesta.isdigit():
-        respuesta = int(respuesta)
-        if 1 <= respuesta <= len(opciones):
-            ruta_diccionario.append(opciones[respuesta - 1])
-            print(f"-> Buenísimo, hablemos sobre el tema {ruta_diccionario[-1]}. ¿Qué querés saber exactamente?")
-    elif "atras" in respuesta and ruta_diccionario:
-        ruta_diccionario.pop()
-    elif "salir" in respuesta:
-        continuar = False
-    elif "contribuir" in respuesta:
-        agregar = True
-    else:
-        opciones_lower = [opcion.lower() for opcion in opciones]
-        coinciden = [index for index, opcion in enumerate(opciones_lower) if opcion in respuesta]
-        if not coinciden or len(coinciden) > 1:
-            print("-> Perdón, no logré entenderte. Por favor seleccioná una opción devuelta.")
-        else:
-            ruta_diccionario.append(opciones[coinciden[0]])
-            print(f"-> Buenísimo, hablemos sobre el tema {ruta_diccionario[-1]}. ¿Qué querés saber exactamente?")
-    
-    return agregar, continuar, ruta_diccionario
+        return procesar_respuesta_numerica(int(respuesta), opciones, ruta_diccionario, nivel_actual)
+    return procesar_respuesta_texto(respuesta, opciones, ruta_diccionario, nivel_actual)
 
 def main_loop(nombre_archivo: str) -> None:
     """Ejecuta el bucle principal del programa."""
@@ -268,7 +300,7 @@ def main_loop(nombre_archivo: str) -> None:
             opciones = mostrar_opciones(nivel_actual, bool(ruta_diccionario))
             print("")
             respuesta = input("-> Ingrese una respuesta: ")
-            agregar, continuar, ruta_diccionario = procesar_respuesta_usuario(respuesta, opciones, ruta_diccionario)
+            agregar, continuar, ruta_diccionario = procesar_respuesta_usuario(respuesta, opciones, ruta_diccionario, nivel_actual)
             if agregar:
                 resultado = registrar_entrada(ruta_diccionario.copy(),nombre_archivo)
                 if resultado: 
