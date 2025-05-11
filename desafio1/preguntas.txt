@@ -1619,7 +1619,7 @@
 ----atk.esp: 110  
 ----def.esp: 95  
 ----velocidad: 130  
--- Flareon (#136)  
+-- Flareon 
 ---tipo: Fuego  
 ---habilidades: Absorbe Fuego / Agallas (Habilidad Oculta)  
 ---Altura/Peso: 0.9 m / 25.0 kg  
