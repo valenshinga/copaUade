@@ -10,8 +10,8 @@ def registrar_log_error(ruta: list, respuesta: str, error: str) -> None:
         error (str): Mensaje de error de python
     """
     ruta_archivo = obtener_ruta_archivo("log.txt")
-    ruta = " -> ".join(ruta) if ruta else "inicio"
-    linea = f"[ERROR] Ruta: {ruta} | Respuesta: {respuesta} | Error: {error}\n"
+    ruta_usuario = " -> ".join(ruta) if ruta else "inicio"
+    linea = f"[ERROR] Ruta: {ruta_usuario} | Respuesta: {respuesta} | Error: {error}\n"
     
     with open(ruta_archivo, "a", encoding='utf-8') as archivo_log:
         archivo_log.write(linea)
@@ -155,45 +155,47 @@ def mostrar_opciones(memoria: dict, atras: bool = True) -> list:
     print(f"-> {'Atras' if atras else 'Salir'}")
     return opciones
 
-def guardar_entrada(nombre_txt:str, ruta_diccionario:list, respuesta:str, pregunta:str = None) -> dict:
-    """Sigue en el archivo la ruta de diccionario para agregar un tema o una pregunta
+def guardar_entrada(nombre_txt: str, ruta_diccionario: list, respuesta: str, pregunta: str = None) -> dict:
+    """
+    Sigue en el archivo la ruta de diccionario para agregar un tema o una pregunta.
+    
     Args:
         nombre_txt (str): Nombre del archivo txt a modificar
         ruta_diccionario (list): Ruta actual del diccionario
-        respuesta (str) : Puede ser el nombre del tema o la respuesta a una pregunta
-        pregunta (str) : la pregunta en caso de que se quiera ingresar una pregunta
+        respuesta (str): Puede ser el nombre del tema o la respuesta a una pregunta
+        pregunta (str, optional): La pregunta en caso de que se quiera ingresar una pregunta
 
     Returns:
-        dict: nuevo diccionario memoria con el cambio realizado 
+        dict: Nuevo diccionario memoria con el cambio realizado
     """   
     ruta_txt = obtener_ruta_archivo(nombre_txt)
     
     with open(ruta_txt, 'r') as archivo:
         lineas = archivo.readlines()
         
-    dashes = (len(ruta_diccionario) + 1) * "-"
-    nuevaLinea = f"{dashes}{pregunta}: {respuesta}\n" if pregunta else f"{dashes}{respuesta}\n"
+    nivel_actual = (len(ruta_diccionario) + 1) * "-"
+    nueva_linea = f"{nivel_actual}{pregunta}: {respuesta}\n" if pregunta else f"{nivel_actual}{respuesta}\n"
         
-    cont = 1
+    nivel = 1
     if ruta_diccionario:
         for indice, linea in enumerate(lineas):
-            if linea == f"{cont * "-"}{ruta_diccionario[0]}\n":
+            if linea == f"{nivel * "-"}{ruta_diccionario[0]}\n":
                 ruta_diccionario.pop(0)
-                cont += 1
+                nivel += 1
                 if not ruta_diccionario:         
-                    lineas[indice+1:indice+1] = nuevaLinea
+                    lineas[indice+1:indice+1] = nueva_linea
                     break
     else:
         if not lineas[-1].endswith("\n"):
             lineas[-1] += "\n"
-        lineas.append(nuevaLinea)
+        lineas.append(nueva_linea)
         
     with open(ruta_txt, 'w') as archivo:
         archivo.writelines(lineas)
 
     return leer_txt(nombre_txt)
 
-def registrar_entrada(ruta_diccionario:list, nombre_archivo: str) -> dict:
+def registrar_entrada(ruta_diccionario: list, nombre_archivo: str) -> dict:
     """Registra un nuevo tema o una nueva pregunta y respuesta en el archivo.
     Args:
         nombre_archivo (str): Nombre del archivo txt a modificar
@@ -244,7 +246,7 @@ def registrar_entrada(ruta_diccionario:list, nombre_archivo: str) -> dict:
             pregunta = input("-> No puedes ingresar un numero como pregunta. Por favor intenta devuelta: ")
         respuesta = input("-> ¿Cúal es la respuesta a esa pregunta?: ")
 
-    return guardar_entrada(nombre_archivo,ruta_diccionario,respuesta,pregunta)
+    return guardar_entrada(nombre_archivo, ruta_diccionario, respuesta, pregunta)
 
 def procesar_respuesta_numerica(respuesta: int, opciones: list, ruta_diccionario: list, nivel_actual: dict) -> tuple:
     """
@@ -378,7 +380,7 @@ def main_loop(nombre_archivo: str) -> None:
     except Exception as e:
         registrar_log_error([], "", f"Error fatal al iniciar el chatbot: {str(e)}")
     finally:
-        print("-> ¡Chau!")
+        print("-> Gracias por usar la Pokedex. ¡Chau!")
 
 if __name__ == "__main__":
     main_loop("preguntas.txt")
