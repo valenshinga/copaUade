@@ -231,7 +231,7 @@ def procesar_respuesta_usuario(respuesta: str, opciones: list, ruta_diccionario:
         respuesta = int(respuesta)
         if 1 <= respuesta <= len(opciones):
             ruta_diccionario.append(opciones[respuesta - 1])
-            print(f"-> Buenísimo, hablemos sobre el tema {ruta_diccionario[-1]} ¿Qué querés saber exactamente?")
+            print(f"-> Buenísimo, hablemos sobre el tema {ruta_diccionario[-1]}. ¿Qué querés saber exactamente?")
     elif "atras" in respuesta and ruta_diccionario:
         ruta_diccionario.pop()
     elif "salir" in respuesta:
