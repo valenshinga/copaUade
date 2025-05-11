@@ -220,14 +220,18 @@ def procesar_respuesta_numerica(respuesta: int, opciones: list, ruta_diccionario
     Returns:
         tuple: (agregar, continuar, ruta_diccionario)
     """
-    if 1 <= respuesta <= len(opciones):
-        ruta_diccionario.append(opciones[respuesta - 1])
-        siguiente_nivel = ruta_diccionario[-1]
-        if isinstance(nivel_actual[siguiente_nivel], dict):
-            print(f"-> Buenísimo, hablemos sobre {siguiente_nivel}. ¿Qué querés saber exactamente?")
-    else:
-        print("-> No pude entender tu respuesta. Por favor ingresá el número de la opción que querés elegir, o escribí el nombre exacto.")
-    return False, True, ruta_diccionario
+    try:
+        if 1 <= respuesta <= len(opciones):
+            ruta_diccionario.append(opciones[respuesta - 1])
+            siguiente_nivel = ruta_diccionario[-1]
+            if isinstance(nivel_actual[siguiente_nivel], dict):
+                print(f"-> Buenísimo, hablemos sobre {siguiente_nivel}. ¿Qué querés saber exactamente?")
+        else:
+            print("-> No pude entender tu respuesta. Por favor ingresá el número de la opción que querés elegir, o escribí el nombre exacto.")
+        return False, True, ruta_diccionario
+    except (KeyError, IndexError) as e:
+        printear_error(str(e), "Error al acceder a la opción seleccionada")
+        return False, True, ruta_diccionario[:-1] if ruta_diccionario else []
 
 def procesar_respuesta_texto(respuesta: str, opciones: list, ruta_diccionario: list, nivel_actual: dict) -> tuple:
     """
@@ -242,25 +246,29 @@ def procesar_respuesta_texto(respuesta: str, opciones: list, ruta_diccionario: l
     Returns:
         tuple: (agregar, continuar, ruta_diccionario)
     """
-    if "atras" in respuesta and ruta_diccionario:
-        ruta_diccionario.pop()
+    try:
+        if "atras" in respuesta and ruta_diccionario:
+            ruta_diccionario.pop()
+            return False, True, ruta_diccionario
+        elif "salir" in respuesta:
+            return False, False, ruta_diccionario
+        elif "contribuir" in respuesta:
+            return True, True, ruta_diccionario
+        
+        opciones_lower = [opcion.lower() for opcion in opciones]
+        coinciden = [index for index, opcion in enumerate(opciones_lower) if opcion in respuesta]
+        
+        if not coinciden or len(coinciden) > 1:
+            print("-> No pude entender tu respuesta. Por favor ingresá el número de la opción que querés elegir, o escribí el nombre exacto.")
+            return False, True, ruta_diccionario
+        
+        ruta_diccionario.append(opciones[coinciden[0]])
+        if isinstance(nivel_actual[ruta_diccionario[-1]], dict):    
+            print(f"-> Buenísimo, hablemos sobre {ruta_diccionario[-1]}. ¿Qué querés saber exactamente?")
         return False, True, ruta_diccionario
-    elif "salir" in respuesta:
-        return False, False, ruta_diccionario
-    elif "contribuir" in respuesta:
-        return True, True, ruta_diccionario
-    
-    opciones_lower = [opcion.lower() for opcion in opciones]
-    coinciden = [index for index, opcion in enumerate(opciones_lower) if opcion in respuesta]
-    
-    if not coinciden or len(coinciden) > 1:
-        print("-> No pude entender tu respuesta. Por favor ingresá el número de la opción que querés elegir, o escribí el nombre exacto.")
-        return False, True, ruta_diccionario
-    
-    ruta_diccionario.append(opciones[coinciden[0]])
-    if isinstance(nivel_actual[ruta_diccionario[-1]], dict):    
-        print(f"-> Buenísimo, hablemos sobre {ruta_diccionario[-1]}. ¿Qué querés saber exactamente?")
-    return False, True, ruta_diccionario
+    except (KeyError, IndexError) as e:
+        printear_error(str(e), "Error al procesar la respuesta de texto")
+        return False, True, ruta_diccionario[:-1] if ruta_diccionario else []
 
 def procesar_respuesta_usuario(respuesta: str, opciones: list, ruta_diccionario: list, nivel_actual: dict) -> tuple:
     """
@@ -291,35 +299,45 @@ def main_loop(nombre_archivo: str) -> None:
     Returns:
         None: El programa finaliza cuando el usuario decide salir
     """
-    memoria = leer_txt(nombre_archivo)
-    if not memoria:
-        return
+    try:
+        memoria = leer_txt(nombre_archivo)
+        if not memoria:
+            return
+            
+        ruta_diccionario = []
+        print("-> ¡Hola! Soy la Pokedex, ¿en qué puedo ayudarte?")
         
-    ruta_diccionario = []
-    print("-> ¡Hola! Soy la Pokedex, ¿en qué puedo ayudarte?")
-    
-    continuar = True
-    while continuar:
-        try:
-            nivel_actual = memoria
-            for clave in ruta_diccionario:
-                nivel_actual = nivel_actual[clave]
+        continuar = True
+        while continuar:
+            try:
+                nivel_actual = memoria
+                for clave in ruta_diccionario:
+                    nivel_actual = nivel_actual[clave]
 
-            if isinstance(nivel_actual, dict):
-                opciones = mostrar_opciones(nivel_actual, bool(ruta_diccionario))
-                print("")
-                respuesta = input("-> Ingrese una respuesta: ")
-                agregar, continuar, ruta_diccionario = procesar_respuesta_usuario(respuesta, opciones, ruta_diccionario, nivel_actual)
-                if agregar:
-                    resultado = registrar_entrada(ruta_diccionario.copy(),nombre_archivo)
-                    if resultado: 
-                        memoria = resultado
-            else:
-                print("")
-                print(f"-> {ruta_diccionario.pop()}: {nivel_actual}")
-        except Exception as e:
-            printear_error(str(e), "Ocurrio un error interno. Por favor intente nuevamente.")
-    print("-> ¡Chau!")
+                if isinstance(nivel_actual, dict):
+                    opciones = mostrar_opciones(nivel_actual, bool(ruta_diccionario))
+                    print("")
+                    respuesta = input("-> Ingrese una respuesta: ")
+                    agregar, continuar, ruta_diccionario = procesar_respuesta_usuario(respuesta, opciones, ruta_diccionario, nivel_actual)
+                    if agregar:
+                        resultado = registrar_entrada(ruta_diccionario.copy(), nombre_archivo)
+                        if resultado: 
+                            memoria = resultado
+                else:
+                    print("")
+                    print(f"-> {ruta_diccionario.pop()}: {nivel_actual}")
+            except KeyError as e:
+                printear_error(str(e), "Error al navegar por el diccionario")
+                ruta_diccionario = ruta_diccionario[:-1] if ruta_diccionario else []
+            except ValueError as e:
+                printear_error(str(e), "Error en el formato de los datos")
+            except Exception as e:
+                printear_error(str(e), "Error inesperado durante la ejecución")
+                ruta_diccionario = ruta_diccionario[:-1] if ruta_diccionario else []
+    except Exception as e:
+        printear_error(str(e), "Error fatal al iniciar el programa")
+    finally:
+        print("-> ¡Chau!")
 
 if __name__ == "__main__":
     main_loop("preguntas.txt")
