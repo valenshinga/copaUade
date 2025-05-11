@@ -282,7 +282,15 @@ def procesar_respuesta_usuario(respuesta: str, opciones: list, ruta_diccionario:
     return procesar_respuesta_texto(respuesta, opciones, ruta_diccionario, nivel_actual)
 
 def main_loop(nombre_archivo: str) -> None:
-    """Ejecuta el bucle principal del programa."""
+    """
+    Ejecuta el bucle principal del programa.
+
+    Args:
+        nombre_archivo (str): Nombre del archivo txt a leer que contiene la información para el chatbot
+
+    Returns:
+        None: El programa finaliza cuando el usuario decide salir
+    """
     memoria = leer_txt(nombre_archivo)
     if not memoria:
         return
