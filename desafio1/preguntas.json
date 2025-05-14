@@ -1,0 +1,3617 @@
+{
+  "Tabla de tipos":{
+  "Acero": {
+    "Débil": ["Lucha", "Fuego", "Tierra"],
+    "Fortaleza": ["Hielo", "Roca", "Hada"],
+    "Inmunidades": ["Veneno"]
+  },
+  "Agua": {
+    "Débil": ["Eléctrico", "Planta"],
+    "Fortaleza": ["Fuego", "Tierra", "Roca"],
+    "Inmunidades": []
+  },
+  "Bicho": {
+    "Débil": ["Fuego", "Volador", "Roca"],
+    "Fortaleza": ["Planta", "Psíquico", "Siniestro"],
+    "Inmunidades": []
+  },
+  "Dragón": {
+    "Débil": ["Dragón", "Hada", "Hielo"],
+    "Fortaleza": ["Dragón", "Fuego", "Agua", "Planta"],
+    "Inmunidades": []
+  },
+  "Eléctrico": {
+    "Débil": ["Tierra"],
+    "Fortaleza": ["Volador", "Agua"],
+    "Inmunidades": []
+  },
+  "Fantasma": {
+    "Débil": ["Fantasma", "Siniestro"],
+    "Fortaleza": ["Psíquico", "Fantasma"],
+    "Inmunidades": ["Normal", "Lucha"]
+  },
+  "Fuego": {
+    "Débil": ["Agua", "Roca", "Tierra"],
+    "Fortaleza": ["Planta", "Bicho", "Hielo", "Acero"],
+    "Inmunidades": []
+  },
+  "Hada": {
+    "Débil": ["Veneno", "Acero"],
+    "Fortaleza": ["Dragón", "Siniestro", "Lucha"],
+    "Inmunidades": ["Dragón"]
+  },
+  "Hielo": {
+    "Débil": ["Fuego", "Lucha", "Roca", "Acero"],
+    "Fortaleza": ["Dragón", "Planta", "Volador", "Tierra"],
+    "Inmunidades": []
+  },
+  "Lucha": {
+    "Débil": ["Volador", "Psíquico", "Hada"],
+    "Fortaleza": ["Normal", "Roca", "Hielo", "Siniestro", "Acero"],
+    "Inmunidades": []
+  },
+  "Normal": {
+    "Débil": ["Lucha"],
+    "Fortaleza": [],
+    "Inmunidades": ["Fantasma"]
+  },
+  "Planta": {
+    "Débil": ["Fuego", "Hielo", "Veneno", "Volador", "Bicho"],
+    "Fortaleza": ["Agua", "Tierra", "Roca"],
+    "Inmunidades": []
+  },
+  "Psíquico": {
+    "Débil": ["Bicho", "Fantasma", "Siniestro"],
+    "Fortaleza": ["Lucha", "Veneno"],
+    "Inmunidades": []
+  },
+  "Roca": {
+    "Débil": ["Agua", "Planta", "Lucha", "Tierra", "Acero"],
+    "Fortaleza": ["Fuego", "Volador", "Hielo", "Bicho"],
+    "Inmunidades": []
+  },
+  "Siniestro": {
+    "Débil": ["Lucha", "Bicho", "Hada"],
+    "Fortaleza": ["Psíquico", "Fantasma"],
+    "Inmunidades": ["Psíquico"]
+  },
+  "Tierra": {
+    "Débil": ["Agua", "Hielo", "Planta"],
+    "Fortaleza": ["Eléctrico", "Fuego", "Roca", "Veneno", "Acero"],
+    "Inmunidades": ["Eléctrico"]
+  },
+  "Veneno": {
+    "Débil": ["Tierra", "Psíquico"],
+    "Fortaleza": ["Planta", "Hada"],
+    "Inmunidades": []
+  },
+  "Volador": {
+    "Débil": ["Eléctrico", "Hielo", "Roca"],
+    "Fortaleza": ["Planta", "Lucha", "Bicho"],
+    "Inmunidades": ["Tierra"]
+  }
+  },
+  "Pokemon": {
+    "Generacion 1": [
+    {
+      "Numero": 1,
+      "Nombre": "Bulbasaur",
+      "Tipos": ["Planta", "Veneno"],
+      "EstadisticasBase": {
+        "PS": 45,
+        "Ataque": 49,
+        "Defensa": 49,
+        "AtaqueEsp": 65,
+        "DefensaEsp": 65,
+        "Velocidad": 45
+      },
+      "Altura": "0.7 m",
+      "Peso": "6.9 kg",
+      "Habilidades": [
+        "Espesura",
+        "Clorofila (Oculta)"
+      ],
+      "DescripcionPokedex": "Una semilla en su espalda crece a medida que absorbe los rayos del sol.",
+      "EvolucionaA": "Ivysaur"
+    },
+    {
+      "Numero": 2,
+      "Nombre": "Ivysaur",
+      "Tipos": ["Planta", "Veneno"],
+      "EstadisticasBase": {
+        "PS": 60,
+        "Ataque": 62,
+        "Defensa": 63,
+        "AtaqueEsp": 80,
+        "DefensaEsp": 80,
+        "Velocidad": 60
+      },
+      "Altura": "1.0 m",
+      "Peso": "13.0 kg",
+      "Habilidades": [
+        "Espesura",
+        "Clorofila (Oculta)"
+      ],
+      "DescripcionPokedex": "Cuando el bulbo de su lomo crece, parece estar preparándose para florecer.",
+      "EvolucionaA": "Venusaur"
+    },
+    {
+      "Numero": 3,
+      "Nombre": "Venusaur",
+      "Tipos": ["Planta", "Veneno"],
+      "EstadisticasBase": {
+        "PS": 80,
+        "Ataque": 82,
+        "Defensa": 83,
+        "AtaqueEsp": 100,
+        "DefensaEsp": 100,
+        "Velocidad": 80
+      },
+      "Altura": "2.0 m",
+      "Peso": "100.0 kg",
+      "Habilidades": [
+        "Espesura",
+        "Clorofila (Oculta)"
+      ],
+      "DescripcionPokedex": "La flor de su lomo se abre cuando absorbe energía solar. Tiene un aroma relajante.",
+      "EvolucionaA": null
+    },
+    {
+      "Numero": 4,
+      "Nombre": "Charmander",
+      "Tipos": ["Fuego"],
+      "EstadisticasBase": {
+        "PS": 39,
+        "Ataque": 52,
+        "Defensa": 43,
+        "AtaqueEsp": 60,
+        "DefensaEsp": 50,
+        "Velocidad": 65
+      },
+      "Altura": "0.6 m",
+      "Peso": "8.5 kg",
+      "Habilidades": [
+        "Mar Llamas",
+        "Piel Llama (Oculta)"
+      ],
+      "DescripcionPokedex": "La llama que arde en su cola es un símbolo de su salud. Si está sana, la llama arderá intensamente.",
+      "EvolucionaA": "Charmeleon"
+    },
+    {
+      "Numero": 5,
+      "Nombre": "Charmeleon",
+      "Tipos": ["Fuego"],
+      "EstadisticasBase": {
+        "PS": 58,
+        "Ataque": 64,
+        "Defensa": 58,
+        "AtaqueEsp": 80,
+        "DefensaEsp": 65,
+        "Velocidad": 80
+      },
+      "Altura": "1.1 m",
+      "Peso": "19.0 kg",
+      "Habilidades": [
+        "Mar Llamas",
+        "Piel Llama (Oculta)"
+      ],
+      "DescripcionPokedex": "Cuando está enfadado, la llama de su cola arde intensamente. Puede llegar a quemar todo a su alrededor.",
+      "EvolucionaA": "Charizard"
+    },
+    {
+      "Numero": 6,
+      "Nombre": "Charizard",
+      "Tipos": ["Fuego", "Volador"],
+      "EstadisticasBase": {
+        "PS": 78,
+        "Ataque": 84,
+        "Defensa": 78,
+        "AtaqueEsp": 109,
+        "DefensaEsp": 85,
+        "Velocidad": 100
+      },
+      "Altura": "1.7 m",
+      "Peso": "90.5 kg",
+      "Habilidades": [
+        "Mar Llamas",
+        "Piel Llama (Oculta)"
+      ],
+      "DescripcionPokedex": "Puede volar a gran velocidad. Su cola arde con una llama intensa. Si la llama se apaga, el Pokémon muere.",
+      "EvolucionaA": null
+    },
+    {
+      "Numero": 7,
+      "Nombre": "Squirtle",
+      "Tipos": ["Agua"],
+      "EstadisticasBase": {
+        "PS": 44,
+        "Ataque": 48,
+        "Defensa": 65,
+        "AtaqueEsp": 50,
+        "DefensaEsp": 64,
+        "Velocidad": 43
+      },
+      "Altura": "0.5 m",
+      "Peso": "9.0 kg",
+      "Habilidades": [
+        "Torrent",
+        "Tortuga (Oculta)"
+      ],
+      "DescripcionPokedex": "Cuando se siente amenazado, se esconde dentro de su caparazón. Puede vivir en agua dulce o salada.",
+      "EvolucionaA": null
+    },
+    {
+      "Numero": 8,
+      "Nombre": "Wartortle",
+      "Tipos": ["Agua"],
+      "EstadisticasBase": {
+        "PS": 59,
+        "Ataque": 63,
+        "Defensa": 80,
+        "AtaqueEsp": 65,
+        "DefensaEsp": 80,
+        "Velocidad": 58
+      },
+      "Altura": "1.0 m",
+      "Peso": "22.5 kg",
+      "Habilidades": [
+        "Torrent",
+        "Tortuga (Oculta)"
+      ],
+      "DescripcionPokedex": "Cuando se siente amenazado, se esconde dentro de su caparazón. Puede vivir en agua dulce o salada.",
+      "EvolucionaA": null
+    },
+    {
+      "Numero": 9,
+      "Nombre": "Blastoise",
+      "Tipos": ["Agua"],
+      "EstadisticasBase": {
+        "PS": 79,
+        "Ataque": 83,
+        "Defensa": 100,
+        "AtaqueEsp": 85,
+        "DefensaEsp": 105,
+        "Velocidad": 78
+      },
+      "Altura": "1.6 m",
+      "Peso": "85.5 kg",
+      "Habilidades": [
+        "Torrent",
+        "Tortuga (Oculta)"
+      ],
+      "DescripcionPokedex": "Su caparazón es tan duro que puede resistir impactos de balas. Puede disparar agua a alta presión.",
+      "EvolucionaA": null
+    },
+    {
+      "Numero": 10,
+      "Nombre": "Caterpie",
+      "Tipos": ["Bicho"],
+      "EstadisticasBase": {
+        "PS": 45,
+        "Ataque": 30,
+        "Defensa": 35,
+        "AtaqueEsp": 20,
+        "DefensaEsp": 20,
+        "Velocidad": 45
+      },
+      "Altura": "0.3 m",
+      "Peso": "2.9 kg",
+      "Habilidades": [
+        "Cuidado Crítico",
+        "Manto Lento (Oculta)"
+      ],
+      "DescripcionPokedex": "Es un Pokémon muy débil. Se esconde en la hierba y se camufla para evitar ser visto.",
+      "EvolucionaA": null
+    },
+    {
+      "Numero": 11,
+      "Nombre": "Metapod",
+      "Tipos": ["Bicho"],
+      "EstadisticasBase": {
+        "PS": 50,
+        "Ataque": 20,
+        "Defensa": 55,
+        "AtaqueEsp": 25,
+        "DefensaEsp": 25,
+        "Velocidad": 30
+      },
+      "Altura": "0.7 m",
+      "Peso": "9.9 kg",
+      "Habilidades": [
+        "Mudar"
+      ],
+      "DescripcionPokedex": "Aunque es blando por dentro, su caparazón es duro. Se protege inmóvil para evolucionar.",
+      "EvolucionaA": "Butterfree"
+    },
+    {
+      "Numero": 12,
+      "Nombre": "Butterfree",
+      "Tipos": ["Bicho", "Volador"],
+      "EstadisticasBase": {
+        "PS": 60,
+        "Ataque": 45,
+        "Defensa": 50,
+        "AtaqueEsp": 90,
+        "DefensaEsp": 80,
+        "Velocidad": 70
+      },
+      "Altura": "1.1 m",
+      "Peso": "32.0 kg",
+      "Habilidades": [
+        "Ojo Compuesto",
+        "Polvo Escudo (Oculta)"
+      ],
+      "DescripcionPokedex": "Con sus alas cubiertas de polvo, libera esporas tóxicas y paralizantes al volar.",
+      "EvolucionaA": null
+    },
+    {
+      "Numero": 13,
+      "Nombre": "Weedle",
+      "Tipos": ["Bicho", "Veneno"],
+      "EstadisticasBase": {
+        "PS": 40,
+        "Ataque": 35,
+        "Defensa": 30,
+        "AtaqueEsp": 20,
+        "DefensaEsp": 20,
+        "Velocidad": 50
+      },
+      "Altura": "0.3 m",
+      "Peso": "3.2 kg",
+      "Habilidades": [
+        "Polvo Escudo",
+        "Fuga (Oculta)"
+      ],
+      "DescripcionPokedex": "Tiene un olfato muy sensible. Usa su aguijón venenoso para defenderse si lo atacan.",
+      "EvolucionaA": "Kakuna"
+    },
+    {
+      "Numero": 14,
+      "Nombre": "Kakuna",
+      "Tipos": ["Bicho", "Veneno"],
+      "EstadisticasBase": {
+        "PS": 45,
+        "Ataque": 25,
+        "Defensa": 50,
+        "AtaqueEsp": 25,
+        "DefensaEsp": 25,
+        "Velocidad": 35
+      },
+      "Altura": "0.6 m",
+      "Peso": "10.0 kg",
+      "Habilidades": [
+        "Mudar"
+      ],
+      "DescripcionPokedex": "Es casi inmóvil. Sin embargo, puede endurecer su caparazón para protegerse mientras evoluciona.",
+      "EvolucionaA": "Beedrill"
+    },
+    {
+      "Numero": 15,
+      "Nombre": "Beedrill",
+      "Tipos": ["Bicho", "Veneno"],
+      "EstadisticasBase": {
+        "PS": 65,
+        "Ataque": 90,
+        "Defensa": 40,
+        "AtaqueEsp": 45,
+        "DefensaEsp": 80,
+        "Velocidad": 75
+      },
+      "Altura": "1.0 m",
+      "Peso": "29.5 kg",
+      "Habilidades": [
+        "Enjambre",
+        "Francotirador (Oculta)"
+      ],
+      "DescripcionPokedex": "Con sus aguijones venenosos, ataca en grupo y persigue a su presa sin descanso.",
+      "EvolucionaA": null
+    },
+    {
+      "Numero": 16,
+      "Nombre": "Pidgey",
+      "Tipos": ["Normal", "Volador"],
+      "EstadisticasBase": {
+        "PS": 40,
+        "Ataque": 45,
+        "Defensa": 40,
+        "AtaqueEsp": 35,
+        "DefensaEsp": 35,
+        "Velocidad": 56
+      },
+      "Altura": "0.3 m",
+      "Peso": "1.8 kg",
+      "Habilidades": [
+        "Cuidado Crítico",
+        "Sincronía (Oculta)"
+      ],
+      "DescripcionPokedex": "Es un Pokémon muy común. Se encuentra en bosques y praderas.",
+      "EvolucionaA": null
+    },
+    {
+      "Numero": 17,
+      "Nombre": "Pidgeotto",
+      "Tipos": ["Normal", "Volador"],
+      "EstadisticasBase": {
+        "PS": 63,
+        "Ataque": 60,
+        "Defensa": 55,
+        "AtaqueEsp": 50,
+        "DefensaEsp": 50,
+        "Velocidad": 71
+      },
+      "Altura": "1.1 m",
+      "Peso": "30.0 kg",
+      "Habilidades": [
+        "Cuidado Crítico",
+        "Sincronía (Oculta)"
+      ],
+      "DescripcionPokedex": "Es un Pokémon muy común. Se encuentra en bosques y praderas.",
+      "EvolucionaA": null
+    },
+    {
+      "Numero": 18,
+      "Nombre": "Pidgeot",
+      "Tipos": ["Normal", "Volador"],
+      "EstadisticasBase": {
+        "PS": 83,
+        "Ataque": 80,
+        "Defensa": 75,
+        "AtaqueEsp": 70,
+        "DefensaEsp": 70,
+        "Velocidad": 91
+      },
+      "Altura": "1.5 m",
+      "Peso": "39.5 kg",
+      "Habilidades": [
+        "Cuidado Crítico",
+        "Sincronía (Oculta)"
+      ],
+      "DescripcionPokedex": "Es un Pokémon muy común. Se encuentra en bosques y praderas.",
+      "EvolucionaA": null
+    },
+    {
+      "Numero": 19,
+      "Nombre": "Rattata",
+      "Tipos": ["Normal"],
+      "EstadisticasBase": {
+        "PS": 30,
+        "Ataque": 56,
+        "Defensa": 35,
+        "AtaqueEsp": 25,
+        "DefensaEsp": 35,
+        "Velocidad": 72
+      },
+      "Altura": "0.3 m",
+      "Peso": "3.5 kg",
+      "Habilidades": [
+        "Cuidado Crítico",
+        "Fuga (Oculta)"
+      ],
+      "DescripcionPokedex": "Es un Pokémon muy común. Se encuentra en bosques y praderas.",
+      "EvolucionaA": "Raticate"
+    },
+    {
+      "Numero": 20,
+      "Nombre": "Raticate",
+      "Tipos": ["Normal"],
+      "EstadisticasBase": {
+        "PS": 55,
+        "Ataque": 81,
+        "Defensa": 60,
+        "AtaqueEsp": 50,
+        "DefensaEsp": 70,
+        "Velocidad": 97
+      },
+      "Altura": "0.7 m",
+      "Peso": "18.5 kg",
+      "Habilidades": [
+        "Fuga",
+        "Entusiasmo",
+        "Agallas (Oculta)"
+      ],
+      "DescripcionPokedex": "Sus dientes crecen de forma continua. Necesita roer objetos duros para desgastarlos.",
+      "EvolucionaA": null
+    },
+    {
+      "Numero": 21,
+      "Nombre": "Spearow",
+      "Tipos": ["Normal", "Volador"],
+      "EstadisticasBase": {
+        "PS": 40,
+        "Ataque": 60,
+        "Defensa": 30,
+        "AtaqueEsp": 31,
+        "DefensaEsp": 31,
+        "Velocidad": 70
+      },
+      "Altura": "0.3 m",
+      "Peso": "2.0 kg",
+      "Habilidades": [
+        "Vista Lince",
+        "Francotirador (Oculta)"
+      ],
+      "DescripcionPokedex": "Es un Pokémon agresivo que ataca sin dudar. Su canto es agudo y estridente.",
+      "EvolucionaA": "Fearow"
+    },
+    {
+      "Numero": 22,
+      "Nombre": "Fearow",
+      "Tipos": ["Normal", "Volador"],
+      "EstadisticasBase": {
+        "PS": 65,
+        "Ataque": 90,
+        "Defensa": 65,
+        "AtaqueEsp": 61,
+        "DefensaEsp": 61,
+        "Velocidad": 100
+      },
+      "Altura": "1.2 m",
+      "Peso": "38.0 kg",
+      "Habilidades": [
+        "Vista Lince",
+        "Francotirador (Oculta)"
+      ],
+      "DescripcionPokedex": "Tiene un cuello largo y un pico afilado. Es capaz de volar grandes distancias sin descansar.",
+      "EvolucionaA": null
+    },
+    {
+      "Numero": 23,
+      "Nombre": "Ekans",
+      "Tipos": ["Veneno"],
+      "EstadisticasBase": {
+        "PS": 35,
+        "Ataque": 60,
+        "Defensa": 44,
+        "AtaqueEsp": 40,
+        "DefensaEsp": 54,
+        "Velocidad": 55
+      },
+      "Altura": "2.0 m",
+      "Peso": "6.9 kg",
+      "Habilidades": [
+        "Mudar",
+        "Intimidación (Oculta)"
+      ],
+      "DescripcionPokedex": "Se enrolla para descansar. Si es atacado por sorpresa, se defiende con su mordedura venenosa.",
+      "EvolucionaA": "Arbok"
+    },
+    {
+      "Numero": 24,
+      "Nombre": "Arbok",
+      "Tipos": ["Veneno"],
+      "EstadisticasBase": {
+        "PS": 60,
+        "Ataque": 95,
+        "Defensa": 69,
+        "AtaqueEsp": 65,
+        "DefensaEsp": 79,
+        "Velocidad": 80
+      },
+      "Altura": "3.5 m",
+      "Peso": "65.0 kg",
+      "Habilidades": [
+        "Mudar",
+        "Intimidación (Oculta)"
+      ],
+      "DescripcionPokedex": "El dibujo de su piel cambia según la región. Se enrolla alrededor de su presa para inmovilizarla.",
+      "EvolucionaA": null
+    },
+    {
+      "Numero": 25,
+      "Nombre": "Pikachu",
+      "Tipos": ["Eléctrico"],
+      "EstadisticasBase": {
+        "PS": 35,
+        "Ataque": 55,
+        "Defensa": 40,
+        "AtaqueEsp": 50,
+        "DefensaEsp": 50,
+        "Velocidad": 90
+      },
+      "Altura": "0.4 m",
+      "Peso": "6.0 kg",
+      "Habilidades": [
+        "Electricidad Estática",
+        "Pararrayos (Oculta)"
+      ],
+      "DescripcionPokedex": "Almacena electricidad en sus mejillas. Si está asustado, libera descargas eléctricas.",
+      "EvolucionaA": "Raichu"
+    },
+     {
+      "Numero": 26,
+      "Nombre": "Raichu",
+      "Tipos": ["Eléctrico"],
+      "EstadisticasBase": {
+        "PS": 60,
+        "Ataque": 90,
+        "Defensa": 55,
+        "AtaqueEsp": 90,
+        "DefensaEsp": 80,
+        "Velocidad": 110
+      },
+      "Altura": "0.8 m",
+      "Peso": "30.0 kg",
+      "Habilidades": [
+        "Electricidad Estática",
+        "Pararrayos (Oculta)"
+      ],
+      "DescripcionPokedex": "Puede liberar descargas eléctricas tan fuertes que dejan quemaduras. Usa su cola como pararrayos.",
+      "EvolucionaA": null
+    },
+    {
+      "Numero": 27,
+      "Nombre": "Sandshrew",
+      "Tipos": ["Tierra"],
+      "EstadisticasBase": {
+        "PS": 50,
+        "Ataque": 75,
+        "Defensa": 85,
+        "AtaqueEsp": 20,
+        "DefensaEsp": 30,
+        "Velocidad": 40
+      },
+      "Altura": "0.6 m",
+      "Peso": "12.0 kg",
+      "Habilidades": [
+        "Velo Arena",
+        "Piel Tosca (Oculta)"
+      ],
+      "DescripcionPokedex": "Se enrolla en una bola para protegerse de los ataques. Su piel es dura como el acero.",
+      "EvolucionaA": "Sandslash"
+    },
+    {
+      "Numero": 28,
+      "Nombre": "Sandslash",
+      "Tipos": ["Tierra"],
+      "EstadisticasBase": {
+        "PS": 75,
+        "Ataque": 100,
+        "Defensa": 110,
+        "AtaqueEsp": 45,
+        "DefensaEsp": 55,
+        "Velocidad": 65
+      },
+      "Altura": "1.0 m",
+      "Peso": "29.5 kg",
+      "Habilidades": [
+        "Velo Arena",
+        "Piel Tosca (Oculta)"
+      ],
+      "DescripcionPokedex": "Sus garras largas y afiladas le permiten excavar rápidamente. Es muy ágil en el combate.",
+      "EvolucionaA": null
+    },
+    {
+      "Numero": 29,
+      "Nombre": "Nidoran♀",
+      "Tipos": ["Veneno"],
+      "EstadisticasBase": {
+        "PS": 55,
+        "Ataque": 47,
+        "Defensa": 52,
+        "AtaqueEsp": 40,
+        "DefensaEsp": 40,
+        "Velocidad": 41
+      },
+      "Altura": "0.4 m",
+      "Peso": "7.0 kg",
+      "Habilidades": [
+        "Punto Tóxico",
+        "Rivalidad",
+        "Compensación (Oculta)"
+      ],
+      "DescripcionPokedex": "Es dócil por naturaleza, pero si se siente amenazada, libera toxinas de su cuerno.",
+      "EvolucionaA": "Nidorina"
+    },
+    {
+      "Numero": 30,
+      "Nombre": "Nidorina",
+      "Tipos": ["Veneno"],
+      "EstadisticasBase": {
+        "PS": 70,
+        "Ataque": 62,
+        "Defensa": 67,
+        "AtaqueEsp": 55,
+        "DefensaEsp": 55,
+        "Velocidad": 56
+      },
+      "Altura": "0.8 m",
+      "Peso": "20.0 kg",
+      "Habilidades": [
+        "Punto Tóxico",
+        "Rivalidad",
+        "Compensación (Oculta)"
+      ],
+      "DescripcionPokedex": "Es dócil y cariñosa con sus crías. Si siente peligro, libera toxinas de su piel.",
+      "EvolucionaA": "Nidoqueen"
+    },
+    {
+      "Numero": 31,
+      "Nombre": "Nidoqueen",
+      "Tipos": ["Veneno", "Tierra"],
+      "EstadisticasBase": {
+        "PS": 90,
+        "Ataque": 92,
+        "Defensa": 87,
+        "AtaqueEsp": 75,
+        "DefensaEsp": 85,
+        "Velocidad": 76
+      },
+      "Altura": "1.3 m",
+      "Peso": "60.0 kg",
+      "Habilidades": [
+        "Punto Tóxico",
+        "Rivalidad",
+        "Compensación (Oculta)"
+      ],
+      "DescripcionPokedex": "Es una madre feroz. Protege su territorio y a sus crías con ataques devastadores.",
+      "EvolucionaA": null
+    },
+    {
+      "Numero": 32,
+      "Nombre": "Nidoran♂",
+      "Tipos": ["Veneno"],
+      "EstadisticasBase": {
+        "PS": 46,
+        "Ataque": 57,
+        "Defensa": 40,
+        "AtaqueEsp": 40,
+        "DefensaEsp": 40,
+        "Velocidad": 50
+      },
+      "Altura": "0.5 m",
+      "Peso": "9.0 kg",
+      "Habilidades": [
+        "Punto Tóxico",
+        "Rivalidad",
+        "Compensación (Oculta)"
+      ],
+      "DescripcionPokedex": "A pesar de su tamaño pequeño, es agresivo. Usa su cuerno para inyectar veneno.",
+      "EvolucionaA": "Nidorino"
+    },
+    {
+      "Numero": 33,
+      "Nombre": "Nidorino",
+      "Tipos": ["Veneno"],
+      "EstadisticasBase": {
+        "PS": 61,
+        "Ataque": 72,
+        "Defensa": 57,
+        "AtaqueEsp": 55,
+        "DefensaEsp": 55,
+        "Velocidad": 65
+      },
+      "Altura": "0.9 m",
+      "Peso": "19.5 kg",
+      "Habilidades": [
+        "Punto Tóxico",
+        "Rivalidad",
+        "Compensación (Oculta)"
+      ],
+      "DescripcionPokedex": "Es extremadamente territorial. Su cuerno se endurece cuando está a punto de atacar.",
+      "EvolucionaA": "Nidoking"
+    },
+    {
+      "Numero": 34,
+      "Nombre": "Nidoking",
+      "Tipos": ["Veneno", "Tierra"],
+      "EstadisticasBase": {
+        "PS": 81,
+        "Ataque": 102,
+        "Defensa": 77,
+        "AtaqueEsp": 85,
+        "DefensaEsp": 75,
+        "Velocidad": 85
+      },
+      "Altura": "1.4 m",
+      "Peso": "62.0 kg",
+      "Habilidades": [
+        "Punto Tóxico",
+        "Rivalidad",
+        "potencia bruta (Oculta)"
+      ],
+      "DescripcionPokedex": "Su fuerza es impresionante. Puede destruir objetos de acero con un golpe de su cola.",
+      "EvolucionaA": null
+    },
+    {
+      "Numero": 35,
+      "Nombre": "Clefairy",
+      "Tipos": ["Hada"],
+      "EstadisticasBase": {
+        "PS": 70,
+        "Ataque": 45,
+        "Defensa": 48,
+        "AtaqueEsp": 60,
+        "DefensaEsp": 65,
+        "Velocidad": 35
+      },
+      "Altura": "0.6 m",
+      "Peso": "7.5 kg",
+      "Habilidades": [
+        "Gran Encanto",
+        "Muro Mágico",
+        "complescolta (Oculta)"
+      ],
+      "DescripcionPokedex": "Es una criatura mística que se encuentra en noches de luna llena. Su danza es hipnótica.",
+      "EvolucionaA": "Clefable"
+    },
+    {
+      "Numero": 36,
+      "Nombre": "Clefable",
+      "Tipos": ["Hada"],
+      "EstadisticasBase": {
+        "PS": 95,
+        "Ataque": 70,
+        "Defensa": 73,
+        "AtaqueEsp": 95,
+        "DefensaEsp": 90,
+        "Velocidad": 60
+      },
+      "Altura": "1.3 m",
+      "Peso": "40.0 kg",
+      "Habilidades": [
+        "Gran Encanto",
+        "Muro Mágico",
+        "ignorante (Oculta)"
+      ],
+      "DescripcionPokedex": "Se dice que habita en lugares tranquilos y alejados del ruido. Es extremadamente cauteloso.",
+      "EvolucionaA": null
+    },
+    {
+      "Numero": 37,
+      "Nombre": "Vulpix",
+      "Tipos": ["Fuego"],
+      "EstadisticasBase": {
+        "PS": 38,
+        "Ataque": 41,
+        "Defensa": 40,
+        "AtaqueEsp": 50,
+        "DefensaEsp": 65,
+        "Velocidad": 65
+      },
+      "Altura": "0.6 m",
+      "Peso": "9.9 kg",
+      "Habilidades": [
+        "Absorbe Fuego",
+        "Sequía (Oculta)"
+      ],
+      "DescripcionPokedex": "Cuando nace, solo tiene una cola blanca. Con el tiempo, se divide en seis.",
+      "EvolucionaA": "Ninetales"
+    },
+    {
+      "Numero": 38,
+      "Nombre": "Ninetales",
+      "Tipos": ["Fuego"],
+      "EstadisticasBase": {
+        "PS": 73,
+        "Ataque": 76,
+        "Defensa": 75,
+        "AtaqueEsp": 81,
+        "DefensaEsp": 100,
+        "Velocidad": 100
+      },
+      "Altura": "1.1 m",
+      "Peso": "19.9 kg",
+      "Habilidades": [
+        "Absorbe Fuego",
+        "Sequía (Oculta)"
+      ],
+      "DescripcionPokedex": "Cada una de sus nueve colas contiene poderes místicos. Puede vivir mil años.",
+      "EvolucionaA": null
+    },
+    {
+      "Numero": 39,
+      "Nombre": "Jigglypuff",
+      "Tipos": ["Normal", "Hada"],
+      "EstadisticasBase": {
+        "PS": 115,
+        "Ataque": 45,
+        "Defensa": 20,
+        "AtaqueEsp": 45,
+        "DefensaEsp": 25,
+        "Velocidad": 20
+      },
+      "Altura": "0.5 m",
+      "Peso": "5.5 kg",
+      "Habilidades": [
+        "Gran Encanto",
+        "Tenacidad",
+        "copiescolta (Oculta)"
+      ],
+      "DescripcionPokedex": "Canta una melodía suave para dormir a sus oponentes. Su cuerpo esponjoso rebota fácilmente.",
+      "EvolucionaA": "Wigglytuff"
+    },
+    {
+      "Numero": 40,
+      "Nombre": "Wigglytuff",
+      "Tipos": ["Normal", "Hada"],
+      "EstadisticasBase": {
+        "PS": 140,
+        "Ataque": 70,
+        "Defensa": 45,
+        "AtaqueEsp": 85,
+        "DefensaEsp": 50,
+        "Velocidad": 45
+      },
+      "Altura": "1.0 m",
+      "Peso": "12.0 kg",
+      "Habilidades": [
+        "Gran Encanto",
+        "Tenacidad",
+        "Cacheo (Oculta)"
+      ],
+      "DescripcionPokedex": "Su cuerpo elástico puede inflarse como un globo. Sus ojos grandes cautivan a cualquiera.",
+      "EvolucionaA": null
+    },
+    {
+      "Numero": 41,
+      "Nombre": "Zubat",
+      "Tipos": ["Veneno", "Volador"],
+      "EstadisticasBase": {
+        "PS": 40,
+        "Ataque": 45,
+        "Defensa": 35,
+        "AtaqueEsp": 30,
+        "DefensaEsp": 40,
+        "Velocidad": 55
+      },
+      "Altura": "0.8 m",
+      "Peso": "7.5 kg",
+      "Habilidades": [
+        "fuerza mental",
+        "Allanamiento (Oculta)"
+      ],
+      "DescripcionPokedex": "Prefiere la oscuridad y evita la luz solar. Usa ecolocación para moverse.",
+      "EvolucionaA": "Golbat"
+    },
+    {
+      "Numero": 42,
+      "Nombre": "Golbat",
+      "Tipos": ["Veneno", "Volador"],
+      "EstadisticasBase": {
+        "PS": 75,
+        "Ataque": 80,
+        "Defensa": 70,
+        "AtaqueEsp": 65,
+        "DefensaEsp": 75,
+        "Velocidad": 90
+      },
+      "Altura": "1.6 m",
+      "Peso": "55.0 kg",
+      "Habilidades": [
+        "fuerza mental",
+        "Allanamiento (Oculta)"
+      ],
+      "DescripcionPokedex": "Sus colmillos afilados chupan cantidades enormes de sangre. Ataca en grupo.",
+      "EvolucionaA": "Crobat"
+    },
+    {
+      "Numero": 43,
+      "Nombre": "Oddish",
+      "Tipos": ["Planta", "Veneno"],
+      "EstadisticasBase": {
+        "PS": 45,
+        "Ataque": 50,
+        "Defensa": 55,
+        "AtaqueEsp": 75,
+        "DefensaEsp": 65,
+        "Velocidad": 30
+      },
+      "Altura": "0.5 m",
+      "Peso": "5.4 kg",
+      "Habilidades": [
+        "Clorofila",
+        "Fuga (Oculta)"
+      ],
+      "DescripcionPokedex": "Durante el día, se esconde bajo la sombra de las hojas. Por la noche, florece y libera polen.",
+      "EvolucionaA": [
+        "Gloom"
+      ]
+    },
+    {
+      "Numero": 44,
+      "Nombre": "Gloom",
+      "Tipos": ["Planta", "Veneno"],
+      "EstadisticasBase": {
+        "PS": 60,
+        "Ataque": 65,
+        "Defensa": 70,
+        "AtaqueEsp": 85,
+        "DefensaEsp": 75,
+        "Velocidad": 40
+      },
+      "Altura": "0.8 m",
+      "Peso": "8.6 kg",
+      "Habilidades": [
+        "Clorofila",
+        "hedor (Oculta)"
+      ],
+      "DescripcionPokedex": "Su polen es altamente tóxico. Si se siente amenazado, libera un polvo que causa mareos.",
+      "EvolucionaA": [
+        "Vileplume",
+        "Bellossom"]
+    },
+    {
+      "Numero": 45,
+      "Nombre": "Vileplume",
+      "Tipos": ["Planta", "Veneno"],
+      "EstadisticasBase": {
+        "PS": 75,
+        "Ataque": 80,
+        "Defensa": 85,
+        "AtaqueEsp": 110,
+        "DefensaEsp": 90,
+        "Velocidad": 50
+      },
+      "Altura": "1.2 m",
+      "Peso": "15.0 kg",
+      "Habilidades": [
+        "Clorofila",
+        "Efecto Espora(oculta)"
+      ],
+      "DescripcionPokedex": "Su polen es altamente tóxico. Si se siente amenazado, libera un polvo que causa mareos.",
+      "EvolucionaA": null
+    },
+    {
+      "Numero": 46,
+      "Nombre": "Paras",
+      "Tipos": ["Bicho", "Planta"],
+      "EstadisticasBase": {
+        "PS": 35,
+        "Ataque": 70,
+        "Defensa": 55,
+        "AtaqueEsp": 45,
+        "DefensaEsp": 55,
+        "Velocidad": 25
+      },
+      "Altura": "0.3 m",
+      "Peso": "5.4 kg",
+      "Habilidades": [
+        "Efecto Espora",
+        "piel seca",
+        "Cosecha (Oculta)"
+      ],
+      "DescripcionPokedex": "Los hongos que crecen en su espalda son comestibles. Se alimenta de la savia de los árboles.",
+      "EvolucionaA": [
+        "Parasect"
+      ]
+    },
+    {
+      "Numero": 47,
+      "Nombre": "Parasect",
+      "Tipos": ["Bicho", "Planta"],
+      "EstadisticasBase": {
+        "PS": 60,
+        "Ataque": 95,
+        "Defensa": 80,
+        "AtaqueEsp": 60,
+        "DefensaEsp": 80,
+        "Velocidad": 30
+      },
+      "Altura": "1.0 m",
+      "Peso": "29.5 kg",
+      "Habilidades": [
+        "Efecto Espora",
+        "piel seca",
+        "Cosecha (Oculta)"
+      ],
+      "DescripcionPokedex": "Los hongos que crecen en su espalda son comestibles. Se alimenta de la savia de los árboles.",
+      "EvolucionaA": null
+    },
+    {
+      "Numero": 48,
+      "Nombre": "Venonat",
+      "Tipos": ["Bicho", "Veneno"],
+      "EstadisticasBase": {
+        "PS": 60,
+        "Ataque": 55,
+        "Defensa": 50,
+        "AtaqueEsp": 40,
+        "DefensaEsp": 55,
+        "Velocidad": 45
+      },
+      "Altura": "1.0 m",
+      "Peso": "30.0 kg",
+      "Habilidades": [
+       "Ojo compuesto",
+        "Cromolente",
+        "Fuga (Oculta)"
+      ],
+      "DescripcionPokedex": "Es un Pokémon nocturno que se alimenta de insectos. Su veneno es muy potente.",
+      "EvolucionaA": [
+        "Venomoth"
+      ]
+    },
+    {
+      "Numero": 49,
+      "Nombre": "Venomoth",
+      "Tipos": ["Bicho", "Veneno"],
+      "EstadisticasBase": {
+        "PS": 70,
+        "Ataque": 65,
+        "Defensa": 60,
+        "AtaqueEsp": 90,
+        "DefensaEsp": 75,
+        "Velocidad": 90
+      },
+      "Altura": "1.5 m",
+      "Peso": "12.5 kg",
+      "Habilidades": [
+        "Polvo escudo",
+        "Cromolente",
+        "Piel milagro (Oculta)"
+      ],
+      "DescripcionPokedex": "Es un Pokémon nocturno que se alimenta de insectos. Su veneno es muy potente.",
+      "EvolucionaA": null
+    },
+    {
+      "Numero": 50,
+      "Nombre": "Diglett",
+      "Tipos": ["Tierra"],
+      "EstadisticasBase": {
+        "PS": 10,
+        "Ataque": 55,
+        "Defensa": 25,
+        "AtaqueEsp": 35,
+        "DefensaEsp": 45,
+        "Velocidad": 95
+      },
+      "Altura": "0.2 m",
+      "Peso": "0.8 kg",
+      "Habilidades": [
+        "Velo Arena",
+        "Trampa arena",
+        "Inmunidad (Oculta)"
+      ],
+      "DescripcionPokedex": "Es un Pokémon subterráneo que vive en túneles. Su cuerpo es muy ligero.",
+      "EvolucionaA": [
+        "Dugtrio"
+      ]
+    },
+    {
+      "Numero": 51,
+      "Nombre": "Dugtrio",
+      "Tipos": ["Tierra"],
+      "EstadisticasBase": {
+        "PS": 35,
+        "Ataque": 100,
+        "Defensa": 50,
+        "AtaqueEsp": 50,
+        "DefensaEsp": 70,
+        "Velocidad": 120
+      },
+      "Altura": "0.8 m",
+      "Peso": "33.3 kg",
+      "Habilidades": [
+        "Velo Arena",
+        "Trampa arena",
+        "Inmunidad (Oculta)"
+      ],
+      "DescripcionPokedex": "Es un Pokémon subterráneo que vive en túneles. Su cuerpo es muy ligero.",
+      "EvolucionaA": null
+    },
+    {
+      "Numero": 52,
+      "Nombre": "Meowth",
+      "Tipos": ["Normal"],
+      "EstadisticasBase": {
+        "PS": 40,
+        "Ataque": 45,
+        "Defensa": 35,
+        "AtaqueEsp": 40,
+        "DefensaEsp": 40,
+        "Velocidad": 90
+      },
+      "Altura": "0.4 m",
+      "Peso": "4.2 kg",
+      "Habilidades": [
+        "Recogida",
+        "Experto",
+        "Nerviosismo (Oculta)"
+      ],
+      "DescripcionPokedex": "Es un Pokémon muy astuto. Se dice que trae buena suerte a quienes lo encuentran.",
+      "EvolucionaA": [
+        "Persian"
+      ]
+    },
+    {
+      "Numero": 53,
+      "Nombre": "Persian",
+      "Tipos": ["Normal"],
+      "EstadisticasBase": {
+        "PS": 65,
+        "Ataque": 70,
+        "Defensa": 60,
+        "AtaqueEsp": 65,
+        "DefensaEsp": 65,
+        "Velocidad": 115
+      },
+      "Altura": "1.0 m",
+      "Peso": "32.0 kg",
+      "Habilidades": [
+        "Flexibilidad",
+        "Experto",
+        "Nerviosismo (Oculta)"
+      ],
+      "DescripcionPokedex": "Es un Pokémon muy astuto. Se dice que trae buena suerte a quienes lo encuentran.",
+      "EvolucionaA": null
+    },
+    {
+      "Numero": 54,
+      "Nombre": "Psyduck",
+      "Tipos": ["Agua"],
+      "EstadisticasBase": {
+        "PS": 50,
+        "Ataque": 52,
+        "Defensa": 48,
+        "AtaqueEsp": 65,
+        "DefensaEsp": 50,
+        "Velocidad": 55
+      },
+      "Altura": "0.8 m",
+      "Peso": "19.6 kg",
+      "Habilidades": [
+        "Humedad",
+        "aclimacion",
+        "nado rápido (Oculta)"
+      ],
+      "DescripcionPokedex": "Es un Pokémon que sufre de constantes dolores de cabeza. Cuando se siente bien, es muy inteligente.",
+      "EvolucionaA": [
+        "Golduck"
+      ]
+    },
+    {
+      "Numero": 55,
+      "Nombre": "Golduck",
+      "Tipos": ["Agua"],
+      "EstadisticasBase": {
+        "PS": 80,
+        "Ataque": 82,
+        "Defensa": 78,
+        "AtaqueEsp": 95,
+        "DefensaEsp": 80,
+        "Velocidad": 85
+      },
+      "Altura": "1.7 m",
+      "Peso": "76.6 kg",
+      "Habilidades": [
+        "Humedad",
+        "aclimacion",
+        "nado rápido (Oculta)"
+      ],
+      "DescripcionPokedex": "Es un Pokémon que sufre de constantes dolores de cabeza. Cuando se siente bien, es muy inteligente.",
+      "EvolucionaA": null
+    },
+    {
+      "Numero": 56,
+      "Nombre": "Mankey",
+      "Tipos": ["Lucha"],
+      "EstadisticasBase": {
+        "PS": 40,
+        "Ataque": 80,
+        "Defensa": 35,
+        "AtaqueEsp": 35,
+        "DefensaEsp": 45,
+        "Velocidad": 70
+      },
+      "Altura": "0.5 m",
+      "Peso": "28.0 kg",
+      "Habilidades": [
+        "Espíritu vital",
+        "Irascible",
+        "Competitivo (Oculta)"
+      ],
+      "DescripcionPokedex": "Es un Pokémon muy agresivo. Si se siente amenazado, ataca sin dudar.",
+      "EvolucionaA": [
+        "Primeape"
+      ]
+    },
+    {
+      "Numero": 57,
+      "Nombre": "Primeape",
+      "Tipos": ["Lucha"],
+      "EstadisticasBase": {
+        "PS": 65,
+        "Ataque": 105,
+        "Defensa": 60,
+        "AtaqueEsp": 60,
+        "DefensaEsp": 70,
+        "Velocidad": 95
+      },
+      "Altura": "1.0 m",
+      "Peso": "32.0 kg",
+      "Habilidades": [
+        "Espíritu vital",
+        "Irascible",
+        "Competitivo (Oculta)"
+      ],
+      "DescripcionPokedex": "Es un Pokémon muy agresivo. Si se siente amenazado, ataca sin dudar.",
+      "EvolucionaA": null
+    },
+    {
+      "Numero": 58,
+      "Nombre": "Growlithe",
+      "Tipos": ["Fuego"],
+      "EstadisticasBase": {
+        "PS": 55,
+        "Ataque": 70,
+        "Defensa": 45,
+        "AtaqueEsp": 70,
+        "DefensaEsp": 50,
+        "Velocidad": 60
+      },
+      "Altura": "0.6 m",
+      "Peso": "19.0 kg",
+      "Habilidades": [
+        "Absorbe Fuego",
+        "Intimidación ",
+        "Justiciero (Oculta)"
+      ],
+      "DescripcionPokedex": "Es un Pokémon leal y valiente. Su ladrido es fuerte y puede asustar a los intrusos.",
+      "EvolucionaA": [
+        "Arcanine"
+      ]
+    },
+    {
+      "Numero": 59,
+      "Nombre": "Arcanine",
+      "Tipos": ["Fuego"],
+      "EstadisticasBase": {
+        "PS": 90,
+        "Ataque": 110,
+        "Defensa": 80,
+        "AtaqueEsp": 100,
+        "DefensaEsp": 80,
+        "Velocidad": 95
+      },
+      "Altura": "1.9 m",
+      "Peso": "155.0 kg",
+      "Habilidades": [
+        "Absorbe Fuego",
+        "Intimidación",
+        "Justiciero (Oculta)"
+      ],
+      "DescripcionPokedex": "Es un Pokémon leal y valiente. Su ladrido es fuerte y puede asustar a los intrusos.",
+      "EvolucionaA": null
+    },
+    {
+      "Numero": 60,
+      "Nombre": "Poliwag",
+      "Tipos": ["Agua"],
+      "EstadisticasBase": {
+        "PS": 40,
+        "Ataque": 50,
+        "Defensa": 40,
+        "AtaqueEsp": 40,
+        "DefensaEsp": 40,
+        "Velocidad": 90
+      },
+      "Altura": "0.6 m",
+      "Peso": "12.4 kg",
+      "Habilidades": [
+        "Absorbe Agua",
+        "Humedad",
+        "Nado Rápido (Oculta)"
+      ],
+      "DescripcionPokedex": "Es un Pokémon acuático que vive en ríos y lagos. Su cola es muy fuerte.",
+      "EvolucionaA": [
+        "Poliwhirl"
+      ]
+    },
+    {
+      "Numero": 61,
+      "Nombre": "Poliwhirl",
+      "Tipos": ["Agua"],
+      "EstadisticasBase": {
+        "PS": 65,
+        "Ataque": 65,
+        "Defensa": 65,
+        "AtaqueEsp": 50,
+        "DefensaEsp": 50,
+        "Velocidad": 90
+      },
+      "Altura": "1.0 m",
+      "Peso": "20.0 kg",
+      "Habilidades": [
+        "Absorbe Agua",
+        "Humedad",
+        "Nado Rápido (Oculta)"
+      ],
+      "DescripcionPokedex": "Es un Pokémon acuático que vive en ríos y lagos. Su cola es muy fuerte.",
+      "EvolucionaA": [
+        "Poliwrath"
+      ]
+    },
+    {
+      "Numero": 62,
+      "Nombre": "Poliwrath",
+      "Tipos": ["Agua", "Lucha"],
+      "EstadisticasBase": {
+        "PS": 90,
+        "Ataque": 95,
+        "Defensa": 70,
+        "AtaqueEsp": 70,
+        "DefensaEsp": 90,
+        "Velocidad": 70
+      },
+      "Altura": "1.3 m",
+      "Peso": "54.0 kg",
+      "Habilidades": [
+        "Absorbe Agua",
+        "Humedad",
+        "Nado Rápido (Oculta)"
+      ],
+      "DescripcionPokedex": "Es un Pokémon acuático que vive en ríos y lagos. Su cola es muy fuerte.",
+      "EvolucionaA": null
+    },
+    {
+      "Numero": 63,
+      "Nombre": "Abra",
+      "Tipos": ["Psíquico"],
+      "EstadisticasBase": {
+        "PS": 25,
+        "Ataque": 20,
+        "Defensa": 15,
+        "AtaqueEsp": 105,
+        "DefensaEsp": 55,
+        "Velocidad": 90
+      },
+      "Altura": "0.9 m",
+      "Peso": "19.5 kg",
+      "Habilidades": [
+        "Sincronía",
+        "fuerza mental",
+        "Muro Mágico(Oculta)"
+      ],
+      "DescripcionPokedex": "Es un Pokémon que duerme la mayor parte del tiempo. Su mente es muy poderosa.",
+      "EvolucionaA": [
+        "Kadabra"
+      ]
+    },
+    {
+      "Numero": 64,
+      "Nombre": "Kadabra",
+      "Tipos": ["Psíquico"],
+      "EstadisticasBase": {
+        "PS": 40,
+        "Ataque": 35,
+        "Defensa": 30,
+        "AtaqueEsp": 120,
+        "DefensaEsp": 70,
+        "Velocidad": 105
+      },
+      "Altura": "1.3 m",
+      "Peso": "56.5 kg",
+      "Habilidades": [
+        "fuerza mental",
+        "Sincronía",
+        "Muro Mágico(Oculta)"
+      ],
+      "DescripcionPokedex": "Es un Pokémon que duerme la mayor parte del tiempo. Su mente es muy poderosa.",
+      "EvolucionaA": [
+        {
+          "Nombre": "Alakazam"
+        }
+      ]
+    },
+    {
+      "Numero": 65,
+      "Nombre": "Alakazam",
+      "Tipos": ["Psíquico"],
+      "EstadisticasBase": {
+        "PS": 55,
+        "Ataque": 50,
+        "Defensa": 45,
+        "AtaqueEsp": 135,
+        "DefensaEsp": 95,
+        "Velocidad": 120
+      },
+      "Altura": "1.6 m",
+      "Peso": "48.0 kg",
+      "Habilidades": [
+        "Sincronía",
+        "fuerza mental",
+        "Muro Mágico(Oculta)"
+      ],
+      "DescripcionPokedex": "Es un Pokémon que duerme la mayor parte del tiempo. Su mente es muy poderosa.",
+      "EvolucionaA" : null
+    },
+    {
+      "Numero": 66,
+      "Nombre": "Machop",
+      "Tipos": ["Lucha"],
+      "EstadisticasBase": {
+        "PS": 70,
+        "Ataque": 80,
+        "Defensa": 50,
+        "AtaqueEsp": 35,
+        "DefensaEsp": 35,
+        "Velocidad": 35
+      },
+      "Altura": "0.8 m",
+      "Peso": "19.5 kg",
+      "Habilidades": [
+        "Agallas ",
+        "indefenso",
+        "Impasible (Oculta)"
+      ],
+      "DescripcionPokedex": "Es un Pokémon fuerte y resistente. Su cuerpo está hecho de músculo puro.",
+      "EvolucionaA": [
+        {
+          "Nombre": "Machoke"
+        }
+      ]
+    },
+    {
+      "Numero": 67,
+      "Nombre": "Machoke",
+      "Tipos": ["Lucha"],
+      "EstadisticasBase": {
+        "PS": 80,
+        "Ataque": 100,
+        "Defensa": 70,
+        "AtaqueEsp": 50,
+        "DefensaEsp": 60,
+        "Velocidad": 45
+      },
+      "Altura": "1.5 m",
+      "Peso": "70.5 kg",
+      "Habilidades": [
+        "Agallas ",
+        "indefenso",
+        "Impasible (Oculta)"
+      ],
+      "DescripcionPokedex": "Es un Pokémon fuerte y resistente. Su cuerpo está hecho de músculo puro.",
+      "EvolucionaA" : [
+        {
+          "Nombre": "Machamp"
+        }
+      ]
+    },
+    {
+      "Numero": 68,
+      "Nombre": "Machamp",
+      "Tipos": ["Lucha"],
+      "EstadisticasBase": {
+        "PS": 90,
+        "Ataque": 130,
+        "Defensa": 80,
+        "AtaqueEsp": 65,
+        "DefensaEsp": 85,
+        "Velocidad": 55
+      },
+      "Altura": "1.6 m",
+      "Peso": "130.0 kg",
+      "Habilidades": [
+        "Agallas ",
+        "indefenso",
+        "Impasible (Oculta)"
+      ],
+      "DescripcionPokedex": "Es un Pokémon fuerte y resistente. Su cuerpo está hecho de músculo puro.",
+      "EvolucionaA" : null
+    },
+    {
+      "Numero": 69,
+      "Nombre": "Bellsprout",
+      "Tipos": ["Planta", "Veneno"],
+      "EstadisticasBase": {
+        "PS": 50,
+        "Ataque": 75,
+        "Defensa": 35,
+        "AtaqueEsp": 70,
+        "DefensaEsp": 30,
+        "Velocidad": 40
+      },
+      "Altura": "0.7 m",
+      "Peso": "4.0 kg",
+      "Habilidades": [
+        "Clorofila",
+        "Efecto Espora(oculta)"
+      ],
+      "DescripcionPokedex": "Es un Pokémon que vive en zonas húmedas. Su cuerpo es muy flexible.",
+      "EvolucionaA" : [
+        {
+          "Nombre": "Weepinbell"
+        }
+      ]
+    },
+    {
+      "Numero": 70,
+      "Nombre": "Weepinbell",
+      "Tipos": ["Planta", "Veneno"],
+      "EstadisticasBase": {
+        "PS": 65,
+        "Ataque": 90,
+        "Defensa": 50,
+        "AtaqueEsp": 85,
+        "DefensaEsp": 55,
+        "Velocidad": 55
+      },
+      "Altura": "1.0 m",
+      "Peso": "6.4 kg",
+      "Habilidades": [
+        "Clorofila",
+        "Gula (oculta)"
+      ],
+      "DescripcionPokedex": "Es un Pokémon que vive en zonas húmedas. Su cuerpo es muy flexible.",
+      "EvolucionaA" : [
+        {
+          "Nombre": "Victreebel"
+        }
+      ]
+    },
+    {
+      "Numero": 71,
+      "Nombre": "Victreebel",
+      "Tipos": ["Planta", "Veneno"],
+      "EstadisticasBase": {
+        "PS": 80,
+        "Ataque": 105,
+        "Defensa": 65,
+        "AtaqueEsp": 100,
+        "DefensaEsp": 70,
+        "Velocidad": 70
+      },
+      "Altura": "1.7 m",
+      "Peso": "15.5 kg",
+      "Habilidades": [
+        "Clorofila",
+        "Gula (oculta)"
+      ],
+      "DescripcionPokedex": null,
+      "EvolucionaA" : null
+    },
+    {
+      "Numero": 72,
+      "Nombre": "Tentacool",
+      "Tipos": ["Agua", "Veneno"],
+      "EstadisticasBase": {
+        "PS": 40,
+        "Ataque": 40,
+        "Defensa": 35,
+        "AtaqueEsp": 50,
+        "DefensaEsp": 100,
+        "Velocidad": 70
+      },
+      "Altura": "0.9 m",
+      "Peso": "45.0 kg",
+      "Habilidades": [
+        "cuerpo puro",
+        "viscosecretacion",
+        "cura lluvia (Oculta)"
+      ],
+      "DescripcionPokedex": "Es un Pokémon que vive en el agua. Su cuerpo es muy flexible.",
+      "EvolucionaA": [
+        {
+          "Nombre": "Tentacruel"
+        }
+      ]
+    },
+    {
+      "Numero": 73,
+      "Nombre": "Tentacruel",
+      "Tipos": ["Agua", "Veneno"],
+      "EstadisticasBase": {
+        "PS": 80,
+        "Ataque": 70,
+        "Defensa": 65,
+        "AtaqueEsp": 80,
+        "DefensaEsp": 120,
+        "Velocidad": 100
+      },
+      "Altura": "1.6 m",
+      "Peso": "55.0 kg",
+      "Habilidades": [
+        "cuerpo puro",
+        "viscosecretacion",
+        "cura lluvia (Oculta)"
+      ],
+      "DescripcionPokedex": "medusa Pokémon. Fase evolucionada del Tentacool. Sus numerosos tentáculos le proporcionan un arma muy peligrosa. Es más conocido como el gangster del mar.",
+      "EvolucionaA" : null
+    },
+    {
+      "Numero": 74,
+      "Nombre": "Geodude",
+      "Tipos": ["Roca", "Tierra"],
+      "EstadisticasBase": {
+        "PS": 40,
+        "Ataque": 80,
+        "Defensa": 100,
+        "AtaqueEsp": 30,
+        "DefensaEsp": 30,
+        "Velocidad": 20
+      },
+      "Altura": "0.8 m",
+      "Peso": "20.0 kg",
+      "Habilidades": [
+        "Cabeza Roca",
+        "robustez",
+        "Velo Arena(oculta)"
+      ],
+      "DescripcionPokedex": " el Pokémon roca. Geodude tiene una increíble fuerza defensiva, lo que le hace prácticamente resistente a cualquier ataque físico.",
+      "EvolucionaA" : [
+        {
+          "Nombre": "Graveler"
+        }
+      ]
+    },
+   {
+      "Numero": 75,
+      "Nombre": "Graveler",
+      "Tipos": ["Roca", "Tierra"],
+      "EstadisticasBase": {
+        "PS": 55,
+        "Ataque": 95,
+        "Defensa": 115,
+        "AtaqueEsp": 45,
+        "DefensaEsp": 45,
+        "Velocidad": 35
+      },
+      "Altura": "1.0 m",
+      "Peso": "105.0 kg",
+      "Habilidades": [
+        "Cabeza Roca",
+        "robustez",
+        "Velo Arena(oculta)"
+      ],
+      "DescripcionPokedex":"se mueve rodando cuesta abajo. Rueda sobre todo obstáculo sin frenar o cambiar de dirección." ,
+      "EvolucionaA" : [
+        {
+          "Nombre": "Golem"
+        }
+      ]
+    },
+    {
+      "Numero": 76,
+      "Nombre": "Golem",
+      "Tipos": ["Roca", "Tierra"],
+      "EstadisticasBase": {
+        "PS": 80,
+        "Ataque": 120,
+        "Defensa": 130,
+        "AtaqueEsp": 55,
+        "DefensaEsp": 65,
+        "Velocidad": 45
+      },
+      "Altura": "1.4 m",
+      "Peso": "300.0 kg",
+      "Habilidades": [
+        "Cabeza Roca",
+        "robustez",
+        "Velo Arena(oculta)"
+      ],
+      "DescripcionPokedex": " un Pokémon megatón. Una vez al año cambia su concha de roca y se hace más grande.",
+      "EvolucionaA" : null
+    },
+    {
+      "Numero": 77,
+      "Nombre": "Ponyta",
+      "Tipos": ["Fuego"],
+      "EstadisticasBase": {
+        "PS": 50,
+        "Ataque": 85,
+        "Defensa": 55,
+        "AtaqueEsp": 65,
+        "DefensaEsp": 65,
+        "Velocidad": 90
+      },
+      "Altura": "1.0 m",
+      "Peso": "30.0 kg",
+      "Habilidades": [
+        "Absorbe Fuego",
+        "Fuga",
+        "Cuerpo Llama(oculta)"
+      ],
+      "DescripcionPokedex":"Es un Pokémon que vive en praderas y montañas. Su cuerpo es muy ágil y rápido.",
+      "EvolucionaA" : [
+        {
+          "Nombre": "Rapidash"
+        }
+      ]
+    },
+    {
+      "Numero": 78,
+      "Nombre": "Rapidash",
+      "Tipos": ["Fuego"],
+      "EstadisticasBase": {
+        "PS": 65,
+        "Ataque": 100,
+        "Defensa": 70,
+        "AtaqueEsp": 80,
+        "DefensaEsp": 80,
+        "Velocidad": 105
+      },
+      "Altura": "1.7 m",
+      "Peso": "95.0 kg",
+      "Habilidades": [
+       "Absorbe Fuego",
+        "Fuga",
+        "Cuerpo Llama(oculta)"
+      ],
+      "DescripcionPokedex":"Es un Pokémon que vive en praderas y montañas. Su cuerpo es muy ágil y rápido.",
+      "EvolucionaA" : null
+    },
+    {
+      "Numero": 79,
+      "Nombre": "Slowpoke",
+      "Tipos": ["Agua", "Psíquico"],
+      "EstadisticasBase": {
+        "PS": 90,
+        "Ataque": 65,
+        "Defensa": 65,
+        "AtaqueEsp": 40,
+        "DefensaEsp": 40,
+        "Velocidad": 15
+      },
+      "Altura": "1.2 m",
+      "Peso": "36.0 kg",
+      "Habilidades": [
+        "Despiste",
+        "Ritmo Propio",
+        "Regemeración (Oculta)"
+      ],
+      "DescripcionPokedex": "Es un Pokémon que vive en ríos y lagos. Su cuerpo es muy pesado.",
+      "EvolucionaA": [
+        {
+          "Nombre": "Slowbro"
+        }
+      ]
+    },
+    {
+      "Numero": 80,
+      "Nombre": "Slowbro",
+      "Tipos": ["Agua", "Psíquico"],
+      "EstadisticasBase": {
+        "PS": 95,
+        "Ataque": 75,
+        "Defensa": 110,
+        "AtaqueEsp": 100,
+        "DefensaEsp": 80,
+        "Velocidad": 30
+      },
+      "Altura": "1.6 m",
+      "Peso": "78.5 kg",
+      "Habilidades": [
+        "Despiste",
+        "Ritmo Propio",
+        "Regeneración (Oculta)"
+      ],
+      "DescripcionPokedex": "Es un Pokémon que vive en ríos y lagos. Su cuerpo es muy pesado.",
+      "EvolucionaA": [
+        {
+          "Nombre": "Slowking"
+        }
+      ]
+    },
+    {
+      "Numero": 81,
+      "Nombre": "Magnemite",
+      "Tipos": ["Eléctrico", "Acero"],
+      "EstadisticasBase": {
+        "PS": 25,
+        "Ataque": 35,
+        "Defensa": 70,
+        "AtaqueEsp": 95,
+        "DefensaEsp": 55,
+        "Velocidad": 45
+      },
+      "Altura": "1.0 m",
+      "Peso": "6.0 kg",
+      "Habilidades": [
+        "robustez",
+        "Imán",
+        "Cálculo final (Oculta)"
+      ],
+      "DescripcionPokedex":"Es un Pokémon que vive en zonas industriales. Su cuerpo es muy pesado.",
+      "EvolucionaA" : [
+        {
+          "Nombre": "Magneton"
+        }
+      ]
+    },
+    {
+      "Numero": 82,
+      "Nombre": "Magneton",
+      "Tipos": ["Eléctrico", "Acero"],
+      "EstadisticasBase": {
+        "PS": 50,
+        "Ataque": 60,
+        "Defensa": 95,
+        "AtaqueEsp": 120,
+        "DefensaEsp": 70,
+        "Velocidad": 70
+      },
+      "Altura": "1.0 m",
+      "Peso": "60.0 kg",
+      "Habilidades": [
+        "robustez",
+        "Imán",
+        "Cálculo final (Oculta)"
+      ],
+      "DescripcionPokedex":"Es un Pokémon que vive en zonas industriales. Su cuerpo es muy pesado.",
+      "EvolucionaA" : [
+        {
+          "Nombre": "Magnezone"
+        }
+      ]
+    },
+    {
+      "Numero": 83,
+      "Nombre": "Farfetch'd",
+      "Tipos": ["Normal", "Volador"],
+      "EstadisticasBase": {
+        "PS": 52,
+        "Ataque": 65,
+        "Defensa": 55,
+        "AtaqueEsp": 58,
+        "DefensaEsp": 62,
+        "Velocidad": 60
+      },
+      "Altura": "0.8 m",
+      "Peso": "15.0 kg",
+      "Habilidades": [
+        "Vista Lince",
+        "fuerza mental",
+        "Competitivo (Oculta)"
+      ],
+      "DescripcionPokedex":"Es un Pokémon que vive en zonas húmedas. Su cuerpo es muy ágil y rápido.",
+      "EvolucionaA" : null
+    },
+    {
+      "Numero": 84,
+      "Nombre": "Doduo",
+      "Tipos": ["Normal", "Volador"],
+      "EstadisticasBase": {
+        "PS": 35,
+        "Ataque": 85,
+        "Defensa": 45,
+        "AtaqueEsp": 35,
+        "DefensaEsp": 50,
+        "Velocidad": 75
+      },
+      "Altura": "1.4 m",
+      "Peso": "39.2 kg",
+      "Habilidades": [
+        "madrugar",
+        "Fuga",
+        "Tumbos (Oculta)"
+      ],
+      "DescripcionPokedex":"Es un Pokémon que vive en zonas húmedas. Su cuerpo es muy ágil y rápido.",
+      "EvolucionaA" : [
+        {
+          "Nombre": "Dodrio"
+        }
+      ]
+    },
+    {
+      "Numero": 85,
+      "Nombre": "Dodrio",
+      "Tipos": ["Normal", "Volador"],
+      "EstadisticasBase": {
+        "PS": 60,
+        "Ataque": 110,
+        "Defensa": 70,
+        "AtaqueEsp": 60,
+        "DefensaEsp": 75,
+        "Velocidad": 110
+      },
+      "Altura": "1.8 m",
+      "Peso": "85.2 kg",
+      "Habilidades": [
+        "madrugar",
+        "Fuga",
+        "Tumbos (Oculta)"
+      ],
+      "DescripcionPokedex":"Es un Pokémon que vive en zonas húmedas. Su cuerpo es muy ágil y rápido.",
+      "EvolucionaA" : null
+    },
+    {
+      "Numero": 86,
+      "Nombre": "Seel",
+      "Tipos": ["Agua"],
+      "EstadisticasBase": {
+        "PS": 65,
+        "Ataque": 45,
+        "Defensa": 55,
+        "AtaqueEsp": 56,
+        "DefensaEsp": 50,
+        "Velocidad": 40
+      },
+      "Altura": "1.1 m",
+      "Peso": "90.0 kg",
+      "Habilidades": [
+        "Sebo",
+        "Hidratación",
+        "Gelido (Oculta)"
+      ],
+      "DescripcionPokedex":"Es un Pokémon que vive en el agua. Su cuerpo es muy pesado.",
+      "EvolucionaA" : [
+        {
+          "Nombre": "Dewgong"
+        }
+      ]
+    },
+    {
+      "Numero": 87,
+      "Nombre": "Dewgong",
+      "Tipos": ["Agua", "Hielo"],
+      "EstadisticasBase": {
+        "PS": 90,
+        "Ataque": 70,
+        "Defensa": 80,
+        "AtaqueEsp": 70,
+        "DefensaEsp": 95,
+        "Velocidad": 70
+      },
+      "Altura": "1.8 m",
+      "Peso": "120.0 kg",
+      "Habilidades": [
+        "Sebo",
+        "Hidratación",
+        "Gelido (Oculta)"
+      ],
+      "DescripcionPokedex":"Es un Pokémon que vive en el agua. Su cuerpo es muy pesado.",
+      "EvolucionaA" : null
+    },
+    {
+      "Numero": 88,
+      "Nombre": "Grimer",
+      "Tipos": ["Veneno"],
+      "EstadisticasBase": {
+        "PS": 80,
+        "Ataque": 80,
+        "Defensa": 50,
+        "AtaqueEsp": 40,
+        "DefensaEsp": 50,
+        "Velocidad": 25
+      },
+      "Altura": "0.9 m",
+      "Peso": "30.0 kg",
+      "Habilidades": [
+        "hedor ",
+        "viscosidad",
+        "Toque tóxico (Oculta)"
+      ],
+      "DescripcionPokedex":"Es un Pokémon que vive en zonas industriales. Su cuerpo es muy pesado.",
+      "EvolucionaA" : [
+        {
+          "Nombre": "Muk"
+        }
+      ]
+    },
+    {
+      "Numero": 89,
+      "Nombre": "Muk",
+      "Tipos": ["Veneno"],
+      "EstadisticasBase": {
+        "PS": 105,
+        "Ataque": 105,
+        "Defensa": 75,
+        "AtaqueEsp": 65,
+        "DefensaEsp": 100,
+        "Velocidad": 50
+      },
+      "Altura": "1.2 m",
+      "Peso": "30.0 kg",
+      "Habilidades": [
+        "hedor ",
+        "viscosidad",
+        "Toque tóxico (Oculta)"
+      ],
+      "DescripcionPokedex":"Es un Pokémon que vive en zonas industriales. Su cuerpo es muy pesado.",
+      "EvolucionaA" : null
+    },
+    {
+      "Numero": 90,
+      "Nombre": "Shellder",
+      "Tipos": ["Agua", "Hielo"],
+      "EstadisticasBase": {
+        "PS": 30,
+        "Ataque": 65,
+        "Defensa": 100,
+        "AtaqueEsp": 45,
+        "DefensaEsp": 25,
+        "Velocidad": 40
+      },
+      "Altura": "0.3 m",
+      "Peso": "4.0 kg",
+      "Habilidades": [
+        "Caparazón",
+        "Encadenado",
+        "Funda (Oculta)"
+      ],
+      "DescripcionPokedex":"Es un Pokémon que vive en el agua. ",
+      "EvolucionaA" : [
+        {
+          "Nombre": "Cloyster"
+        }
+      ]
+    },
+    {
+      "Numero": 91,
+      "Nombre": "Cloyster",
+      "Tipos": ["Agua", "Hielo"],
+      "EstadisticasBase": {
+        "PS": 50,
+        "Ataque": 95,
+        "Defensa": 180,
+        "AtaqueEsp": 85,
+        "DefensaEsp": 45,
+        "Velocidad": 70
+      },
+      "Altura": "1.5 m",
+      "Peso": "132.5 kg",
+      "Habilidades": [
+        "Caparazón",
+        "Encadenado",
+        "Funda (Oculta)"
+      ],
+      "DescripcionPokedex":"Es un Pokémon que vive en el agua. Su cuerpo es muy pesado.",
+      "EvolucionaA" : null
+    },
+    {
+      "Numero": 92,
+      "Nombre": "Gastly",
+      "Tipos": ["Fantasma", "Veneno"],
+      "EstadisticasBase": {
+        "PS": 30,
+        "Ataque": 35,
+        "Defensa": 30,
+        "AtaqueEsp": 100,
+        "DefensaEsp": 35,
+        "Velocidad": 80
+      },
+      "Altura": "1.3 m",
+      "Peso": "0.1 kg",
+      "Habilidades": [
+        "Levitación"
+      ],
+      "DescripcionPokedex":" un Pokémon fantasma. Es normalmente invisible. Su especialidad es la hipnosis.",
+      "EvolucionaA" : [
+        {
+          "Nombre": "Haunter"
+        }
+      ]
+    },
+    {
+      "Numero": 93,
+      "Nombre": "Haunter",
+      "Tipos": ["Fantasma", "Veneno"],
+      "EstadisticasBase": {
+        "PS": 45,
+        "Ataque": 50,
+        "Defensa": 45,
+        "AtaqueEsp": 115,
+        "DefensaEsp": 55,
+        "Velocidad": 95
+      },
+      "Altura": "1.6 m",
+      "Peso": "0.1 kg",
+      "Habilidades": [
+        "Levitación"
+      ],
+      "DescripcionPokedex":"un Pokémon gaseoso. No hay más información.",
+      "EvolucionaA" : [
+        {
+          "Nombre": "Gengar"
+        }
+      ]
+    },
+    {
+      "Numero": 94,
+      "Nombre": "Gengar",
+      "Tipos": ["Fantasma", "Veneno"],
+      "EstadisticasBase": {
+        "PS": 60,
+        "Ataque": 65,
+        "Defensa": 60,
+        "AtaqueEsp": 130,
+        "DefensaEsp": 75,
+        "Velocidad": 110
+      },
+      "Altura": "1.5 m",
+      "Peso":"40.5 kg",
+      "Habilidades": [
+        "Levitación",
+        "Cuerpo maldito"
+      ],
+      "DescripcionPokedex":" Pokémon sombra. Forma evolucionada del Haunter. Los detalles sobre este Pokémon son desconocidos.",
+      "EvolucionaA" : null
+    },
+    {
+      "Numero": 95,
+      "Nombre": "Onix",
+      "Tipos": ["Roca", "Tierra"],
+      "EstadisticasBase": {
+        "PS": 35,
+        "Ataque": 45,
+        "Defensa": 160,
+        "AtaqueEsp": 30,
+        "DefensaEsp": 45,
+        "Velocidad": 70
+      },
+      "Altura": "9.8 m",
+      "Peso":"210.0 kg",
+      "Habilidades": [
+        "Cabeza Roca",
+        "robustez",
+        "Armadura frágil (oculta)"
+      ],
+      "DescripcionPokedex":"el Pokémon serpiente roca. Hace túneles a través de la tierra y esta tiembla cuando lanza su atronador rugido. Puede ir fiel a 65 km/h.",
+      "EvolucionaA" : [
+        {
+          "Nombre": "Steelix"
+        }
+      ]
+    },
+    {
+      "Numero": 96,
+      "Nombre": "drowzee",
+      "Tipos": ["Psíquico"],
+      "EstadisticasBase": {
+        "PS": 60,
+        "Ataque": 48,
+        "Defensa": 45,
+        "AtaqueEsp": 43,
+        "DefensaEsp": 90,
+        "Velocidad": 42
+      },
+      "Altura": "1.0 m",
+      "Peso": "32.4 kg",
+      "Habilidades": [
+        "Insomnio",
+        "Alerta",
+        "fuerza mental (Oculta)"
+      ],
+      "DescripcionPokedex":" Se dice que es descendiente de los tapir comesueños. Fue el primer Pokémon en utilizar una combinación de ataque hipnosis y come sueño.",
+      "EvolucionaA" : [
+        {
+          "Nombre": "Hypno"
+        }
+      ]
+    },
+    {
+      "Numero": 97,
+      "Nombre": "Hypno",
+      "Tipos": ["Psíquico"],
+      "EstadisticasBase": {
+        "PS": 85,
+        "Ataque": 73,
+        "Defensa": 70,
+        "AtaqueEsp": 73,
+        "DefensaEsp": 115,
+        "Velocidad": 67
+      },
+      "Altura": "1.6 m",
+      "Peso": "75.6 kg",
+      "Habilidades": [
+        "Insomnio",
+        "Alerta",
+        "fuerza mental (Oculta)"
+      ],
+      "DescripcionPokedex":"Lleva un péndulo en la mano. Una vez, hizo desaparecer a un niño al que había hipnotizado",
+      "EvolucionaA" : null
+    },
+    {
+      "Numero": 98,
+      "Nombre": "Krabby",
+      "Tipos": ["Agua"],
+      "EstadisticasBase": {
+        "PS": 30,
+        "Ataque": 105,
+        "Defensa": 90,
+        "AtaqueEsp": 25,
+        "DefensaEsp": 25,
+        "Velocidad": 50
+      },
+      "Altura": "6,5 m",
+      "Peso":"6.5 kg",
+      "Habilidades": [
+        "Corte fuerte",
+        "Caparazón",
+        "potencia bruta (Oculta)"
+      ],
+      "DescripcionPokedex": "Vive en la orilla del mar. Puede alcanzar una altura media de 40 centímetros.",
+      "EvolucionaA" : [
+        {
+          "Nombre": "Kingler"
+        }
+      ]
+    },
+    {
+      "Numero": 99,
+      "Nombre": "Kingler",
+      "Tipos": ["Agua"],
+      "EstadisticasBase": {
+        "PS": 55,
+        "Ataque": 130,
+        "Defensa": 115,
+        "AtaqueEsp": 50,
+        "DefensaEsp": 50,
+        "Velocidad": 75
+      },
+      "Altura": "1,3 m",
+      "Peso":"60.0 kg",
+      "Habilidades": [
+        "Corte fuerte",
+        "Caparazón",
+        "potencia bruta (Oculta)"
+      ],
+      "DescripcionPokedex":" el Pokémon tenazas. La forma evolucionada de Krabby. Sus tenazas aplastantes lo hacen un oponente poderoso.",
+      "EvolucionaA" : null
+    },
+    {
+      "Numero": 100,
+      "Nombre": "Voltorb",
+      "Tipos": ["Eléctrico"],
+      "EstadisticasBase": {
+        "PS": 40,
+        "Ataque": 30,
+        "Defensa": 35,
+        "AtaqueEsp": 55,
+        "DefensaEsp": 55,
+        "Velocidad": 100
+      },
+      "Altura": "0.5 m",
+      "Peso":"10.4 kg",
+      "Habilidades": [
+        "Electricidad Estática",
+        "Insonorizar",
+        "Detonacion (Oculta)"
+      ],
+      "DescripcionPokedex":" La identidad de esta criatura es desconocida. Tiene una personalidad extremista, utiliza ataques eléctricos y a veces autodestrucción.",
+      "EvolucionaA" : [
+        {
+          "Nombre": "Electrode"
+        }
+      ]
+    },
+    {
+      "Numero": 101,
+      "Nombre": "Electrode",
+      "Tipos": ["Eléctrico"],
+      "EstadisticasBase": {
+        "PS": 60,
+        "Ataque": 50,
+        "Defensa": 70,
+        "AtaqueEsp": 80,
+        "DefensaEsp": 80,
+        "Velocidad": 140
+      },
+      "Altura": "1.2 m",
+      "Peso":"66.6 kg",
+      "Habilidades": [
+        "Electricidad Estática",
+        "Insonorizar",
+        "Detonacion (Oculta)"
+      ],
+      "DescripcionPokedex":"forma evolucionada de Voltorb. Una alta condensación de electricidad hace que este Pokémon explote de forma impredecible. Electrode también es conocido por la ''Bomba Ball''.", 
+      "EvolucionaA" : null
+    },
+    {
+      "Numero": 102,
+      "Nombre": "Exeggcute",
+      "Tipos": ["Planta", "Psíquico"],
+      "EstadisticasBase": {
+        "PS": 60,
+        "Ataque": 40,
+        "Defensa": 80,
+        "AtaqueEsp": 60,
+        "DefensaEsp": 45,
+        "Velocidad": 40
+      },
+      "Altura": "0.4 m",
+      "Peso":"2.5 kg",
+      "Habilidades": [
+        "Clorofila",
+        "Cosecha (Oculta)"
+      ],
+      "DescripcionPokedex":" Pokémon huevo. Aunque a primera vista parece un huevo, se sabe que está más cerca de ser la semilla de una planta",
+      "EvolucionaA" : [
+        {
+          "Nombre": "Exeggutor"
+        }
+      ]
+    },
+    {
+      "Numero": 103,
+      "Nombre": "Exeggutor",
+      "Tipos": ["Planta", "Psíquico"],
+      "EstadisticasBase": {
+        "PS": 95,
+        "Ataque": 95,
+        "Defensa": 85,
+        "AtaqueEsp": 125,
+        "DefensaEsp": 65,
+        "Velocidad": 55
+      },
+      "Altura": "2.0 m",
+      "Peso":"120.0 kg",
+      "Habilidades": [
+        "Clorofila",
+        "Cosecha (Oculta)"
+      ],
+      "DescripcionPokedex":" Pokémon coco. También conocido como selva tropical andante. Cada coco tiene una cara distinta y su propio carácter. Su ataque especial es la hipnosis.",
+      "EvolucionaA" : null
+    },
+    {
+      "Numero": 104,
+      "Nombre": "Cubone",
+      "Tipos": ["Tierra"],
+      "EstadisticasBase": {
+        "PS": 50,
+        "Ataque": 50,
+        "Defensa": 55,
+        "AtaqueEsp": 40,
+        "DefensaEsp": 50,
+        "Velocidad": 35
+      },
+      "Altura": "0.4 m",
+      "Peso":"6.5 kg",
+      "Habilidades": [
+        "Cuerpo puro",
+        "Pararrayos",
+        "Armadura batalla (oculta)"
+      ],
+      "DescripcionPokedex":"Pokémon solitario. Es de tipo tierra. Cubone lleva un cráneo como casco, ocultando su rostro y derrama lágrimas por su madre, perdida mucho tiempo atrás. Llora desconsoladamente para expresar su soledad y siempre lleva con él un hueso largo y grueso.",
+      "EvolucionaA" : [
+        {
+          "Nombre": "Marowak"
+        }
+      ]
+    },
+    {
+      "Numero": 105,
+      "Nombre": "Marowak",
+      "Tipos": ["Tierra"],
+      "EstadisticasBase": {
+        "PS": 60,
+        "Ataque": 80,
+        "Defensa": 110,
+        "AtaqueEsp": 50,
+        "DefensaEsp": 80,
+        "Velocidad": 45
+      },
+      "Altura": "1.0 m",
+      "Peso":"45.0 kg",
+      "Habilidades": [
+         "Cuerpo puro",
+        "Pararrayos",
+        "Armadura batalla (oculta)"
+      ],
+      "DescripcionPokedex":"Pokémon apila hueso. A pesar de su pequeño tamaño, su fuerza ofensiva y defensiva es impresionante.",
+      "EvolucionaA" : null
+    },
+    {
+      "Numero": 106,
+      "Nombre": "Hitmonlee",
+      "Tipos": ["Lucha"],
+      "EstadisticasBase": {
+        "PS": 50,
+        "Ataque": 120,
+        "Defensa": 53,
+        "AtaqueEsp": 35,
+        "DefensaEsp": 110,
+        "Velocidad": 87
+      },
+      "Altura": "1.5 m",
+      "Peso":"49.8 kg",
+      "Habilidades": [
+        "Flexibilidad",
+        "Audaz",
+        "Liviano (Oculta)"
+      ],
+      "DescripcionPokedex":"el Pokémon pateador. Este ágil Pokémon da patadas mortales desde prácticamente cualquier posición.",
+      "EvolucionaA" : null
+    }
+    ,
+    {
+      "Numero": 107,
+      "Nombre": "Hitmonchan",
+      "Tipos": ["Lucha"],
+      "EstadisticasBase": {
+        "PS": 50,
+        "Ataque": 105,
+        "Defensa": 79,
+        "AtaqueEsp": 35,
+        "DefensaEsp": 110,
+        "Velocidad": 76
+      },
+      "Altura": "1.4 m",
+      "Peso":"50.2 kg",
+      "Habilidades": [
+        "Vista Lince",
+        "Puño ferreo",
+        "fuerza mental (Oculta)"
+      ],
+      "DescripcionPokedex":"el Pokémon puñetazo. Este Pokémon es capaz de lanzar puñetazos a gran velocidad.",
+      "EvolucionaA" : null
+    },
+    {
+      "Numero": 108,
+      "Nombre": "Lickitung",
+      "Tipos": ["Normal"],
+      "EstadisticasBase": {
+        "PS": 90,
+        "Ataque": 55,
+        "Defensa": 75,
+        "AtaqueEsp": 60,
+        "DefensaEsp": 75,
+        "Velocidad": 30
+      },
+      "Altura": "1.2 m",
+      "Peso":"65.5 kg",
+      "Habilidades": [
+        "Despiste",
+        "Ritmo Propio",
+        "aclimacion(oculta)"
+      ],
+      "DescripcionPokedex":"Pokémon lengua larga. Su lengua es tan larga que puede enrollarse en su cuerpo.",
+      "EvolucionaA" : [
+        {
+          "Nombre": "Lickilicky"
+        }
+      ]
+    },
+    {
+      "Numero": 109,
+      "Nombre": "Koffing",
+      "Tipos": ["Veneno"],
+      "EstadisticasBase": {
+        "PS": 40,
+        "Ataque": 65,
+        "Defensa": 95,
+        "AtaqueEsp": 60,
+        "DefensaEsp": 45,
+        "Velocidad": 35
+      },
+      "Altura":"0.6 m",
+      "Peso":"10.0 kg",
+      "Habilidades":[
+        	"Levitar",
+          "gas raactivo",
+          "hedor (Oculta)"
+      	],
+      	"DescripcionPokedex":"Pokémon gas. Se dice que el gas que expulsa es altamente tóxico. Se ha visto a Koffing en fábricas y zonas industriales.",
+      	"EvolucionaA" : [
+        	{
+          	"Nombre": "Weezing"
+        	}
+      	]
+    },
+    {
+      "Numero": 110,
+      "Nombre": "Weezing",
+      "Tipos": ["Veneno"],
+      "EstadisticasBase": {
+        "PS": 65,
+        "Ataque": 90,
+        "Defensa": 120,
+        "AtaqueEsp": 85,
+        "DefensaEsp": 70,
+        "Velocidad": 60
+      },
+      "Altura":"1.2 m",
+      "Peso":"95.0 kg",
+      "Habilidades":[
+        	"Levitar",
+          "gas raactivo",
+          "hedor (Oculta)"
+      	],
+      	"DescripcionPokedex":"Donde se juntan 2 tipos de gases venenosos, 2 Koffing podrán fusionarse en un Weezing.",
+      	"EvolucionaA" : null
+    },
+    {
+      "Numero": 111,
+      "Nombre": "Rhyhorn",
+      "Tipos": ["Tierra", "Roca"],
+      "EstadisticasBase": {
+        "PS": 80,
+        "Ataque": 85,
+        "Defensa": 95,
+        "AtaqueEsp": 30,
+        "DefensaEsp": 30,
+        "Velocidad": 25
+      },
+      "Altura":"1.0 m",
+      "Peso":"115.0 kg",
+      "Habilidades":[
+        	"Pararrayos",
+          "Cabeza Roca",
+          "Audaz (oculta)"
+      	],
+      	"DescripcionPokedex":"Pokémon cuerno. Su cuerpo es muy pesado y su defensa es muy alta.",
+      	"EvolucionaA" : [
+        	{
+          	"Nombre": "Rhydon"
+        	}
+      	]
+    },
+    {
+      "Numero": 112,
+      "Nombre": "Rhydon",
+      "Tipos": ["Tierra", "Roca"],
+      "EstadisticasBase": {
+        "PS": 105,
+        "Ataque": 130,
+        "Defensa": 120,
+        "AtaqueEsp": 45,
+        "DefensaEsp": 45,
+        "Velocidad": 40
+      },
+      "Altura":"1.9 m",
+      "Peso":"120.0 kg",
+      "Habilidades":[
+          "Pararrayos",
+          "Cabeza Roca",
+          "Audaz (oculta)"
+      	],
+      	"DescripcionPokedex":"Protegido por una piel tipo-escudo, puede vivir en lava líquida a 3.600 grados de temperatura.",
+      	"EvolucionaA" : [
+        	{
+          	"Nombre": "Rhyperior"
+        	}
+      	]
+    },
+    {
+      "Numero": 113,
+      "Nombre": "Chansey",
+      "Tipos": ["Normal"],
+      "EstadisticasBase": {
+        "PS": 250,
+        "Ataque": 5,
+        "Defensa": 5,
+        "AtaqueEsp": 35,
+        "DefensaEsp": 105,
+        "Velocidad": 50
+      },
+      "Altura":"1.1 m",
+      "Peso":"76.0 kg",
+      "Habilidades":[
+        	"Dicha",
+          "Cura natural",
+          "Alma cura (oculta)"
+      ],
+      "DescripcionPokedex":"Pokémon huevo. Se dice que es un Pokémon muy feliz. Su cuerpo es muy pesado y su defensa es muy alta.",
+      "EvolucionaA" : [
+        {
+          "Nombre": "Blissey"
+        }
+      ]
+    },
+    {
+      "Numero": 114,
+      "Nombre": "Tangela",
+      "Tipos": ["Planta"],
+      "EstadisticasBase": {
+        "PS": 65,
+        "Ataque": 55,
+        "Defensa": 115,
+        "AtaqueEsp": 100,
+        "DefensaEsp": 40,
+        "Velocidad": 60
+      },
+      "Altura":"1.0 m",
+      "Peso":"35.0 kg",
+      "Habilidades":[
+        	"Clorofila",
+          "defensa hoja",
+          "Regeneración (Oculta)"
+      	],
+      	"DescripcionPokedex":"Pokémon planta. Su cuerpo está cubierto de lianas. Se dice que es un Pokémon muy feliz.",
+      	"EvolucionaA" : [
+        	{
+          	"Nombre": "Tangrowth"
+        	}
+      	]
+    },
+    {
+      "Numero": 115,
+      "Nombre": "Kangaskhan",
+      "Tipos": ["Normal"],
+      "EstadisticasBase": {
+        "PS": 105,
+        "Ataque": 95,
+        "Defensa": 80,
+        "AtaqueEsp": 40,
+        "DefensaEsp": 80,
+        "Velocidad": 90
+      },
+      "Altura":"2.2 m",
+      "Peso":"80.0 kg",
+      "Habilidades":[
+        	"madrugar",
+          "Intrépido",
+          "fuerza mental (Oculta)"
+      	],
+      	"DescripcionPokedex":"Pokémon madre. Se dice que es un Pokémon muy feliz. Su cuerpo es muy pesado y su defensa es muy alta.",
+      	"EvolucionaA" : null
+    },
+    {
+      "Numero": 116,
+      "Nombre": "Horsea",
+      "Tipos": ["Agua"],
+      "EstadisticasBase": {
+        "PS": 30,
+        "Ataque": 40,
+        "Defensa": 70,
+        "AtaqueEsp": 70,
+        "DefensaEsp": 25,
+        "Velocidad": 60
+      },
+      "Altura":"1.2 m",
+      "Peso":"8.0 kg",
+      "Habilidades":[
+        	"Francotirador",
+          "Nado Rápido ",
+          "Humedad (oculta)"
+      	],
+      	"DescripcionPokedex":"Famoso por derribar a bichos volantes lanzando tinta desde la superficie del agua.",
+      "EvolucionaA" : [
+        {
+          "Nombre": "Seadra"
+        }
+      ]
+    },
+    {
+      "Numero": 117,
+      "Nombre": "Seadra",
+      "Tipos": ["Agua"],
+      "EstadisticasBase": {
+        "PS": 55,
+        "Ataque": 65,
+        "Defensa": 95,
+        "AtaqueEsp": 95,
+        "DefensaEsp": 45,
+        "Velocidad": 85
+      },
+      "Altura":"1.2 m",
+      "Peso":"25.0 kg",
+      "Habilidades":[
+        	"Francotirador",
+          "Punto Tóxico",
+          "Humedad (oculta)"
+      	],
+      	"DescripcionPokedex":"Puede nadar hacia atrás moviendo rápidamente sus aletas pectorales y su robusta cola.",
+      	"EvolucionaA" : [
+        	{
+          	"Nombre": "Kingdra"
+        	}
+      	]
+    },
+    {
+      "Numero": 118,
+      "Nombre": "Goldeen",
+      "Tipos": ["Agua"],
+      "EstadisticasBase": {
+        "PS": 45,
+        "Ataque": 67,
+        "Defensa": 60,
+        "AtaqueEsp": 35,
+        "DefensaEsp": 50,
+        "Velocidad": 63
+      },
+      "Altura":"0.6 m",
+      "Peso":"15.0 kg",
+      "Habilidades":[
+        	"Velo Agua",
+          "Nado Rápido ",
+          "Pararrayos (Oculta)"
+      	],
+      	"DescripcionPokedex":"La aleta de su cola se hincha como un elegante traje de baile. Es llamado Reina del Agua.",
+      	"EvolucionaA" : [
+        	{
+          	"Nombre": "Seaking"
+        	}
+      	]
+    },
+    {
+      "Numero": 119,
+      "Nombre": "Seaking",
+      "Tipos": ["Agua"],
+      "EstadisticasBase": {
+        "PS": 80,
+        "Ataque": 92,
+        "Defensa": 65,
+        "AtaqueEsp": 65,
+        "DefensaEsp": 80,
+        "Velocidad": 68
+      },
+      "Altura":"1.3 m",
+      "Peso" :"39.0 kg", 
+      "Habilidades":[
+        	"Velo Agua",
+          "Nado Rápido ",
+          "Pararrayos (Oculta)"
+      	],
+      	"DescripcionPokedex":"En otoño, cuando se reproducen, pueden ser vistos nadando con energía por ríos y arroyos.",
+      	"EvolucionaA" : null
+    },
+    {
+      "Numero": 120,
+      "Nombre": "Staryu",
+      "Tipos": ["Agua"],
+      "EstadisticasBase": {
+        "PS": 30,
+        "Ataque": 45,
+        "Defensa": 55,
+        "AtaqueEsp": 70,
+        "DefensaEsp": 55,
+        "Velocidad": 85
+      },
+      "Altura":"0.8 m",
+      "Peso":"34.5 kg",
+      "Habilidades":[
+        	"Iluminación",
+          "Cura natural",
+          "Calculo final (Oculta)"
+      	],
+      	"DescripcionPokedex":"Un enigmático Pokémon que puede regenerar con facilidad todo apéndice que pierda ",
+      	"EvolucionaA" : [
+        	{
+          	"Nombre": "Starmie"
+        	}
+      	]
+    },
+    {
+      "Numero": 121,
+      "Nombre": "Starmie",
+      "Tipos": ["Agua", "Psíquico"],
+      "EstadisticasBase": {
+        "PS": 60,
+        "Ataque": 75,
+        "Defensa": 85,
+        "AtaqueEsp": 100,
+        "DefensaEsp": 85,
+        "Velocidad": 115
+      },
+      "Altura":"1.1 m",
+      "Peso":"80.0 kg",
+      "Habilidades":[
+        	"Iluminación",
+          "Cura natural",
+          "Calculo final (Oculta)"
+      	],
+      	"DescripcionPokedex":"Su núcleo central brilla con los 7 colores del arco iris. Es valorado como gema por algunos.",
+      	"EvolucionaA" : null
+    },
+    {
+      "Numero": 122,
+      "Nombre": "Mr. Mime",
+      "Tipos": ["Psíquico", "Hada"],
+      "EstadisticasBase": {
+        "PS": 40,
+        "Ataque": 45,
+        "Defensa": 65,
+        "AtaqueEsp": 100,
+        "DefensaEsp": 120,
+        "Velocidad": 90
+      },
+      "Altura":"1.3 m",
+      "Peso":"54.5 kg",
+      "Habilidades":[
+        "Insonorizar",
+        "Filtro",
+        "Experto (oculta)"
+      ],
+      "DescripcionPokedex":"Pokémon barrera. Utiliza la pantomima para hacer aparecer paredes reales. Como se le ve en muy pocas ocasiones, la información sobre este Pokémon es sumamente limitada.",
+      "EvolucionaA" : null
+    },
+    {
+      "Numero": 123,
+      "Nombre": "Scyther",
+      "Tipos": ["Bicho", "Volador"],
+      "EstadisticasBase": {
+        "PS": 70,
+        "Ataque": 110,
+        "Defensa": 80,
+        "AtaqueEsp": 55,
+        "DefensaEsp": 80,
+        "Velocidad": 105
+      },
+      "Altura":"1.5 m",
+      "Peso":"56.0 kg",
+      "Habilidades":[
+        	"Enjambre",
+          "Experto",
+          "Impasible (Oculta)"
+      	],
+      	"DescripcionPokedex":"Con una agilidad y velocidad tipo ninja, puede crear la ilusión de que hay más de uno.",
+      	"EvolucionaA" : [
+        	{
+          	"Nombre": "Scizor"
+        	}
+      	]
+    },
+    {
+      "Numero": 124,
+      "Nombre": "Jynx",
+      "Tipos": ["Hielo", "Psíquico"],
+      "EstadisticasBase": {
+        "PS": 65,
+        "Ataque": 50,
+        "Defensa": 35,
+        "AtaqueEsp": 115,
+        "DefensaEsp": 95,
+        "Velocidad": 95
+      },
+      "Altura":"1.4 m",
+      "Peso":"40.6 kg",
+      "Habilidades":[
+        	"Despiste",
+          "Alerta",
+          "Piel seca (Oculta)"
+      	],
+      	"DescripcionPokedex":"Mueve sus caderas seductoramente al caminar. Puede hacer que la gente baile al unísono.",
+      	"EvolucionaA" : null
+    },
+    {
+      "Numero": 125,
+      "Nombre": "Electabuzz",
+      "Tipos": ["Eléctrico"],
+      "EstadisticasBase": {
+        "PS": 65,
+        "Ataque": 83,
+        "Defensa": 57,
+        "AtaqueEsp": 95,
+        "DefensaEsp": 85,
+        "Velocidad": 105
+      },
+      "Altura":"1.1 m",
+      "Peso":"30.0 kg",
+      "Habilidades":[
+        	"Electricidad Estática",
+          "Espíritu vital(oculta)"
+      ],
+      "DescripcionPokedex":"Suelen andar por las centrales eléctricas, pero también merodean y causan grandes apagones.",
+      "EvolucionaA" : [
+        {
+          "Nombre": "Electivire"
+        }
+      ]
+    },
+    {
+      "Numero": 126,
+      "Nombre": "Magmar",
+      "Tipos": ["Fuego"],
+      "EstadisticasBase": {
+        "PS": 65,
+        "Ataque": 95,
+        "Defensa": 57,
+        "AtaqueEsp": 100,
+        "DefensaEsp": 85,
+        "Velocidad": 93
+      },
+      "Altura":"1.3 m",
+      "Peso":"44.5 kg",
+      "Habilidades":[
+          "Cuerpo llama",
+          "Espíritu vital(oculta)"
+      	],
+      	"DescripcionPokedex":"Su cuerpo siempre arde con brillo naranja, con el que se oculta entre las llamas.",
+      	"EvolucionaA" : [
+        	{
+          	"Nombre": "Magmortar"
+        	}
+      	]
+    },
+    {
+      "Numero": 127,
+      "Nombre": "Pinsir",
+      "Tipos": ["Bicho"],
+      "EstadisticasBase": {
+        "PS": 65,
+        "Ataque": 125,
+        "Defensa": 100,
+        "AtaqueEsp": 55,
+        "DefensaEsp": 70,
+        "Velocidad": 85
+      },
+      "Altura":"1.5 m",
+      "Peso":"55.0 kg",
+      "Habilidades":[
+        	"Corte fuerte",
+          "rompemoldes",
+          "Impasible (Oculta)"
+      	],
+      	"DescripcionPokedex":"Si no consigue triturar a su víctima con sus pinzas, le dará vueltas y la arrojará lejos.",
+      	"EvolucionaA" : null
+    },
+    {
+      "Numero": 128,
+      "Nombre": "Tauros",
+      "Tipos": ["Normal"],
+      "EstadisticasBase": {
+        "PS": 75,
+        "Ataque": 100,
+        "Defensa": 95,
+        "AtaqueEsp": 40,
+        "DefensaEsp": 70,
+        "Velocidad": 110
+      },
+      "Altura":"1.4 m",
+      "Peso":"88.4 kg",
+      "Habilidades":[
+        	"Intimidación ",
+          "Irascible",
+          "potencia bruta (Oculta)"
+      	],
+      	"DescripcionPokedex":"toro salvaje Pokémon. Cuando azota sus tres colas su placaje es una poderosa fuerza destructiva.",
+        "EvolucionaA" : null
+    },
+    {
+      "Numero": 129,
+      "Nombre": "Magikarp",
+      "Tipos": ["Agua"],
+      "EstadisticasBase": {
+        "PS": 20,
+        "Ataque": 10,
+        "Defensa": 55,
+        "AtaqueEsp": 15,
+        "DefensaEsp": 20,
+        "Velocidad": 80
+      },
+      "Altura":"0.9 m",
+      "Peso":"10.0 kg",
+      "Habilidades":[
+        	"Nado Rápido ",
+          "Cobardia (oculta)"
+      	],
+      	"DescripcionPokedex":"En un pasado lejano, era más fuerte que sus horribles descendientes de hoy en día.",
+      	"EvolucionaA" : [
+        	{
+          	"Nombre": "Gyarados"
+        	}
+      	]
+    },
+    {
+      "Numero": 130,
+      "Nombre": "Gyarados",
+      "Tipos": ["Agua", "Volador"],
+      "EstadisticasBase": {
+        "PS": 95,
+        "Ataque": 125,
+        "Defensa": 79,
+        "AtaqueEsp": 60,
+        "DefensaEsp": 100,
+        "Velocidad": 81
+      },
+      "Altura":"6.5 m",
+      "Peso":"235.0 kg",
+      "Habilidades":[
+        	"Intimidación ",
+          "Autoestima (Oculta)"
+      	],
+      	"DescripcionPokedex":"Poco visto en la naturaleza. Enorme y malo, es capaz de destruir ciudades enteras de un ataque.",
+      	"EvolucionaA" : null
+    },
+    {
+      "Numero": 131,
+      "Nombre": "Lapras",
+      "Tipos": ["Agua", "Hielo"],
+      "EstadisticasBase": {
+        "PS": 130,
+        "Ataque": 85,
+        "Defensa": 80,
+        "AtaqueEsp": 85,
+        "DefensaEsp": 95,
+        "Velocidad": 60
+      },
+      "Altura":"2.5 m",
+      "Peso":"220.0 kg",
+      "Habilidades":[
+        	"Absorbe Agua",
+          "Caparazón",
+          "Hidratación (oculta)"
+      	],
+      "DescripcionPokedex":"Un Pokémon que ha sido cazado casi hasta la extinción. Puede llevar a la gente por el agua.",
+      "EvolucionaA" : null
+    },
+    {
+      "Numero": 132,
+      "Nombre": "Ditto",
+      "Tipos": ["Normal"],
+      "EstadisticasBase": {
+        "PS": 48,
+        "Ataque": 48,
+        "Defensa": 48,
+        "AtaqueEsp": 48,
+        "DefensaEsp": 48,
+        "Velocidad": 48
+      },
+      "Altura":"0.3 m",
+      "Peso":"4.0 kg",
+      "Habilidades":[
+        	"Flexibilidad",
+          "Impostor (oculta)"
+      	],
+      	"DescripcionPokedex":"Puede copiar el código genético de un enemigo y transformarse en una réplica de éste.",
+      	"EvolucionaA" : null
+    },
+    {
+      "Numero": 133,
+      "Nombre": "Eevee",
+      "Tipos": ["Normal"],
+      "EstadisticasBase": {
+        "PS": 55,
+        "Ataque": 55,
+        "Defensa": 50,
+        "AtaqueEsp": 45,
+        "DefensaEsp": 65,
+        "Velocidad": 55
+      },
+      "Altura":"0.3 m",
+      "Peso":"6.5 kg",
+      "Habilidades":[
+        	"Adaptable",
+          "Fuga ",
+          "Anticipación (oculta)"
+      	],
+      	"DescripcionPokedex":"Pokémon evolutivo. Su cuerpo es suave y esponjoso, lo que le permite adaptarse a cualquier entorno.",
+      	"EvolucionaA" : [
+        	{
+          	"Nombre": "Vaporeon"
+        	},
+        	{
+          	"Nombre": "Jolteon"
+        	},
+        	{
+          	"Nombre": "Flareon"
+        	},
+          {
+          	"Nombre": "Espeon"
+          },
+          {
+          	"Nombre": "Umbreon"
+          },
+          {
+          	"Nombre": "Leafeon"
+          },
+          {
+          	"Nombre": "Glaceon"
+          },
+          {
+          	"Nombre": "Sylveon"
+          }
+      	]
+    },
+    {
+      "Numero": 134,
+      "Nombre": "Vaporeon",
+      "Tipos": ["Agua"],
+      "EstadisticasBase": {
+        "PS": 130,
+        "Ataque": 65,
+        "Defensa": 60,
+        "AtaqueEsp": 110,
+        "DefensaEsp": 95,
+        "Velocidad": 65
+      },
+      "Altura":"1.0 m",
+      "Peso":"29.0 kg",
+      "Habilidades":[
+        	"Absorbe Agua",
+          "Humedad (oculta)"
+      ],
+      "DescripcionPokedex":"Pokémon agua. Su cuerpo es suave y esponjoso, , las células de su cuerpo son como moléculas de agua así que puede ocultarse en el agua como si se hubiera fundido con ella.",
+      "EvolucionaA" : null
+    },
+    {
+      "Numero": 135,
+      "Nombre": "Jolteon",
+      "Tipos": ["Eléctrico"],
+      "EstadisticasBase": {
+        "PS": 65,
+        "Ataque": 65,
+        "Defensa": 60,
+        "AtaqueEsp": 110,
+        "DefensaEsp": 95,
+        "Velocidad": 130
+      },
+      "Altura":"0.8 m",
+      "Peso":"24.5 kg",
+      "Habilidades":[
+        	"Absorbe Electricidad",
+          "Pies rápidos (oculta)"
+      	],
+      	"DescripcionPokedex":"Acumula iones negativos en la atmósfera para lanzar rayos de 10000 voltios de potencia.",
+      	"EvolucionaA" : null
+    },
+    {
+      "Numero": 136,
+      "Nombre": "Flareon",
+      "Tipos": ["Fuego"],
+      "EstadisticasBase": {
+        "PS": 65,
+        "Ataque": 130,
+        "Defensa": 60,
+        "AtaqueEsp": 95,
+        "DefensaEsp": 110,
+        "Velocidad": 65
+      },
+      "Altura":"0.9 m",
+      "Peso":"25.0 kg",
+      "Habilidades":[
+        	"Absorbe Fuego",
+          "Agallas (oculta)"
+      	],
+      	"DescripcionPokedex":"Una llama dentro de su cuerpo, enciende el aire que inhala y lo expulsa como fuego.",
+      	"EvolucionaA" : null
+    },
+    {
+      "Numero": 137,
+      "Nombre": "Porygon",
+      "Tipos": ["Normal"],
+      "EstadisticasBase": {
+        "PS": 65,
+        "Ataque": 60,
+        "Defensa": 70,
+        "AtaqueEsp": 85,
+        "DefensaEsp": 75,
+        "Velocidad": 40
+      },
+      "Altura":"0.8 m",
+      "Peso":"36.0 kg",
+      "Habilidades":[
+        	"Calco ",
+          "Descarga ",
+          "Calculo final (Oculta)"
+      	],
+      	"DescripcionPokedex":"n Pokémon formado por códigos de programación. Se mueve libre en el ciberespacio.",
+      "EvolucionaA" : [
+        {
+          "Nombre": "Porygon2"
+        }
+      ]
+    },
+    {
+      "Numero": 138,
+      "Nombre": "Omanyte",
+      "Tipos": ["Roca", "Agua"],
+      "EstadisticasBase": {
+        "PS": 35,
+        "Ataque": 40,
+        "Defensa": 100,
+        "AtaqueEsp": 90,
+        "DefensaEsp": 55,
+        "Velocidad": 35
+      },
+      "Altura":"0.4 m",
+      "Peso":"7.5 kg",
+      "Habilidades":[
+        	"Caparazón",
+          "Nado Rápido ",
+          "Armadura frágil (oculta)"
+      	],
+      	"DescripcionPokedex":"Aunque extinto, en algunas ocasiones puede ser resucitado genéticamente de los fósiles.",
+      	"EvolucionaA" : [
+        	{
+          	"Nombre": "Omastar"
+        	}
+      	]
+    },
+    {
+      "Numero": 139,
+      "Nombre": "Omastar",
+      "Tipos": ["Roca", "Agua"],
+      "EstadisticasBase": {
+        "PS": 70,
+        "Ataque": 60,
+        "Defensa": 125,
+        "AtaqueEsp": 115,
+        "DefensaEsp": 70,
+        "Velocidad": 55
+      },
+      "Altura":"1.0 m",
+      "Peso":"35.0 kg",
+      "Habilidades":[
+        	"Caparazón",
+          "Nado Rápido ",
+          "Armadura frágil (oculta)"
+      	],
+      	"DescripcionPokedex":"Un prehistórico Pokémon que murió cuando su pesada concha le impidió atrapar a sus presas",
+      	"EvolucionaA" : null
+    },
+    {
+      "Numero": 140,
+      "Nombre": "Kabuto",
+      "Tipos": ["Roca", "Agua"],
+      "EstadisticasBase": {
+        "PS": 30,
+        "Ataque": 80,
+        "Defensa": 90,
+        "AtaqueEsp": 55,
+        "DefensaEsp": 45,
+        "Velocidad": 55
+      },
+      "Altura":"0.8 m",
+      "Peso":"11.5 kg",
+      "Habilidades":[
+        	"Armadura batalla ",
+          "Nado Rápido ",
+          "Armadura frágil (oculta)"
+      	],
+      	"DescripcionPokedex":"Un Pokémon resucitado de un fósil, encontrado en lo que hace eones fuera el fondo oceánico.",
+      	"EvolucionaA" : [
+        	{
+          	"Nombre": "Kabutops"
+        	}
+      	]
+    },
+    {
+      "Numero": 141,
+      "Nombre": "Kabutops",
+      "Tipos": ["Roca", "Agua"],
+      "EstadisticasBase": {
+        "PS": 60,
+        "Ataque": 115,
+        "Defensa": 105,
+        "AtaqueEsp": 65,
+        "DefensaEsp": 70,
+        "Velocidad": 80
+      },
+      "Altura":"1.3 m",
+      "Peso":"40.5 kg",
+      "Habilidades":[
+        	"Armadura batalla ",
+          "Nado Rápido ",
+          "Armadura frágil (oculta)"
+      	],
+      	"DescripcionPokedex":"Con su impecable forma es un gran nadador. Corta a su presa con sus garras y absorbe sus fluidos.",
+        "EvolucionaA" : null 
+    },
+    {
+      "Numero": 142,
+      "Nombre": "Aerodactyl",
+      "Tipos": ["Roca", "Volador"],
+      "EstadisticasBase": {
+        "PS": 80,
+        "Ataque": 105,
+        "Defensa": 65,
+        "AtaqueEsp": 60,
+        "DefensaEsp": 75,
+        "Velocidad": 130
+      },
+      "Altura":"2.1 m",
+      "Peso":"59.0 kg",
+      "Habilidades":[
+        	"Presión",
+          "Cabeza Roca",
+          "Nerviosismo (Oculta)"
+      ],
+      "DescripcionPokedex":"Un prehistórico y feroz Pokémon que ataca con sus colmillos la garganta del enemigo.",
+      "EvolucionaA" : null
+    },
+    {
+      "Numero": 143,
+      "Nombre": "Snorlax",
+      "Tipos": ["Normal"],
+      "EstadisticasBase": {
+        "PS": 160,
+        "Ataque": 110,
+        "Defensa": 65,
+        "AtaqueEsp": 65,
+        "DefensaEsp": 110,
+        "Velocidad": 30
+      },
+      "Altura":"2.1 m",
+      "Peso":"460.0 kg",
+      "Habilidades":[
+        	"Inmunidad ",
+          "Sebo",
+          "Guía (oculta)"
+      	],
+      	"DescripcionPokedex":"Es muy vago. Sólo come y duerme. A medida que engorda se vuelve cada vez más perezoso.",
+      	"EvolucionaA" : null
+    },
+    {
+      "Numero": 144,
+      "Nombre": "Articuno",
+      "Tipos": ["Hielo", "Volador"],
+      "EstadisticasBase": {
+        "PS": 90,
+        "Ataque": 85,
+        "Defensa": 100,
+        "AtaqueEsp": 95,
+        "DefensaEsp": 125,
+        "Velocidad": 85
+      },
+      "Altura":"1.7 m",
+      "Peso":"55.4 kg",
+      "Habilidades":[
+        	"Presión",
+          "Manto Nieve (oculta)"
+      	],
+      	"DescripcionPokedex":"Un legendario pájaro Pokémon. Se aparece a la gente que se ha perdido en las heladas montañas.",
+      	"EvolucionaA" : null
+    },
+    {
+      "Numero": 145,
+      "Nombre": "Zapdos",
+      "Tipos": ["Eléctrico", "Volador"],
+      "EstadisticasBase": {
+        "PS": 90,
+        "Ataque": 90,
+        "Defensa": 85,
+        "AtaqueEsp": 125,
+        "DefensaEsp": 90,
+        "Velocidad": 100
+      },
+      "Altura":"1.6 m",
+      "Peso":"52.6 kg",
+      "Habilidades":[
+        	"Presión",
+          "Pararrayos (Oculta)",
+          "Electricidad Estática (oculta)"
+      	],
+      	"DescripcionPokedex":"Un legendario pájaro Pokémon. Dicen que aparece entre las nubes lanzando enormes rayos brillantes..",
+      	"EvolucionaA" : null
+    },
+    {
+      "Numero": 146,
+      "Nombre": "Moltres",
+      "Tipos": ["Fuego", "Volador"],
+      "EstadisticasBase": {
+        "PS": 90,
+        "Ataque": 100,
+        "Defensa": 90,
+        "AtaqueEsp": 125,
+        "DefensaEsp": 85,
+        "Velocidad": 90
+      },
+      "Altura":"2.0 m",
+      "Peso":"60.0 kg",
+      "Habilidades":[
+        	"Presión",
+          "Cuerpo Llama (oculta)"
+      	],
+      	"DescripcionPokedex":"Más conocido como el legendario pájaro de fuego. Con cada aleteo crea brillantes llamas.",
+      	"EvolucionaA" : null
+    },
+    {
+      "Numero": 147,
+      "Nombre": "Dratini",
+      "Tipos": ["Dragón"],
+      "EstadisticasBase": {
+        "PS": 41,
+        "Ataque": 64,
+        "Defensa": 45,
+        "AtaqueEsp": 50,
+        "DefensaEsp": 50,
+        "Velocidad": 50
+      },
+      "Altura":"1.8 m",
+      "Peso":"3.3 kg",
+      "Habilidades":[
+        	"Mudar",
+          "Escamas Especial(oculta)"
+      	],
+      	"DescripcionPokedex":"Un místico Pokémon rodeado de una sutil aura y con capacidad de cambiar la climatología",
+      	"EvolucionaA" : [
+        	{
+          	"Nombre": "Dragonair"
+        	}
+      	]
+    },
+    {
+      "Numero": 148,
+      "Nombre": "Dragonair",
+      "Tipos": ["Dragón"],
+      "EstadisticasBase": {
+        "PS": 61,
+        "Ataque": 84,
+        "Defensa": 65,
+        "AtaqueEsp": 70,
+        "DefensaEsp": 70,
+        "Velocidad": 70
+      },
+      "Altura":"4.0 m",
+      "Peso":"16.5 kg",
+      "Habilidades":[
+        	"Mudar",
+          "Escamas Especial(oculta)"
+      	],
+      	"DescripcionPokedex":"Un Pokémon marino que es muy raro de ver. Dicen que es tan inteligente como los humanos.",
+      	"EvolucionaA" : [
+        	{
+          	"Nombre": "Dragonite"
+        	}
+      	]
+    },
+    {
+      "Numero": 149,
+      "Nombre": "Dragonite",
+      "Tipos": ["Dragón", "Volador"],
+      "EstadisticasBase": {
+        "PS": 91,
+        "Ataque": 134,
+        "Defensa": 95,
+        "AtaqueEsp": 100,
+        "DefensaEsp": 100,
+        "Velocidad": 80
+      },
+      "Altura":"2.2 m",
+      "Peso":"210.0 kg",
+      "Habilidades":[
+        	"fuerza mental",
+          "Multiescamas (oculta)"
+      	],
+      	"DescripcionPokedex":"Este tipo extremadamente raro y altamente inteligente, es capaz de volar más rápido que ningún otro Pokémon conocido.",
+      	"EvolucionaA" : null
+    },
+    {
+      "Numero": 150,
+      "Nombre": "Mewtwo",
+      "Tipos": ["Psíquico"],
+      "EstadisticasBase": {
+        "PS": 106,
+        "Ataque": 110,
+        "Defensa": 90,
+        "AtaqueEsp": 154,
+        "DefensaEsp": 90,
+        "Velocidad": 130
+      },
+      "Altura":"2.0 m",
+      "Peso":"122.0 kg",
+      "Habilidades":[
+        	"Presión",
+          "Nerviosismo (Oculta)"
+      	],
+      	"DescripcionPokedex":"Fue creado por un científico tras años de horribles experimentos de ingeniería genética.",
+      	"EvolucionaA" : null
+    },
+    {
+      "Numero": 151,
+      "Nombre": "Mew",
+      "Tipos": ["Psíquico"],
+      "EstadisticasBase": {
+        "PS": 100,
+        "Ataque": 100,
+        "Defensa": 100,
+        "AtaqueEsp": 100,
+        "DefensaEsp": 100,
+        "Velocidad": 100
+      },
+      "Altura":"0.4 m",
+      "Peso":"4.0 kg",
+      "Habilidades":[
+        	"Sincronía"
+      	],
+      	"DescripcionPokedex":"Es tan raro que muchos expertos opinan que es solo una ilusión. Solo unos pocos lo han visto.",
+      	"EvolucionaA" : null
+    }
+  ],
+  "Generacion 2": [
+    {
+      "Numero": 152,
+      "Nombre": "Chikorita",
+      "Tipos": ["Planta"],
+      "EstadisticasBase": {
+        "PS": 45,
+        "Ataque": 49,
+        "Defensa": 65,
+        "AtaqueEsp": 49,
+        "DefensaEsp": 65,
+        "Velocidad": 45
+      },
+      "Altura":"0.9 m",
+      "Peso":"6.4 kg",
+      "Habilidades":[
+        	"Espesura",
+          "Clorofila (oculta)"
+      	],
+      	"DescripcionPokedex":"Pokémon hoja. Su cuerpo es suave y esponjoso, lo que le permite adaptarse a cualquier entorno.",
+      	"EvolucionaA" : [
+        	{
+          	"Nombre": "Bayleef"
+        	}
+      	]
+    },
+  ],
+  "Generacion 3": [
+    {
+      
+    }
+  ]
+  }
+
+}
