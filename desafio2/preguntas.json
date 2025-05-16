@@ -1,0 +1,1017 @@
+{
+    "pokemones": [
+        {
+            "nombre": "Bulbasaur",
+            "tipo": [
+                "Planta",
+                "Veneno"
+            ],
+            "habilidades": {
+                "normal": [
+                    "Espesura"
+                ],
+                "oculta": [
+                    "Clorofila"
+                ]
+            },
+            "altura": 0.7,
+            "peso": 6.9,
+            "estadisticas": {
+                "total": 318,
+                "ps": 45,
+                "atk": 49,
+                "def": 49,
+                "atk_esp": 65,
+                "def_esp": 65,
+                "velocidad": 45
+            }
+        },
+        {
+            "nombre": "Ivysaur",
+            "tipo": [
+                "Planta",
+                "Veneno"
+            ],
+            "habilidades": {
+                "normal": [
+                    "Espesura"
+                ],
+                "oculta": [
+                    "Clorofila"
+                ]
+            },
+            "altura": 1.0,
+            "peso": 13.0,
+            "estadisticas": {
+                "total": 405,
+                "ps": 60,
+                "atk": 62,
+                "def": 63,
+                "atk_esp": 80,
+                "def_esp": 80,
+                "velocidad": 60
+            }
+        },
+        {
+            "nombre": "Venusaur",
+            "tipo": [
+                "Planta",
+                "Veneno"
+            ],
+            "habilidades": {
+                "normal": [
+                    "Espesura"
+                ],
+                "oculta": [
+                    "Clorofila"
+                ]
+            },
+            "altura": 2.0,
+            "peso": 100.0,
+            "estadisticas": {
+                "total": 525,
+                "ps": 80,
+                "atk": 82,
+                "def": 83,
+                "atk_esp": 100,
+                "def_esp": 100,
+                "velocidad": 80
+            }
+        },
+        {
+            "nombre": "Charmander",
+            "tipo": [
+                "Fuego"
+            ],
+            "habilidades": {
+                "normal": [
+                    "Mar Llamas"
+                ],
+                "oculta": [
+                    "Poder Solar"
+                ]
+            },
+            "altura": 0.6,
+            "peso": 8.5,
+            "estadisticas": {
+                "total": 309,
+                "ps": 39,
+                "atk": 52,
+                "def": 43,
+                "atk_esp": 60,
+                "def_esp": 50,
+                "velocidad": 65
+            }
+        },
+        {
+            "nombre": "Charmeleon",
+            "tipo": [
+                "Fuego"
+            ],
+            "habilidades": {
+                "normal": [
+                    "Mar Llamas"
+                ],
+                "oculta": [
+                    "Poder Solar"
+                ]
+            },
+            "altura": 1.1,
+            "peso": 19.0,
+            "estadisticas": {
+                "total": 405,
+                "ps": 58,
+                "atk": 64,
+                "def": 58,
+                "atk_esp": 80,
+                "def_esp": 65,
+                "velocidad": 80
+            }
+        },
+        {
+            "nombre": "Charizard",
+            "tipo": [
+                "Fuego",
+                "Volador"
+            ],
+            "habilidades": {
+                "normal": [
+                    "Mar Llamas"
+                ],
+                "oculta": [
+                    "Poder Solar"
+                ]
+            },
+            "altura": 1.7,
+            "peso": 90.5,
+            "estadisticas": {
+                "total": 534,
+                "ps": 78,
+                "atk": 84,
+                "def": 78,
+                "atk_esp": 109,
+                "def_esp": 85,
+                "velocidad": 100
+            }
+        },
+        {
+            "nombre": "Squirtle",
+            "tipo": [
+                "Agua"
+            ],
+            "habilidades": {
+                "normal": [
+                    "Torrente"
+                ],
+                "oculta": [
+                    "Cura Lluvia"
+                ]
+            },
+            "altura": 0.5,
+            "peso": 9.0,
+            "estadisticas": {
+                "total": 314,
+                "ps": 44,
+                "atk": 48,
+                "def": 65,
+                "atk_esp": 50,
+                "def_esp": 64,
+                "velocidad": 43
+            }
+        },
+        {
+            "nombre": "Wartortle",
+            "tipo": [
+                "Agua"
+            ],
+            "habilidades": {
+                "normal": [
+                    "Torrente"
+                ],
+                "oculta": [
+                    "Cura Lluvia"
+                ]
+            },
+            "altura": 1.0,
+            "peso": 22.5,
+            "estadisticas": {
+                "total": 405,
+                "ps": 59,
+                "atk": 63,
+                "def": 80,
+                "atk_esp": 65,
+                "def_esp": 80,
+                "velocidad": 58
+            }
+        },
+        {
+            "nombre": "Blastoise",
+            "tipo": [
+                "Agua"
+            ],
+            "habilidades": {
+                "normal": [
+                    "Torrente"
+                ],
+                "oculta": [
+                    "Cura Lluvia"
+                ]
+            },
+            "altura": 1.6,
+            "peso": 85.5,
+            "estadisticas": {
+                "total": 530,
+                "ps": 79,
+                "atk": 83,
+                "def": 100,
+                "atk_esp": 85,
+                "def_esp": 105,
+                "velocidad": 78
+            }
+        },
+        {
+            "nombre": "Caterpie",
+            "tipo": [
+                "Bicho"
+            ],
+            "habilidades": {
+                "normal": [
+                    "Polvo Escudo"
+                ],
+                "oculta": [
+                    "Fuga"
+                ]
+            },
+            "altura": 0.3,
+            "peso": 2.9,
+            "estadisticas": {
+                "total": 195,
+                "ps": 45,
+                "atk": 30,
+                "def": 35,
+                "atk_esp": 20,
+                "def_esp": 20,
+                "velocidad": 45
+            }
+        },
+        {
+            "nombre": "Metapod",
+            "tipo": [
+                "Bicho"
+            ],
+            "habilidades": {
+                "normal": [
+                    "Mudar"
+                ]
+            },
+            "altura": 0.7,
+            "peso": 9.9,
+            "estadisticas": {
+                "total": 205,
+                "ps": 50,
+                "atk": 20,
+                "def": 55,
+                "atk_esp": 25,
+                "def_esp": 25,
+                "velocidad": 30
+            }
+        },
+        {
+            "nombre": "Butterfree",
+            "tipo": [
+                "Bicho",
+                "Volador"
+            ],
+            "habilidades": {
+                "normal": [
+                    "Ojo Compuesto"
+                ],
+                "oculta": [
+                    "Lente Compuesta"
+                ]
+            },
+            "altura": 1.1,
+            "peso": 32.0,
+            "estadisticas": {
+                "total": 395,
+                "ps": 60,
+                "atk": 45,
+                "def": 50,
+                "atk_esp": 90,
+                "def_esp": 80,
+                "velocidad": 70
+            }
+        },
+        {
+            "nombre": "Weedle",
+            "tipo": [
+                "Bicho",
+                "Veneno"
+            ],
+            "habilidades": {
+                "normal": [
+                    "Polvo Escudo"
+                ],
+                "oculta": [
+                    "Fuga"
+                ]
+            },
+            "altura": 0.3,
+            "peso": 3.2,
+            "estadisticas": {
+                "total": 195,
+                "ps": 40,
+                "atk": 35,
+                "def": 30,
+                "atk_esp": 20,
+                "def_esp": 20,
+                "velocidad": 50
+            }
+        },
+        {
+            "nombre": "Kakuna",
+            "tipo": [
+                "Bicho",
+                "Veneno"
+            ],
+            "habilidades": {
+                "normal": [
+                    "Mudar"
+                ]
+            },
+            "altura": 0.6,
+            "peso": 10.0,
+            "estadisticas": {
+                "total": 205,
+                "ps": 45,
+                "atk": 25,
+                "def": 50,
+                "atk_esp": 25,
+                "def_esp": 25,
+                "velocidad": 35
+            }
+        },
+        {
+            "nombre": "Beedrill",
+            "tipo": [
+                "Bicho",
+                "Veneno"
+            ],
+            "habilidades": {
+                "normal": [
+                    "Enjambre"
+                ],
+                "oculta": [
+                    "Francotirador"
+                ]
+            },
+            "altura": 1.0,
+            "peso": 29.5,
+            "estadisticas": {
+                "total": 395,
+                "ps": 65,
+                "atk": 90,
+                "def": 40,
+                "atk_esp": 45,
+                "def_esp": 80,
+                "velocidad": 75
+            }
+        },
+        {
+            "nombre": "Pidgey",
+            "tipo": [
+                "Normal",
+                "Volador"
+            ],
+            "habilidades": {
+                "normal": [
+                    "Vista Lince",
+                    "Tumbos"
+                ],
+                "oculta": [
+                    "Sacapecho"
+                ]
+            },
+            "altura": 0.3,
+            "peso": 1.8,
+            "estadisticas": {
+                "total": 251,
+                "ps": 40,
+                "atk": 45,
+                "def": 40,
+                "atk_esp": 35,
+                "def_esp": 35,
+                "velocidad": 56
+            }
+        },
+        {
+            "nombre": "Pidgeotto",
+            "tipo": [
+                "Normal",
+                "Volador"
+            ],
+            "habilidades": {
+                "normal": [
+                    "Vista Lince",
+                    "Tumbos"
+                ],
+                "oculta": [
+                    "Sacapecho"
+                ]
+            },
+            "altura": 1.1,
+            "peso": 30.0,
+            "estadisticas": {
+                "total": 349,
+                "ps": 63,
+                "atk": 60,
+                "def": 55,
+                "atk_esp": 50,
+                "def_esp": 50,
+                "velocidad": 71
+            }
+        },
+        {
+            "nombre": "Pidgeot",
+            "tipo": [
+                "Normal",
+                "Volador"
+            ],
+            "habilidades": {
+                "normal": [
+                    "Vista Lince",
+                    "Tumbos"
+                ],
+                "oculta": [
+                    "Sacapecho"
+                ]
+            },
+            "altura": 1.5,
+            "peso": 39.5,
+            "estadisticas": {
+                "total": 479,
+                "ps": 83,
+                "atk": 80,
+                "def": 75,
+                "atk_esp": 70,
+                "def_esp": 70,
+                "velocidad": 101
+            }
+        },
+        {
+            "nombre": "Rattata",
+            "tipo": [
+                "Normal"
+            ],
+            "habilidades": {
+                "normal": [
+                    "Fuga",
+                    "Agallas"
+                ],
+                "oculta": [
+                    "Entusiasmo"
+                ]
+            },
+            "altura": 0.3,
+            "peso": 3.5,
+            "estadisticas": {
+                "total": 253,
+                "ps": 30,
+                "atk": 56,
+                "def": 35,
+                "atk_esp": 25,
+                "def_esp": 35,
+                "velocidad": 72
+            }
+        },
+        {
+            "nombre": "Raticate",
+            "tipo": [
+                "Normal"
+            ],
+            "habilidades": {
+                "normal": [
+                    "Fuga",
+                    "Agallas"
+                ],
+                "oculta": [
+                    "Entusiasmo"
+                ]
+            },
+            "altura": 0.7,
+            "peso": 18.5,
+            "estadisticas": {
+                "total": 413,
+                "ps": 55,
+                "atk": 81,
+                "def": 60,
+                "atk_esp": 50,
+                "def_esp": 70,
+                "velocidad": 97
+            }
+        },
+        {
+            "nombre": "Spearow",
+            "tipo": [
+                "Normal",
+                "Volador"
+            ],
+            "habilidades": {
+                "normal": [
+                    "Vista Lince"
+                ],
+                "oculta": [
+                    "Francotirador"
+                ]
+            },
+            "altura": 0.3,
+            "peso": 2.0,
+            "estadisticas": {
+                "total": 262,
+                "ps": 40,
+                "atk": 60,
+                "def": 30,
+                "atk_esp": 31,
+                "def_esp": 31,
+                "velocidad": 70
+            }
+        },
+        {
+            "nombre": "Fearow",
+            "tipo": [
+                "Normal",
+                "Volador"
+            ],
+            "habilidades": {
+                "normal": [
+                    "Vista Lince"
+                ],
+                "oculta": [
+                    "Francotirador"
+                ]
+            },
+            "altura": 1.2,
+            "peso": 38.0,
+            "estadisticas": {
+                "total": 442,
+                "ps": 65,
+                "atk": 90,
+                "def": 65,
+                "atk_esp": 61,
+                "def_esp": 61,
+                "velocidad": 100
+            }
+        },
+        {
+            "nombre": "Ekans",
+            "tipo": [
+                "Veneno"
+            ],
+            "habilidades": {
+                "normal": [
+                    "Intimidación",
+                    "Mudar"
+                ],
+                "oculta": [
+                    "Nerviosismo"
+                ]
+            },
+            "altura": 2.0,
+            "peso": 6.9,
+            "estadisticas": {
+                "total": 288,
+                "ps": 35,
+                "atk": 60,
+                "def": 44,
+                "atk_esp": 40,
+                "def_esp": 54,
+                "velocidad": 55
+            }
+        },
+        {
+            "nombre": "Arbok",
+            "tipo": [
+                "Veneno"
+            ],
+            "habilidades": {
+                "normal": [
+                    "Intimidación",
+                    "Mudar"
+                ],
+                "oculta": [
+                    "Nerviosismo"
+                ]
+            },
+            "altura": 3.5,
+            "peso": 65.0,
+            "estadisticas": {
+                "total": 448,
+                "ps": 60,
+                "atk": 95,
+                "def": 69,
+                "atk_esp": 65,
+                "def_esp": 79,
+                "velocidad": 80
+            }
+        },
+        {
+            "nombre": "Pikachu",
+            "tipo": [
+                "Eléctrico"
+            ],
+            "habilidades": {
+                "normal": [
+                    "Electricidad Estática"
+                ],
+                "oculta": [
+                    "Pararrayos"
+                ]
+            },
+            "altura": 0.4,
+            "peso": 6.0,
+            "estadisticas": {
+                "total": 320,
+                "ps": 35,
+                "atk": 55,
+                "def": 40,
+                "atk_esp": 50,
+                "def_esp": 50,
+                "velocidad": 90
+            }
+        },
+        {
+            "nombre": "Raichu",
+            "tipo": [
+                "Eléctrico"
+            ],
+            "habilidades": {
+                "normal": [
+                    "Electricidad Estática"
+                ],
+                "oculta": [
+                    "Pararrayos"
+                ]
+            },
+            "altura": 0.8,
+            "peso": 30.0,
+            "estadisticas": {
+                "total": 485,
+                "ps": 60,
+                "atk": 90,
+                "def": 55,
+                "atk_esp": 90,
+                "def_esp": 80,
+                "velocidad": 110
+            }
+        },
+        {
+            "nombre": "Sandshrew",
+            "tipo": [
+                "Tierra"
+            ],
+            "habilidades": {
+                "normal": [
+                    "Velo Arena"
+                ],
+                "oculta": [
+                    "Ímpetu Arena"
+                ]
+            },
+            "altura": 0.6,
+            "peso": 12.0,
+            "estadisticas": {
+                "total": 300,
+                "ps": 50,
+                "atk": 75,
+                "def": 85,
+                "atk_esp": 20,
+                "def_esp": 30,
+                "velocidad": 40
+            }
+        },
+        {
+            "nombre": "Sandslash",
+            "tipo": [
+                "Tierra"
+            ],
+            "habilidades": {
+                "normal": [
+                    "Velo Arena"
+                ],
+                "oculta": [
+                    "Ímpetu Arena"
+                ]
+            },
+            "altura": 1.0,
+            "peso": 29.5,
+            "estadisticas": {
+                "total": 450,
+                "ps": 75,
+                "atk": 100,
+                "def": 110,
+                "atk_esp": 45,
+                "def_esp": 55,
+                "velocidad": 65
+            }
+        },
+        {
+            "nombre": "Nidoran♀",
+            "tipo": [
+                "Veneno"
+            ],
+            "habilidades": {
+                "normal": [
+                    "Punto Tóxico",
+                    "Rivalidad"
+                ],
+                "oculta": [
+                    "Entusiasmo"
+                ]
+            },
+            "altura": 0.4,
+            "peso": 7.0,
+            "estadisticas": {
+                "total": 275,
+                "ps": 55,
+                "atk": 47,
+                "def": 52,
+                "atk_esp": 40,
+                "def_esp": 40,
+                "velocidad": 41
+            }
+        },
+        {
+            "nombre": "Nidorina",
+            "tipo": [
+                "Veneno"
+            ],
+            "habilidades": {
+                "normal": [
+                    "Punto Tóxico",
+                    "Rivalidad"
+                ],
+                "oculta": [
+                    "Entusiasmo"
+                ]
+            },
+            "altura": 0.8,
+            "peso": 20.0,
+            "estadisticas": {
+                "total": 365,
+                "ps": 70,
+                "atk": 62,
+                "def": 67,
+                "atk_esp": 55,
+                "def_esp": 55,
+                "velocidad": 56
+            }
+        }
+    ],
+    "tipos": {
+        "Acero": {
+            "debil": [
+                "Lucha",
+                "Fuego",
+                "Tierra"
+            ],
+            "fortaleza": [
+                "Hielo",
+                "Roca",
+                "Hada"
+            ],
+            "inmunidades": [
+                "Veneno"
+            ]
+        },
+        "Agua": {
+            "debil": [
+                "Eléctrico",
+                "Planta"
+            ],
+            "fortaleza": [
+                "Fuego",
+                "Tierra",
+                "Roca"
+            ],
+            "inmunidades": []
+        },
+        "Bicho": {
+            "debil": [
+                "Fuego",
+                "Volador",
+                "Roca"
+            ],
+            "fortaleza": [
+                "Planta",
+                "Psíquico",
+                "Siniestro"
+            ],
+            "inmunidades": []
+        },
+        "Dragón": {
+            "debil": [
+                "Dragón",
+                "Hada",
+                "Hielo"
+            ],
+            "fortaleza": [
+                "Dragón",
+                "Fuego",
+                "Agua",
+                "Planta"
+            ],
+            "inmunidades": []
+        },
+        "Eléctrico": {
+            "debil": [
+                "Tierra"
+            ],
+            "fortaleza": [
+                "Volador",
+                "Agua"
+            ],
+            "inmunidades": []
+        },
+        "Fantasma": {
+            "debil": [
+                "Fantasma",
+                "Siniestro"
+            ],
+            "fortaleza": [
+                "Psíquico",
+                "Fantasma"
+            ],
+            "inmunidades": [
+                "Normal",
+                "Lucha"
+            ]
+        },
+        "Fuego": {
+            "debil": [
+                "Agua",
+                "Roca",
+                "Tierra"
+            ],
+            "fortaleza": [
+                "Planta",
+                "Bicho",
+                "Hielo",
+                "Acero"
+            ],
+            "inmunidades": []
+        },
+        "Hada": {
+            "debil": [
+                "Veneno",
+                "Acero"
+            ],
+            "fortaleza": [
+                "Dragón",
+                "Siniestro",
+                "Lucha"
+            ],
+            "inmunidades": [
+                "Dragón"
+            ]
+        },
+        "Hielo": {
+            "debil": [
+                "Fuego",
+                "Lucha",
+                "Roca",
+                "Acero"
+            ],
+            "fortaleza": [
+                "Dragón",
+                "Planta",
+                "Volador",
+                "Tierra"
+            ],
+            "inmunidades": []
+        },
+        "Lucha": {
+            "debil": [
+                "Volador",
+                "Psíquico",
+                "Hada"
+            ],
+            "fortaleza": [
+                "Normal",
+                "Roca",
+                "Hielo",
+                "Siniestro",
+                "Acero"
+            ],
+            "inmunidades": []
+        },
+        "Normal": {
+            "debil": [
+                "Lucha"
+            ],
+            "fortaleza": [],
+            "inmunidades": [
+                "Fantasma"
+            ]
+        },
+        "Planta": {
+            "debil": [
+                "Fuego",
+                "Hielo",
+                "Veneno",
+                "Volador",
+                "Bicho"
+            ],
+            "fortaleza": [
+                "Agua",
+                "Tierra",
+                "Roca"
+            ],
+            "inmunidades": []
+        },
+        "Psíquico": {
+            "debil": [
+                "Bicho",
+                "Fantasma",
+                "Siniestro"
+            ],
+            "fortaleza": [
+                "Lucha",
+                "Veneno"
+            ],
+            "inmunidades": []
+        },
+        "Roca": {
+            "debil": [
+                "Agua",
+                "Planta",
+                "Lucha",
+                "Tierra",
+                "Acero"
+            ],
+            "fortaleza": [
+                "Fuego",
+                "Volador",
+                "Hielo",
+                "Bicho"
+            ],
+            "inmunidades": []
+        },
+        "Siniestro": {
+            "debil": [
+                "Lucha",
+                "Bicho",
+                "Hada"
+            ],
+            "fortaleza": [
+                "Psíquico",
+                "Fantasma"
+            ],
+            "inmunidades": [
+                "Psíquico"
+            ]
+        },
+        "Tierra": {
+            "debil": [
+                "Agua",
+                "Hielo",
+                "Planta"
+            ],
+            "fortaleza": [
+                "Eléctrico",
+                "Fuego",
+                "Roca",
+                "Veneno",
+                "Acero"
+            ],
+            "inmunidades": [
+                "Eléctrico"
+            ]
+        },
+        "Veneno": {
+            "debil": [
+                "Tierra",
+                "Psíquico"
+            ],
+            "fortaleza": [
+                "Planta",
+                "Hada"
+            ],
+            "inmunidades": []
+        },
+        "Volador": {
+            "debil": [
+                "Eléctrico",
+                "Hielo",
+                "Roca"
+            ],
+            "fortaleza": [
+                "Planta",
+                "Lucha",
+                "Bicho"
+            ],
+            "inmunidades": [
+                "Tierra"
+            ]
+        }
+    }
+}
