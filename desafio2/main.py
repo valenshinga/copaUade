@@ -1,6 +1,13 @@
 import os
 import json
 import re
+import random
+
+INPUT_POOL = ["¿Sobre qué Pokémon quieres saber?  ", "¿Tienes algún Pokémon en mente?  ", "¿Qué información estás buscando?  ", "¿Qué Pokémon te interesa?  ", "¿Puedo ayudarte con algún Pokémon?  ","¡Pregúntame sobre cualquier Pokémon!  ","¿Quieres que te cuente algo de un Pokémon?  ","¿Y ahora qué quieres saber?  ","¿Cuál Pokémon te da curiosidad?  ","¿Qué te gustaría que te contara? "]
+ERROR_POOL = ["Lo siento, hubo un error al procesar tu consulta. ¿Podrías intentarlo de nuevo?","Lo siento, algo salió mal. ¿Puedes intentar otra vez?","Hubo un problema al procesar tu solicitud. ¿Podrías probar de nuevo?","Parece que ocurrió un error. Inténtalo nuevamente, por favor."]
+END_POOL = ["Gracias por usar la Pokedex. ¡Chau!", "Ha sido un placer ayudarte. ¡Adiós!", "¡Fue un gusto! ¡Hasta la próxima!", "Gracias por usar la Pokédex. ¡Nos vemos!","Gracias por tu consulta. ¡Que tengas un buen día!"]
+NOT_FOUND_POOL = ["Lo siento, no pude encontrar información sobre ese Pokémon. ¿Podrías ser más específico?", "No tengo registro de ese Pokémon. ¿Estás seguro del nombre?","No pude reconocer ese Pokémon. ¿Podrías escribirlo de otra forma?","No logré identificar a ese Pokémon. ¿Podrías especificarlo mejor?"]
+NOT_SURE_POOL = ["No estoy seguro de qué Pokémon buscas. ¿Podrías ser más específico?","No estoy seguro a cuál Pokémon te refieres. ¿Podrías aclararlo?","No me queda claro qué Pokémon querés consultar. ¿Podés explicarlo mejor?"]
 
 def registrar_log_error(ruta: list, respuesta: str, error: str) -> None:
     """
@@ -62,57 +69,6 @@ def obtener_ruta_archivo(nombre_txt: str) -> str:
     """
     path_absoluto = os.path.dirname(os.path.abspath(__file__))
     return os.path.join(path_absoluto, nombre_txt)
-
-def procesar_linea(linea: str) -> tuple:
-    """
-    Procesa una línea del archivo y retorna su nivel, clave y valor.
-
-    Args:
-        linea (str): Línea del archivo que se está procesando
-
-    Returns:
-        tuple: Tupla con el nivel, clave y valor
-    """
-    nivel = 0
-    while linea.startswith("-"):
-        linea = linea[1:]
-        nivel += 1
-    linea = linea.strip()
-    
-    if ":" in linea:
-        key, value = map(str.strip, linea.split(":", 1))
-    else:
-        key, value = linea, {}
-        
-    return nivel, key, value
-
-def construir_diccionario(lineas: list) -> dict:
-    """
-    Construye el diccionario jerárquico a partir de las líneas procesadas.
-
-    Args:
-        lineas (list): Lista de líneas del archivo de texto
-
-    Returns:
-        dict: Diccionario jerárquico construido a partir del contenido del archivo .txt
-    """
-    root = {}
-    stack = [(0, root)]
-
-    for linea in lineas:
-        nivel, key, value = procesar_linea(linea)
-        
-        while stack and stack[-1][0] >= nivel:
-            stack.pop()
-
-        parent = stack[-1][1]
-        if isinstance(value, dict):
-            parent[key] = value
-            stack.append((nivel, parent[key]))
-        else:
-            parent[key] = value
-    
-    return root
 
 def leer_json(nombre_json: str) -> dict:
     """
@@ -411,11 +367,11 @@ def procesar_consulta(texto: str, memoria: dict) -> str:
     coincidencias = encontrar_pokemon(texto, memoria["pokemones"])
     
     if not coincidencias:
-        return "Lo siento, no pude encontrar información sobre ese Pokémon. ¿Podrías ser más específico?"
+        return random.choice(NOT_FOUND_POOL)
     
     pokemon, similitud = coincidencias[0]
     if similitud < 0.9:  # Aumentamos el umbral de similitud
-        return "No estoy seguro de qué Pokémon buscas. ¿Podrías ser más específico?"
+        return random.choice(NOT_SURE_POOL)
     
     # Verificar qué información falta
     info_faltante = verificar_informacion_faltante(pokemon, palabras_clave)
@@ -432,6 +388,16 @@ def procesar_consulta(texto: str, memoria: dict) -> str:
                     break
     
     return generar_respuesta(pokemon, palabras_clave)
+
+def obtener_respuesta_aleatoria(pool:list):
+    original = pool.copy()
+    pendientes = []
+    
+    while True:
+        if not pendientes:
+            pendientes = original[:]
+            random.shuffle(pendientes)
+        yield f"\n-> {pendientes.pop()}"
 
 def main_loop(nombre_archivo: str) -> None:
     """
@@ -455,9 +421,11 @@ def main_loop(nombre_archivo: str) -> None:
         print("-> Escribe 'salir' para terminar.")
         
         continuar = True
+        inputGenerator = obtener_respuesta_aleatoria(INPUT_POOL)
+        errorGenerator = obtener_respuesta_aleatoria(ERROR_POOL)
         while continuar:
             try:
-                respuesta = input("\n-> ¿Qué te gustaría saber? ").strip()
+                respuesta = input(next(inputGenerator)).strip()
                 if respuesta.lower() == "salir":
                     continuar = False
                     continue
@@ -468,12 +436,12 @@ def main_loop(nombre_archivo: str) -> None:
                 
             except Exception as e:
                 registrar_log_error([], respuesta, f"Error inesperado: {str(e)}")
-                print("-> Lo siento, hubo un error al procesar tu consulta. ¿Podrías intentarlo de nuevo?")
+                print(next(errorGenerator))
                 
     except Exception as e:
         registrar_log_error([], "", f"Error fatal al iniciar el chatbot: {str(e)}")
     finally:
-        print("-> Gracias por usar la Pokedex. ¡Chau!")
+        print(f"-> {random.choice(END_POOL)}")
 
 if __name__ == "__main__":
     main_loop("preguntas.json")
