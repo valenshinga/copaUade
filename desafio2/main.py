@@ -352,6 +352,53 @@ def verificar_informacion_faltante(pokemon: dict, palabras_clave: dict) -> list:
     
     return info_faltante
 
+def registrar_nuevo_pokemon(nombre: str) -> dict:
+    """
+    Registra un nuevo Pokémon en la base de datos.
+    
+    Args:
+        nombre (str): Nombre del nuevo Pokémon
+        
+    Returns:
+        dict: Información del nuevo Pokémon registrado
+    """
+    ruta_archivo = obtener_ruta_archivo("preguntas.json")
+    
+    try:
+        with open(ruta_archivo, 'r', encoding='utf-8') as archivo:
+            datos = json.load(archivo)
+        
+        nuevo_pokemon = {
+            "nombre": nombre,
+            "tipo": [],
+            "habilidades": {
+                "normal": [],
+                "oculta": []
+            },
+            "altura": "",
+            "peso": "",
+            "estadisticas": {
+                "total": 0,
+                "ps": 0,
+                "atk": 0,
+                "def": 0,
+                "atk_esp": 0,
+                "def_esp": 0,
+                "velocidad": 0
+            }
+        }
+        
+        datos["pokemones"].append(nuevo_pokemon)
+        
+        with open(ruta_archivo, 'w', encoding='utf-8') as archivo:
+            json.dump(datos, archivo, indent=4, ensure_ascii=False)
+            
+        return nuevo_pokemon
+            
+    except Exception as e:
+        registrar_log_error([], nombre, f"Error al registrar nuevo Pokémon: {str(e)}")
+        return None
+
 def procesar_consulta(texto: str, memoria: dict) -> str:
     """
     Procesa la consulta del usuario y genera una respuesta.
@@ -367,21 +414,35 @@ def procesar_consulta(texto: str, memoria: dict) -> str:
     coincidencias = encontrar_pokemon(texto, memoria["pokemones"])
     
     if not coincidencias:
+        palabras = texto.lower().split()
+        for palabra in palabras:
+            if palabra not in ["pokemon", "pokémon", "es", "de", "tipo", "tiene", "cuales", "son", "sus", "las", "los", "el", "la", "un", "una", "unos", "unas"]:
+                print(f"\n-> No tengo información sobre {palabra.capitalize()}.")
+                print("-> ¿Te gustaría registrarlo como nuevo Pokémon? (sí/no)")
+                respuesta = input("-> ").strip().lower()
+                
+                if respuesta in ["si", "sí", "yes", "y"]:
+                    nuevo_pokemon = registrar_nuevo_pokemon(palabra.capitalize())
+                    if nuevo_pokemon:
+                        print("-> ¡Excelente! Ahora puedes agregar información sobre este Pokémon.")
+                        print("-> ¿Qué información te gustaría agregar primero? (tipo/habilidad/estadisticas/altura/peso)")
+                        tipo_info = input("-> ").strip().lower()
+                        solicitar_informacion_faltante(nuevo_pokemon, tipo_info)
+                        memoria = leer_json("preguntas.json")
+                        return f"¡{palabra.capitalize()} ha sido registrado! Puedes preguntarme sobre él en cualquier momento."
+                break
         return random.choice(NOT_FOUND_POOL)
     
     pokemon, similitud = coincidencias[0]
-    if similitud < 0.9:  # Aumentamos el umbral de similitud
+    if similitud < 0.9:
         return random.choice(NOT_SURE_POOL)
     
-    # Verificar qué información falta
     info_faltante = verificar_informacion_faltante(pokemon, palabras_clave)
     
     if info_faltante:
         for tipo_info in info_faltante:
             solicitar_informacion_faltante(pokemon, tipo_info)
-            # Recargar la memoria para obtener la información actualizada
             memoria = leer_json("preguntas.json")
-            # Actualizar el Pokémon con la nueva información
             for p in memoria["pokemones"]:
                 if p["nombre"] == pokemon["nombre"]:
                     pokemon = p
@@ -432,6 +493,8 @@ def main_loop(nombre_archivo: str) -> None:
                 
                 registrar_log_info([], respuesta, "consulta")
                 resultado = procesar_consulta(respuesta, memoria)
+                if "ha sido registrado" in resultado:
+                    memoria = leer_json("preguntas.json")
                 print(f"-> {resultado}")
                 
             except Exception as e:
