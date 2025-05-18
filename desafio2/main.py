@@ -490,7 +490,9 @@ def main_loop(nombre_archivo: str) -> None:
                 if respuesta.lower() == "salir":
                     continuar = False
                     continue
-                
+                if respuesta == "clear":
+                    os.system('cls' if os.name == 'nt' else 'clear')
+                    continue
                 registrar_log_info([], respuesta, "consulta")
                 resultado = procesar_consulta(respuesta, memoria)
                 if "ha sido registrado" in resultado:
