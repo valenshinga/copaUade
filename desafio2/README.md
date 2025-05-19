@@ -1,9 +1,9 @@
 # COPA DE ALGORITMIA Y PROGRAMACIÓN – UADE 2025
-## Desafío 1
+## Desafío 2
 
 ### Objetivo:
 
-- Diseñar la estructura del asistente y almacenar preguntas/respuestas en archivos. 
+- Implentar respuestas segun palabras clave. 
 
 ## Nicho de las preguntas/respuestas
 
@@ -14,7 +14,7 @@
 
 ```
 ┌── main.py           # Archivo principal con la lógica del chatbot
-├── preguntas.txt     # Base de datos de Pokémon en formato jerárquico
+├── preguntas.json     # Base de datos de Pokémon en formato json
 └── log.txt          # Archivo de registro de interacciones y errores (No incluido en entrega)
 ```
 
@@ -36,16 +36,14 @@ python main.py
 python3 main.py
 ```
 
-2. Navegar por las opciones:
-   - Usar números para seleccionar opciones
-   - También se puede escribir el nombre exacto del Pokémon
-   - Usar "atras" para volver al menú anterior
+2. Uso del chatbot:
+   - Escribir sobre que pokemon se quiere obtener la informacion y que se quiere saber de este
    - Usar "salir" para terminar el programa
-   - Usar "Inicio" para volver al menú inicial
+   - Usar "clear" para borrar todas las liñeas de informacion y empezar de 0
 
 3. Contribuir información:
-   - Escribir "Contribuir" en cualquier menú
-   - Elegir entre agregar un tema o una pregunta
+   - Introduce el nombre de un pokemon inexistente
+   - Elige que "Sí" si quieres agregarlo
    - Seguir las instrucciones para ingresar la información
    - La información se guardará automáticamente en el archivo
 
@@ -57,8 +55,7 @@ python3 main.py
 - Búsqueda por nombre o número
 
 ### Contribución
-- Agregar nuevos temas
-- Agregar nuevas preguntas y respuestas
+- Agregar nuevos pokemons e informacion de estos
 - Validación de entradas
 
 ### Sistema de Logs
@@ -68,14 +65,7 @@ python3 main.py
 
 ## Formato de Datos
 
-El archivo `preguntas.txt` utiliza un formato jerárquico con guiones para indicar niveles:
-```
--Pokémon
---Nombre del Pokémon
----Tipo
----Habilidades
----Estadísticas
-```
+El archivo `preguntas.json` utiliza el formato json para almacenar sus respectivos datos. 
 
 ## Manejo de Errores
 
@@ -94,4 +84,4 @@ El programa incluye manejo de errores para:
 
 ## Autor
 
-Desarrollado como parte del desafío 1 de la Copa UADE, por el equipo 15 - Git Gods.
+Desarrollado como parte del desafío 2 de la Copa UADE, por el equipo 15 - Git Gods.
